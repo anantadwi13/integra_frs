@@ -1,0 +1,1135 @@
+
+<!-- saved from url=(0039)https://akademik.its.ac.id/list_frs.php -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+	<title>[SIAKAD-ITS] Formulir Rencana Studi (FRS)</title>
+	
+	<link rel="stylesheet" href="./[SIAKAD-ITS] Formulir Rencana Studi (FRS)_files/pager.css">
+	<link rel="stylesheet" href="./[SIAKAD-ITS] Formulir Rencana Studi (FRS)_files/officexp.css">
+	<link rel="stylesheet" href="./[SIAKAD-ITS] Formulir Rencana Studi (FRS)_files/button.css">
+	<script type="text/javascript" src="./[SIAKAD-ITS] Formulir Rencana Studi (FRS)_files/foredit.js.download"></script>
+</head>
+<body leftmargin="0" rightmargin="0" topmargin="0" bottommargin="0" onload="cekPersetujuan(&#39;0&#39;)">
+
+<!--<script type="text/javascript" src="scripts/jquery.js"></script>-->
+<!-- <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>-->
+<script type="text/javascript" src="./[SIAKAD-ITS] Formulir Rencana Studi (FRS)_files/jquery-2.1.0.min.js.download"></script>
+<script type="text/javascript" src="./[SIAKAD-ITS] Formulir Rencana Studi (FRS)_files/jquery.dimensions.js.download"></script>
+<script type="text/javascript" src="./[SIAKAD-ITS] Formulir Rencana Studi (FRS)_files/jquery.positionBy.js.download"></script>
+<script type="text/javascript" src="./[SIAKAD-ITS] Formulir Rencana Studi (FRS)_files/jquery.jdMenu.js.download"></script>
+<link rel="stylesheet" href="./[SIAKAD-ITS] Formulir Rencana Studi (FRS)_files/jquery.jdMenu.css" type="text/css">
+<style>
+.badge1 {
+   position:relative;
+}
+.badge1[data-badge]:after {
+   content:attr(data-badge);
+   position:absolute;
+   top:-13px;
+   right:-5px;
+   font-size:.7em;
+   background:#FE2727;
+   color:white;
+   width:20px;height:20px;
+   text-align:center;
+   line-height:18px;
+   border-radius:50%;
+   letter-spacing:-1px;
+}
+.badge1[data-badge=""]:after, .badge1[data-badge="0"]:after  {
+	content: none;
+}
+</style>
+<div id="banner">
+	<img src="./[SIAKAD-ITS] Formulir Rencana Studi (FRS)_files/header.png">
+</div>
+<form name="fMenu" id="fMenu" method="post" action="https://akademik.its.ac.id/list_frs.php">
+<input type="hidden" id="actmenu" name="actmenu">
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody><tr> 
+    <td valign="top" colspan="2">
+	
+	<div>
+		<ul class="jd_menu">
+		
+		
+	<li><a href="https://akademik.its.ac.id/home.php">Home</a></li>
+	<li>Data&nbsp;<img src="./[SIAKAD-ITS] Formulir Rencana Studi (FRS)_files/down_m.gif">
+		<ul>
+		<li><a href="https://akademik.its.ac.id/data_mhswisuda.php">Update Data Wisuda</a></li>
+		<li>Lain - lain&nbsp;<img src="./[SIAKAD-ITS] Formulir Rencana Studi (FRS)_files/left_m.gif">
+			<ul>
+			<li><a href="https://akademik.its.ac.id/list_ekivalensi.php">Ekivalensi</a></li>
+			</ul>
+		</li>
+		</ul>
+	</li>
+	<li>Proses&nbsp;<img src="./[SIAKAD-ITS] Formulir Rencana Studi (FRS)_files/down_m.gif">
+		<ul>
+		<li><a href="https://akademik.its.ac.id/data_kur.php">Kurikulum Semester</a></li>
+		<li><a href="https://akademik.its.ac.id/list_frs.php">Formulir Rencana Studi</a></li>
+		</ul>
+	</li>
+	<li>Laporan&nbsp;<img src="./[SIAKAD-ITS] Formulir Rencana Studi (FRS)_files/down_m.gif">
+		<ul>
+		<li>Transkrip&nbsp;<img src="./[SIAKAD-ITS] Formulir Rencana Studi (FRS)_files/left_m.gif">
+			<ul>
+			<li><a href="https://akademik.its.ac.id/xrep_transkrip.php">Transkrip</a></li>
+			<li><a href="https://akademik.its.ac.id/xrep_transkrip_sementara.php">Transkrip Sementara</a></li>
+			</ul>
+		</li>
+		<li>Mahasiswa&nbsp;<img src="./[SIAKAD-ITS] Formulir Rencana Studi (FRS)_files/left_m.gif">
+			<ul>
+			<li><a href="https://akademik.its.ac.id/data_mhsakademik.php">Akademik Mahasiswa</a></li>
+			<li><a href="https://akademik.its.ac.id/data_mhs.php">Biodata Mahasiswa</a></li>
+			<li><a href="https://akademik.its.ac.id/data_kuliah.php">Perkuliahan Mahasiswa</a></li>
+			<li><a href="https://akademik.its.ac.id/list_mhsmk.php">Daftar Mhs &amp; Matakuliah</a></li>
+			<li><a href="https://akademik.its.ac.id/list_mhsstatang.php">Status Per Angkatan</a></li>
+			</ul>
+		</li>
+		<li><a href="https://akademik.its.ac.id/list_prasyarat.php">Prasyarat Matakuliah</a></li>
+		<li><a href="https://akademik.its.ac.id/list_mhsjadwal.php">Jadwal Kuliah Mhs</a></li>
+		<li>Nilai&nbsp;<img src="./[SIAKAD-ITS] Formulir Rencana Studi (FRS)_files/left_m.gif">
+			<ul>
+			<li><a href="https://akademik.its.ac.id/data_nilaimhs.php">Nilai Per Mhs</a></li>
+			<li><a href="https://akademik.its.ac.id/data_nilaipersem.php">Nilai Per Semester</a></li>
+			<li><a href="https://akademik.its.ac.id/list_ipkrank.php">Ranking IPK</a></li>
+			<li><a href="https://akademik.its.ac.id/list_ipsrank.php">Ranking IPS</a></li>
+			</ul>
+		</li>
+		</ul>
+	</li>
+	<li>Lain-Lain&nbsp;<img src="./[SIAKAD-ITS] Formulir Rencana Studi (FRS)_files/down_m.gif">
+		<ul>
+		<li><a href="https://akademik.its.ac.id/css_bio_puas.php">Survei Kepuasan Mahasiswa</a></li>
+		</ul>
+	</li>
+	<li>Ekivalensi&nbsp;<img src="./[SIAKAD-ITS] Formulir Rencana Studi (FRS)_files/down_m.gif">
+		<ul>
+		<li><a href="https://akademik.its.ac.id/ekivalensi_rekapitulasi_mhs.php">Rekapitulasi Ekivalensi</a></li>
+		</ul>
+	</li>
+	<li>SKPI&nbsp;<img src="./[SIAKAD-ITS] Formulir Rencana Studi (FRS)_files/down_m.gif">
+		<ul>
+		<li><a href="https://akademik.its.ac.id/skpi_draft.php">Draft SKPI</a></li>
+		<li>Panduan Pengguna&nbsp;<img src="./[SIAKAD-ITS] Formulir Rencana Studi (FRS)_files/left_m.gif">
+			<ul>
+			<li><a href="https://akademik.its.ac.id/downloads/panduan_umum_pengisian_skpi.pdf">Panduan Umum (pdf)</a></li>
+			<li><a href="https://akademik.its.ac.id/downloads/user_manual_skpi_akad_mhs_v01.pdf">Sebagai Mahasiswa (pdf)</a></li>
+			</ul>
+		</li>
+		</ul>
+	</li>
+	<li class="">E-Kelas&nbsp;<img src="./[SIAKAD-ITS] Formulir Rencana Studi (FRS)_files/down_m.gif">
+		<ul style="display: none;">
+		<li><a href="https://akademik.its.ac.id/lms_list_kelas.php">E-Kelas</a></li>
+		</ul>
+	</li>
+	<li>Biaya Pendidikan&nbsp;<img src="./[SIAKAD-ITS] Formulir Rencana Studi (FRS)_files/down_m.gif">
+		<ul>
+		<li><a href="https://akademik.its.ac.id/data_historis_pembayaran.php">Historis Pembayaran SPP</a></li>
+		<li><a href="https://akademik.its.ac.id/data_tagihan_pendidikan.php">Tagihan Biaya Pendidikan</a></li>
+		<li><a href="https://akademik.its.ac.id/data_pembayaran_wisuda.php">Pembayaran Wisuda</a></li></ul></li>		
+		
+			<li><font color="yellow">Keluar </font><img src="./[SIAKAD-ITS] Formulir Rencana Studi (FRS)_files/down_m.gif">
+				<ul>
+					<li><a href="https://integra.its.ac.id/">Kembali ke Menu</a></li>
+					<li><a href="https://akademik.its.ac.id/sys_logout.php"><font color="yellow">Logout</font></a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	</td>
+</tr>
+<tr height="20" style="font-family: sans-serif, Tahoma; background-color:#ece9d8;">
+	<td nowrap="" style="padding-left:5">
+		Periode: Semester Genap 2018/2019	</td>
+  	<td align="right" nowrap="" style="padding-right:5;color:#666;padding-right:10px">
+    		<b>[n134
+] User ID: </b>05111740000029, ANANTA DWI PRASETYA PURNA YUDA &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 		<b>Hak Akses:</b> 
+	
+	
+	<select id="sRoles" name="sRoles" class="comboSmallStyle" onchange="do_changeRoles();" style="width:100px">
+	<option value="">- Pilih Hak Akses -</option>
+	<option value="10" selected="">Mahasiswa</option>
+	</select>
+
+	<select id="sFak" name="sFak" class="comboSmallStyle" onchange="do_changeFak()" style="width:100px;background-color:#ccccff">
+	<option value="">- Pilih Fakultas -</option>
+	<option value="5" selected="" style="background-color:#ccccff">FTIK</option>
+	</select>
+
+	<select id="sJur" name="sJur" class="comboSmallStyle" onchange="do_changeUnit()" style="background-color:#99ff99">
+	<option value="">- Pilih Prodi -</option>
+	<option value="51100" selected="" style="background-color:#99ff99">51100 - 05114000 - S-1 INFORMATIKA </option>
+	</select>
+
+	</td>
+	
+</tr>
+</tbody></table>
+</form>
+<script language="JavaScript">
+
+function do_changeRoles() 
+{
+	document.getElementById("sJur").value = ""; 
+	document.getElementById("actmenu").value = "changeRole"; 
+	document.getElementById("fMenu").submit();
+}
+
+function do_changeFak() 
+{
+	document.getElementById("actmenu").value = "changeFak"; 
+	document.getElementById("fMenu").submit();
+}
+
+function do_changeUnit() 
+{
+	document.getElementById("actmenu").value = "changeUnit"; 
+	document.getElementById("fMenu").submit();
+}
+</script>
+
+<div align="center">
+<form name="sipform" id="sipform" method="post" action="https://akademik.its.ac.id/list_frs.php">
+<table width="765" cellpadding="4" cellspacing="0">
+	<tbody><tr>
+		<td align="center" class="PageTitle">Formulir Rencana Studi (FRS)</td>
+	</tr>
+		<tr>
+		<td align="center"><font size="1">
+		<strong>Pengisian :</strong> 28 Jan 2019 s/d 1 Feb 2019 <strong>|</strong>
+		<strong>Perubahan :</strong> 2 Feb 2019 s/d 22 Feb 2019 <strong>|</strong>
+		<strong>Drop :</strong> 23 Feb 2019 s/d 12 Apr 2019		</font></td>
+	</tr>
+	</tbody></table>
+<br>
+<table cellpadding="4" cellspacing="0" class="FilterBox">
+			<tbody><tr>
+		<td width="80"><strong>NRP</strong></td>
+		<td width="10" align="center"><strong>:</strong></td>
+		<td width="250">05111740000029</td>
+		<td width="80"><strong>Periode</strong></td>
+		<td width="10" align="center"><strong>:</strong></td>
+		<td width="260"><select name="semesterTerm" id="semesterTerm" class="ControlStyle">
+<option></option>
+<option value="1">Gasal</option>
+<option selected="selected" value="2">Genap</option>
+<option value="3">Pendek</option>
+<option value="4">Sisipan</option>
+</select>
+ <select name="thnAjaran" id="thnAjaran" class="ControlStyle">
+<option></option>
+<option value="2019">2019</option>
+<option selected="selected" value="2018">2018</option>
+<option value="2017">2017</option>
+<option value="2016">2016</option>
+<option value="2015">2015</option>
+<option value="2014">2014</option>
+<option value="2013">2013</option>
+<option value="2012">2012</option>
+<option value="2011">2011</option>
+<option value="2010">2010</option>
+<option value="2009">2009</option>
+<option value="2008">2008</option>
+<option value="2007">2007</option>
+<option value="2006">2006</option>
+<option value="2005">2005</option>
+<option value="2004">2004</option>
+<option value="2003">2003</option>
+<option value="2002">2002</option>
+<option value="2001">2001</option>
+<option value="2000">2000</option>
+<option value="1999">1999</option>
+<option value="1998">1998</option>
+<option value="1997">1997</option>
+<option value="1996">1996</option>
+<option value="1995">1995</option>
+</select>
+ <input type="button" class="ControlStyle" value="Ganti" onclick="goGanti()"> </td>
+	</tr>
+	<tr>
+		<td><strong>Nama</strong></td>
+		<td align="center"><strong>:</strong></td>
+		<td>ANANTA DWI PRASETYA PURNA YUDA</td>
+		<td><strong>Dosen Wali</strong></td>
+		<td align="center"><strong>:</strong></td>
+		<td>Arya Yudhi Wijaya, S.Kom., M.Kom.</td>
+	</tr>
+	<tr>
+		<td><strong>IPK / IPS</strong></td>
+		<td align="center"><strong>:</strong></td>
+		<td>
+        		3,73 / 3,73                </td>
+		<td><strong>Batas / Sisa</strong></td>
+		<td align="center"><strong>:</strong></td>
+		<td>24 / 24 SKS</td>
+	</tr>    
+	<tr>
+		<td><strong>Tautan</strong></td>
+		<td align="center"><strong>:</strong></td>
+        <td colspan="4"><font size="1"><a href="https://akademik.its.ac.id/lv_mkulang.php?nrp=5117100029" onclick="popUp(this.href,&#39;elastic&#39;,600,600);return false;" target="_blank">MK Harus Diulang</a> | <a href="https://akademik.its.ac.id/lv_mkambil.php?nrp=5117100029" onclick="popUp(this.href,&#39;elastic&#39;,600,600);return false;" target="_blank">MK Wajib diambil (pd saat ganti Kurikulum)</a> | <a href="https://akademik.its.ac.id/lv_mkprasyarat.php?nrp=5117100029&amp;mkThn=2018&amp;mkSem=2" onclick="popUp(this.href,&#39;elastic&#39;,600,600);return false;" target="_blank">Pengambilan melanggar prasyarat</a> | <a href="https://akademik.its.ac.id/ekivalensi_rekapitulasi_mhs.php?edit=5117100029" onclick="popUp(this.href,&#39;elastic&#39;,600,1000);return false;" target="_blank">Ekivalensi</a>   </font>   </td>
+	</tr>
+	</tbody></table>
+<br>
+<input type="button" class="ControlStyle" value="Klik di sini untuk KRSM versi cetak" onclick="goPrint()">
+<br>
+<table cellpadding="4" cellspacing="0" class="GridStyle">
+		<tbody><tr>
+		<td colspan="6" style="padding:0">
+				<div width="70%" style="background-color:#ffcccc;padding:3px"><strong><font color="#B30000">- Mata kuliah (IF4402) di kelas E belum bisa dipilih karena belum memiliki jadwal.<br>
+</font></strong></div>		</td>
+	</tr>
+	
+		
+		<tr>
+		<td width="70" align="center" class="SubHeaderBGAlt">Kode</td>
+		<td width="270" align="center" class="SubHeaderBGAlt">Mata Kuliah</td>
+		<td width="30" align="center" class="SubHeaderBGAlt">SKS</td>
+		<td width="30" align="center" class="SubHeaderBGAlt">Kelas</td>
+						<td width="50" align="center" class="SubHeaderBGAlt">Drop</td>
+			</tr>
+		<tr>
+		<td align="center" colspan="6"><strong>FRS Kosong</strong></td>
+	</tr>
+		<tr>
+		<td colspan="2" align="right" class="SubHeaderBGAlt"><strong>Total SKS</strong></td>
+		<td align="center" class="SubHeaderBGAlt"><strong>0</strong></td>
+		<td align="center" colspan="3" class="SubHeaderBGAlt">&nbsp;</td>
+	</tr>
+	<tr>
+		<td></td>	
+	</tr>
+		<tr>
+		<td></td>	
+	</tr>
+
+		<tr height="30" bgcolor="#FFCECE">
+		<td align="center" colspan="6" style="border:1px solid #FF0000">
+		<font color="#FF0000"><strong>FRS BELUM DISETUJUI</strong></font>
+		</td>
+	</tr>
+	</tbody></table>
+<br>
+<table cellpadding="4" cellspacing="0" class="FilterBox">
+	<tbody><tr>
+		<td width="75"><strong>Kelas Dep.</strong></td>
+		<td width="10" align="center"><strong>:</strong></td>
+		<td width="670"><select name="kelasjur" id="kelasjur" class="combo" style="width:530">
+<option value="IF4406|A|2018|51100|0">2018 | IF184406 | Analisis dan Perancangan Sistem Informasi | A | 3 | 0/35&nbsp;</option>
+<option value="IF4406|B|2018|51100|0">2018 | IF184406 | Analisis dan Perancangan Sistem Informasi | B | 3 | 0/35&nbsp;</option>
+<option value="IF4406|C|2018|51100|0">2018 | IF184406 | Analisis dan Perancangan Sistem Informasi | C | 3 | 0/35&nbsp;</option>
+<option value="IF4406|D|2018|51100|0">2018 | IF184406 | Analisis dan Perancangan Sistem Informasi | D | 3 | 0/35&nbsp;</option>
+<option value="IF4406|E|2018|51100|0">2018 | IF184406 | Analisis dan Perancangan Sistem Informasi | E | 3 | 0/35&nbsp;</option>
+<option value="IF4922|_|2018|51100|0">2018 | IF184922 | Analisis Data Multivariat&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | _ | 3 | 0/30&nbsp;</option>
+<option value="IF4957|_|2018|51100|0">2018 | IF184957 | Analisis Jejaring Sosial&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | _ | 3 | 0/30&nbsp;</option>
+<option value="IF4934|_|2018|51100|0">2018 | IF184934 | Animasi Komputer dan Pemodelan 3D&nbsp;&nbsp; | _ | 3 | 0/30&nbsp;</option>
+<option value="IF4971|_|2018|51100|0">2018 | IF184971 | Arsitektur Perangkat Lunak&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | _ | 3 | 0/30&nbsp;</option>
+<option value="IF4963|_|2018|51100|0">2018 | IF184963 | Audit Sistem&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | _ | 3 | 0/30&nbsp;</option>
+<option value="IF4965|_|2018|51100|0">2018 | IF184965 | Basis Data Terdistribusi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | _ | 3 | 0/30&nbsp;</option>
+<option value="IF4966|_|2018|51100|0">2018 | IF184966 | Big Data&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | _ | 3 | 0/30&nbsp;</option>
+<option value="IF4101|_|2018|51100|0">2018 | IF184101 | Dasar Pemrograman&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | _ | 4 | 0/30&nbsp;</option>
+<option value="IF4951|_|2018|51100|0">2018 | IF184951 | Data Mining&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | _ | 3 | 0/30&nbsp;</option>
+<option value="IF4958|_|2018|51100|0">2018 | IF184958 | Deep Learning&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | _ | 3 | 0/30&nbsp;</option>
+<option value="IF4945|_|2018|51100|0">2018 | IF184945 | Forensik Digital&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | _ | 3 | 0/30&nbsp;</option>
+<option value="IF4935|_|2018|51100|0">2018 | IF184935 | Game Cerdas&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | _ | 3 | 0/30&nbsp;</option>
+<option value="IF4601|A|2018|51100|0">2018 | IF184601 | Interaksi Manusia dan Komputer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | A | 3 | 0/30&nbsp;</option>
+<option value="IF4601|B|2018|51100|0">2018 | IF184601 | Interaksi Manusia dan Komputer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | B | 3 | 0/30&nbsp;</option>
+<option value="IF4601|C|2018|51100|0">2018 | IF184601 | Interaksi Manusia dan Komputer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | C | 3 | 0/30&nbsp;</option>
+<option value="IF4601|D|2018|51100|0">2018 | IF184601 | Interaksi Manusia dan Komputer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | D | 3 | 0/30&nbsp;</option>
+<option value="IF4601|E|2018|51100|0">2018 | IF184601 | Interaksi Manusia dan Komputer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | E | 3 | 0/30&nbsp;</option>
+<option value="IF4941|_|2018|51100|0">2018 | IF184941 | Jaringan Multimedia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | _ | 3 | 0/30&nbsp;</option>
+<option value="IF4403|A|2018|51100|0">2018 | IF184403 | Kecerdasan Buatan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | A | 3 | 0/25&nbsp;</option>
+<option value="IF4403|B|2018|51100|0">2018 | IF184403 | Kecerdasan Buatan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | B | 3 | 0/25&nbsp;</option>
+<option value="IF4403|C|2018|51100|0">2018 | IF184403 | Kecerdasan Buatan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | C | 3 | 0/25&nbsp;</option>
+<option value="IF4403|D|2018|51100|0">2018 | IF184403 | Kecerdasan Buatan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | D | 3 | 0/25&nbsp;</option>
+<option value="IF4403|E|2018|51100|0">2018 | IF184403 | Kecerdasan Buatan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | E | 3 | 0/25&nbsp;</option>
+<option value="IF4403|F|2018|51100|0">2018 | IF184403 | Kecerdasan Buatan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | F | 3 | 0/25&nbsp;</option>
+<option value="IF4403|G|2018|51100|0">2018 | IF184403 | Kecerdasan Buatan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | G | 3 | 0/25&nbsp;</option>
+<option value="IF4801|_|2018|51100|0">2018 | IF184801 | Kerja Praktik&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | _ | 2 | 0/250</option>
+<option value="IF4946|_|2018|51100|0">2018 | IF184946 | Komputasi Grid dan Paralel&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | _ | 3 | 0/50&nbsp;</option>
+<option value="IF4303|A|2018|51100|0">2018 | IF184303 | Komputasi Numerik&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | A | 3 | 0/25&nbsp;</option>
+<option value="IF4303|B|2018|51100|0">2018 | IF184303 | Komputasi Numerik&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | B | 3 | 0/25&nbsp;</option>
+<option value="IF4947|_|2018|51100|0">2018 | IF184947 | Komputasi Pervasif dan Jaringan Sensor | _ | 3 | 0/30&nbsp;</option>
+<option value="IF4404|A|2018|51100|0">2018 | IF184404 | Manajemen Basis Data&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | A | 3 | 0/30&nbsp;</option>
+<option value="IF4404|B|2018|51100|0">2018 | IF184404 | Manajemen Basis Data&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | B | 3 | 0/30&nbsp;</option>
+<option value="IF4404|C|2018|51100|0">2018 | IF184404 | Manajemen Basis Data&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | C | 3 | 0/30&nbsp;</option>
+<option value="IF4404|D|2018|51100|0">2018 | IF184404 | Manajemen Basis Data&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | D | 3 | 0/30&nbsp;</option>
+<option value="IF4404|E|2018|51100|0">2018 | IF184404 | Manajemen Basis Data&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | E | 3 | 0/30&nbsp;</option>
+<option value="IF4404|F|2018|51100|0">2018 | IF184404 | Manajemen Basis Data&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | F | 3 | 0/30&nbsp;</option>
+<option value="IF4506|A|2018|51100|0">2018 | IF184506 | Manajemen Proyek Perangkat Lunak&nbsp;&nbsp;&nbsp; | A | 3 | 0/35&nbsp;</option>
+<option value="IF4506|B|2018|51100|0">2018 | IF184506 | Manajemen Proyek Perangkat Lunak&nbsp;&nbsp;&nbsp; | B | 3 | 0/35&nbsp;</option>
+<option value="IF4506|C|2018|51100|0">2018 | IF184506 | Manajemen Proyek Perangkat Lunak&nbsp;&nbsp;&nbsp; | C | 3 | 0/35&nbsp;</option>
+<option value="IF4506|D|2018|51100|0">2018 | IF184506 | Manajemen Proyek Perangkat Lunak&nbsp;&nbsp;&nbsp; | D | 3 | 0/35&nbsp;</option>
+<option value="IF4506|E|2018|51100|0">2018 | IF184506 | Manajemen Proyek Perangkat Lunak&nbsp;&nbsp;&nbsp; | E | 3 | 0/35&nbsp;</option>
+<option value="IF4304|_|2018|51100|0">2018 | IF184304 | Matematika Diskrit&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | _ | 3 | 0/30&nbsp;</option>
+<option value="IF4921|_|2018|51100|0">2018 | IF184921 | Pemodelan dan Simulasi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | _ | 3 | 0/30&nbsp;</option>
+<option value="IF4605|A|2018|51100|0">2018 | IF184605 | Pemrograman Berbasis Kerangka Kerja | A | 3 | 0/30&nbsp;</option>
+<option value="IF4605|B|2018|51100|0">2018 | IF184605 | Pemrograman Berbasis Kerangka Kerja | B | 3 | 0/30&nbsp;</option>
+<option value="IF4605|C|2018|51100|0">2018 | IF184605 | Pemrograman Berbasis Kerangka Kerja | C | 3 | 0/30&nbsp;</option>
+<option value="IF4605|D|2018|51100|0">2018 | IF184605 | Pemrograman Berbasis Kerangka Kerja | D | 3 | 0/30&nbsp;</option>
+<option value="IF4605|E|2018|51100|0">2018 | IF184605 | Pemrograman Berbasis Kerangka Kerja | E | 3 | 0/30&nbsp;</option>
+<option value="IF4605|F|2018|51100|0">2018 | IF184605 | Pemrograman Berbasis Kerangka Kerja | F | 3 | 0/30&nbsp;</option>
+<option value="IF4605|G|2018|51100|0">2018 | IF184605 | Pemrograman Berbasis Kerangka Kerja | G | 3 | 0/30&nbsp;</option>
+<option value="IF4605|H|2018|51100|0">2018 | IF184605 | Pemrograman Berbasis Kerangka Kerja | H | 3 | 0/30&nbsp;</option>
+<option value="IF4605|I|2018|51100|0">2018 | IF184605 | Pemrograman Berbasis Kerangka Kerja | I | 3 | 0/30&nbsp;</option>
+<option value="IF4605|J|2018|51100|0">2018 | IF184605 | Pemrograman Berbasis Kerangka Kerja | J | 3 | 0/30&nbsp;</option>
+<option value="IF4602|A|2018|51100|0">2018 | IF184602 | Pemrograman Jaringan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | A | 3 | 0/30&nbsp;</option>
+<option value="IF4602|B|2018|51100|0">2018 | IF184602 | Pemrograman Jaringan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | B | 3 | 0/30&nbsp;</option>
+<option value="IF4602|C|2018|51100|0">2018 | IF184602 | Pemrograman Jaringan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | C | 3 | 0/30&nbsp;</option>
+<option value="IF4602|D|2018|51100|0">2018 | IF184602 | Pemrograman Jaringan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | D | 3 | 0/30&nbsp;</option>
+<option value="IF4602|E|2018|51100|0">2018 | IF184602 | Pemrograman Jaringan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | E | 3 | 0/30&nbsp;</option>
+<option value="IF4602|F|2018|51100|0">2018 | IF184602 | Pemrograman Jaringan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | F | 3 | 0/30&nbsp;</option>
+<option value="IF4902|_|2018|51100|0">2018 | IF184902 | Pengembangan Analisis Algoritma&nbsp;&nbsp;&nbsp;&nbsp; | _ | 3 | 0/30&nbsp;</option>
+<option value="IF4952|_|2018|51100|0">2018 | IF184952 | Pengolahan Citra Digital&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | _ | 3 | 0/30&nbsp;</option>
+<option value="IF4972|_|2018|51100|0">2018 | IF184972 | Penjaminan Mutu Perangkat Lunak&nbsp;&nbsp;&nbsp;&nbsp; | _ | 3 | 0/30&nbsp;</option>
+<option value="IF4401|A|2018|51100|0">2018 | IF184401 | Perancangan dan Analisis Algoritma&nbsp; | A | 4 | 0/30&nbsp;</option>
+<option value="IF4401|B|2018|51100|0">2018 | IF184401 | Perancangan dan Analisis Algoritma&nbsp; | B | 4 | 0/30&nbsp;</option>
+<option value="IF4401|C|2018|51100|0">2018 | IF184401 | Perancangan dan Analisis Algoritma&nbsp; | C | 4 | 0/30&nbsp;</option>
+<option value="IF4401|D|2018|51100|0">2018 | IF184401 | Perancangan dan Analisis Algoritma&nbsp; | D | 4 | 0/30&nbsp;</option>
+<option value="IF4401|E|2018|51100|0">2018 | IF184401 | Perancangan dan Analisis Algoritma&nbsp; | E | 4 | 0/30&nbsp;</option>
+<option value="IF4401|F|2018|51100|0">2018 | IF184401 | Perancangan dan Analisis Algoritma&nbsp; | F | 4 | 0/30&nbsp;</option>
+<option value="IF4702|_|2018|51100|0">2018 | IF184702 | Pra-Tugas Akhir&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | _ | 3 | 0/250</option>
+<option value="IF4405|A|2018|51100|0">2018 | IF184405 | Probabilitas dan Statistik&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | A | 3 | 0/30&nbsp;</option>
+<option value="IF4405|B|2018|51100|0">2018 | IF184405 | Probabilitas dan Statistik&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | B | 3 | 0/30&nbsp;</option>
+<option value="IF4405|C|2018|51100|0">2018 | IF184405 | Probabilitas dan Statistik&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | C | 3 | 0/30&nbsp;</option>
+<option value="IF4405|D|2018|51100|0">2018 | IF184405 | Probabilitas dan Statistik&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | D | 3 | 0/30&nbsp;</option>
+<option value="IF4405|E|2018|51100|0">2018 | IF184405 | Probabilitas dan Statistik&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | E | 3 | 0/30&nbsp;</option>
+<option value="IF4405|F|2018|51100|0">2018 | IF184405 | Probabilitas dan Statistik&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | F | 3 | 0/30&nbsp;</option>
+<option value="IF4405|G|2018|51100|0">2018 | IF184405 | Probabilitas dan Statistik&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | G | 3 | 0/30&nbsp;</option>
+<option value="IF4405|H|2018|51100|0">2018 | IF184405 | Probabilitas dan Statistik&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | H | 3 | 0/30&nbsp;</option>
+<option value="IF4405|I|2018|51100|0">2018 | IF184405 | Probabilitas dan Statistik&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | I | 3 | 0/30&nbsp;</option>
+<option value="IF4603|A|2018|51100|0">2018 | IF184603 | Rekayasa Kebutuhan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | A | 3 | 0/35&nbsp;</option>
+<option value="IF4603|B|2018|51100|0">2018 | IF184603 | Rekayasa Kebutuhan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | B | 3 | 0/35&nbsp;</option>
+<option value="IF4603|C|2018|51100|0">2018 | IF184603 | Rekayasa Kebutuhan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | C | 3 | 0/35&nbsp;</option>
+<option value="IF4603|D|2018|51100|0">2018 | IF184603 | Rekayasa Kebutuhan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | D | 3 | 0/35&nbsp;</option>
+<option value="IF4603|E|2018|51100|0">2018 | IF184603 | Rekayasa Kebutuhan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | E | 3 | 0/35&nbsp;</option>
+<option value="IF4201|A|2018|51100|0">2018 | IF184201 | Sistem Digital&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | A | 3 | 0/30&nbsp;</option>
+<option value="IF4201|B|2018|51100|0">2018 | IF184201 | Sistem Digital&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | B | 3 | 0/30&nbsp;</option>
+<option value="IF4201|C|2018|51100|0">2018 | IF184201 | Sistem Digital&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | C | 3 | 0/30&nbsp;</option>
+<option value="IF4201|D|2018|51100|0">2018 | IF184201 | Sistem Digital&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | D | 3 | 0/30&nbsp;</option>
+<option value="IF4201|E|2018|51100|0">2018 | IF184201 | Sistem Digital&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | E | 3 | 0/30&nbsp;</option>
+<option value="IF4201|F|2018|51100|0">2018 | IF184201 | Sistem Digital&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | F | 3 | 0/30&nbsp;</option>
+<option value="IF4201|P|2018|51100|0" style="background-color:#FC6E6E">2018 | IF184201 | Sistem Digital&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | P | 3 | 170/0</option>
+<option value="IF4933|_|2018|51100|0">2018 | IF184933 | Sistem Game&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | _ | 3 | 0/30&nbsp;</option>
+<option value="IF4402|A|2018|51100|0">2018 | IF184402 | Sistem Operasi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | A | 4 | 0/22&nbsp;</option>
+<option value="IF4402|B|2018|51100|0">2018 | IF184402 | Sistem Operasi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | B | 4 | 0/22&nbsp;</option>
+<option value="IF4402|C|2018|51100|0">2018 | IF184402 | Sistem Operasi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | C | 4 | 0/30&nbsp;</option>
+<option value="IF4402|D|2018|51100|0">2018 | IF184402 | Sistem Operasi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | D | 4 | 0/30&nbsp;</option>
+<option value="IF4402|E|2018|51100|0">2018 | IF184402 | Sistem Operasi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | E | 4 | 0/30&nbsp;</option>
+<option value="IF4402|F|2018|51100|0">2018 | IF184402 | Sistem Operasi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | F | 4 | 0/35&nbsp;</option>
+<option value="IF4202|A|2018|51100|0">2018 | IF184202 | Struktur Data&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | A | 3 | 0/30&nbsp;</option>
+<option value="IF4202|B|2018|51100|0">2018 | IF184202 | Struktur Data&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | B | 3 | 0/30&nbsp;</option>
+<option value="IF4202|C|2018|51100|0">2018 | IF184202 | Struktur Data&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | C | 3 | 0/30&nbsp;</option>
+<option value="IF4202|D|2018|51100|0">2018 | IF184202 | Struktur Data&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | D | 3 | 0/30&nbsp;</option>
+<option value="IF4202|E|2018|51100|0">2018 | IF184202 | Struktur Data&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | E | 3 | 0/30&nbsp;</option>
+<option value="IF4202|P|2018|51100|0" style="background-color:#FC6E6E">2018 | IF184202 | Struktur Data&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | P | 3 | 170/0</option>
+<option value="IF4964|_|2018|51100|0">2018 | IF184964 | Tata Kelola Teknologi Informasi&nbsp;&nbsp;&nbsp;&nbsp; | _ | 3 | -1/30</option>
+<option value="IF4914|_|2018|51100|0">2018 | IF184914 | Teknologi IoT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | _ | 3 | 0/30&nbsp;</option>
+<option value="IF4981|_|2018|51100|0">2018 | IF184981 | Topik Khusus&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | _ | 3 | 0/30&nbsp;</option>
+<option value="IF4802|_|2018|51100|0">2018 | IF184802 | Tugas Akhir&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | _ | 4 | 0/250</option>
+</select> <input type="button" class="ControlStyle" value="Ambil" onclick="goTake(&#39;jur&#39;)"> <input type="button" class="ControlStyle" value="Peserta" onclick="goPeserta(&#39;jur&#39;)"></td>
+	</tr>
+         	<tr>
+		<td><strong>Kelas UPMB</strong></td>
+		<td align="center"><strong>:</strong></td>
+		<td><select name="kelastpb" id="kelastpb" class="combo" style="width:530">
+<option value="UG4905|—|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184905 | Agama Buddha &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 1&nbsp;&nbsp; | 2 | 17/0&nbsp; | 11(1), 12(1), 13(1), 16(3), 41(2), 43(1), 51(7), 53(1)</option>
+<option value="UG0904|—|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG180904 | Agama Hindu &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 1&nbsp;&nbsp; | 2 | 2/0&nbsp;&nbsp; | 13(2)</option>
+<option value="UG4904|—|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184904 | Agama Hindu &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 1&nbsp;&nbsp; | 2 | 39/0&nbsp; | 12(4), 13(1), 15(3), 16(3), 26(2), 41(3), 41(2), 42(6), 42(1), 51(3), 52(3), 53(8)</option>
+<option value="UG4901|—|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184901 | Agama Islam &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 1&nbsp;&nbsp; | 2 | 47/0&nbsp; | 11(16), 16(8), 52(21)</option>
+<option value="UG4901|˜|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184901 | Agama Islam &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 2&nbsp;&nbsp; | 2 | 43/0&nbsp; | 11(16), 16(7), 52(22)</option>
+<option value="UG4901|™|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184901 | Agama Islam &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 3&nbsp;&nbsp; | 2 | 43/0&nbsp; | 11(16), 16(7), 52(21)</option>
+<option value="UG4901|š|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184901 | Agama Islam &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 4&nbsp;&nbsp; | 2 | 43/0&nbsp; | 11(16), 16(7), 52(21)</option>
+<option value="UG4901|›|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184901 | Agama Islam &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 5&nbsp;&nbsp; | 2 | 45/0&nbsp; | 11(16), 16(7), 52(21)</option>
+<option value="UG4901|œ|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184901 | Agama Islam &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 6&nbsp;&nbsp; | 2 | 45/0&nbsp; | 11(16), 16(7), 52(21)</option>
+<option value="UG4901||2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184901 | Agama Islam &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 7&nbsp;&nbsp; | 2 | 53/0&nbsp; | 15(26), 44(16), 53(11)</option>
+<option value="UG4901|ž|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184901 | Agama Islam &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 8&nbsp;&nbsp; | 2 | 52/0&nbsp; | 15(26), 44(16), 53(10)</option>
+<option value="UG4901|Ÿ|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184901 | Agama Islam &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 9&nbsp;&nbsp; | 2 | 52/0&nbsp; | 15(26), 44(15), 53(11)</option>
+<option value="UG4901| |2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184901 | Agama Islam &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 10&nbsp; | 2 | 43/0&nbsp; | 12(23), 41(16), 41(6)</option>
+<option value="UG4901|¡|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184901 | Agama Islam &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 11&nbsp; | 2 | 42/0&nbsp; | 12(22), 41(17), 41(6)</option>
+<option value="UG4901|¢|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184901 | Agama Islam &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 12&nbsp; | 2 | 47/0&nbsp; | 12(22), 41(16), 41(7)</option>
+<option value="UG4901|£|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184901 | Agama Islam &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 13&nbsp; | 2 | 47/0&nbsp; | 12(22), 41(16), 41(6)</option>
+<option value="UG4901|¤|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184901 | Agama Islam &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 14&nbsp; | 2 | 48/0&nbsp; | 13(19), 42(19), 42(9)</option>
+<option value="UG4901|¥|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184901 | Agama Islam &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 15&nbsp; | 2 | 48/0&nbsp; | 13(19), 42(19), 42(9)</option>
+<option value="UG4901|¦|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184901 | Agama Islam &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 16&nbsp; | 2 | 44/0&nbsp; | 13(19), 42(19), 42(9)</option>
+<option value="UG4901|§|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184901 | Agama Islam &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 17&nbsp; | 2 | 48/0&nbsp; | 13(18), 42(19), 42(10)</option>
+<option value="UG4901|¨|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184901 | Agama Islam &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 18&nbsp; | 2 | 46/0&nbsp; | 13(18), 42(19), 42(9)</option>
+<option value="UG4901|©|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184901 | Agama Islam &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 19&nbsp; | 2 | 60/0&nbsp; | 26(19), 43(35)</option>
+<option value="UG4901|ª|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184901 | Agama Islam &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 20&nbsp; | 2 | 51/0&nbsp; | 26(19), 43(35)</option>
+<option value="UG4901|«|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184901 | Agama Islam &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 21&nbsp; | 2 | 51/0&nbsp; | 26(18), 43(36)</option>
+<option value="UG1901|¬|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG181901 | Agama Islam &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 22&nbsp; | 2 | 17/0&nbsp; | 31(17)</option>
+<option value="UG4901|¬|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184901 | Agama Islam &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 22&nbsp; | 2 | 32/0&nbsp; | 51(32)</option>
+<option value="UG1901|­|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG181901 | Agama Islam &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 23&nbsp; | 2 | 17/0&nbsp; | 31(17)</option>
+<option value="UG4901|­|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184901 | Agama Islam &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 23&nbsp; | 2 | 32/0&nbsp; | 51(32)</option>
+<option value="UG1901|®|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG181901 | Agama Islam &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 24&nbsp; | 2 | 16/0&nbsp; | 31(17)</option>
+<option value="UG4901|®|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184901 | Agama Islam &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 24&nbsp; | 2 | 32/0&nbsp; | 51(32)</option>
+<option value="UG1901|¯|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG181901 | Agama Islam &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 25&nbsp; | 2 | 17/0&nbsp; | 31(17)</option>
+<option value="UG4901|¯|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184901 | Agama Islam &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 25&nbsp; | 2 | 32/0&nbsp; | 51(32)</option>
+<option value="UG0901|°|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG180901 | Agama Islam &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 26&nbsp; | 2 | 51/0&nbsp; | 13(18), 23(17), 24(16)</option>
+<option value="UG0901|±|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG180901 | Agama Islam &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 27&nbsp; | 2 | 51/0&nbsp; | 13(17), 23(18), 24(16)</option>
+<option value="UG0901|²|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG180901 | Agama Islam &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 28&nbsp; | 2 | 51/0&nbsp; | 13(17), 23(17), 24(17)</option>
+<option value="UG0901|³|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG180901 | Agama Islam &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 29&nbsp; | 2 | 51/0&nbsp; | 13(17), 23(17), 24(17)</option>
+<option value="UG0901|´|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG180901 | Agama Islam &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 30&nbsp; | 2 | 51/0&nbsp; | 13(17), 23(17), 24(17)</option>
+<option value="UG4901|µ|2018|__TPB|0">2018 | UG184901 | Agama Islam &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 31&nbsp; | 2 | 1/27&nbsp; | 53(1), 41(1), 42(1), 26(1), 11(1), 44(1), 13(1), 51(1), 16(1), 52(1), 15(1), 41(1), 42(1), 43(1)</option>
+<option value="UG1901|µ|2018|__TPB|0">2018 | UG181901 | Agama Islam &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 31&nbsp; | 2 | 1/2&nbsp;&nbsp; | 31(2)</option>
+<option value="UG0901|µ|2018|__TPB|0">2018 | UG180901 | Agama Islam &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 31&nbsp; | 2 | 0/6&nbsp;&nbsp; | 23(2), 24(2), 13(2)</option>
+<option value="UG0903|—|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG180903 | Agama Katolik &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 1&nbsp;&nbsp; | 2 | 4/0&nbsp;&nbsp; | 13(1), 24(3)</option>
+<option value="UG1903|—|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG181903 | Agama Katolik &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 1&nbsp;&nbsp; | 2 | 1/0&nbsp;&nbsp; | 31(1)</option>
+<option value="UG4903|—|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184903 | Agama Katolik &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 1&nbsp;&nbsp; | 2 | 62/0&nbsp; | 11(3), 12(3), 13(3), 15(2), 16(2), 26(3), 41(7), 41(1), 42(6), 42(6), 43(5), 44(3), 51(14), 52(2), 53(2)</option>
+<option value="UG4902|—|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184902 | Agama Kristen&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 1&nbsp;&nbsp; | 2 | 41/0&nbsp; | 11(7), 12(13), 13(5), 15(3), 16(6), 26(8)</option>
+<option value="UG4902|˜|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184902 | Agama Kristen&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 2&nbsp;&nbsp; | 2 | 48/0&nbsp; | 41(10), 41(2), 42(12), 42(4), 43(15), 44(5)</option>
+<option value="UG0902|™|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG180902 | Agama Kristen&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 3&nbsp;&nbsp; | 2 | 3/0&nbsp;&nbsp; | 13(1), 23(2)</option>
+<option value="UG1902|™|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG181902 | Agama Kristen&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 3&nbsp;&nbsp; | 2 | 1/0&nbsp;&nbsp; | 31(1)</option>
+<option value="UG4902|™|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184902 | Agama Kristen&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 3&nbsp;&nbsp; | 2 | 36/0&nbsp; | 51(18), 52(15), 53(3)</option>
+<option value="UG4912|—|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184912 | Bahasa Indonesia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 1&nbsp;&nbsp; | 2 | 57/0&nbsp; | 11(22), 28(29)</option>
+<option value="UG4912|˜|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184912 | Bahasa Indonesia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 2&nbsp;&nbsp; | 2 | 56/0&nbsp; | 11(22), 28(29)</option>
+<option value="UG4912|™|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184912 | Bahasa Indonesia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 3&nbsp;&nbsp; | 2 | 45/0&nbsp; | 11(21), 28(30)</option>
+<option value="UG4912|š|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184912 | Bahasa Indonesia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 4&nbsp;&nbsp; | 2 | 45/0&nbsp; | 11(21), 28(30)</option>
+<option value="UG4912|›|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184912 | Bahasa Indonesia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 5&nbsp;&nbsp; | 2 | 51/0&nbsp; | 11(21), 28(30)</option>
+<option value="UG4912|œ|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184912 | Bahasa Indonesia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 6&nbsp;&nbsp; | 2 | 47/0&nbsp; | 14(21), 41(18), 41(6)</option>
+<option value="UG4912||2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184912 | Bahasa Indonesia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 7&nbsp;&nbsp; | 2 | 44/0&nbsp; | 14(21), 41(17), 41(6)</option>
+<option value="UG4912|ž|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184912 | Bahasa Indonesia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 8&nbsp;&nbsp; | 2 | 44/0&nbsp; | 14(21), 41(17), 41(6)</option>
+<option value="UG4912|Ÿ|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184912 | Bahasa Indonesia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 9&nbsp;&nbsp; | 2 | 44/0&nbsp; | 14(21), 41(17), 41(6)</option>
+<option value="UG4912| |2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184912 | Bahasa Indonesia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 10&nbsp; | 2 | 42/0&nbsp; | 14(20), 41(18), 41(6)</option>
+<option value="UG4912|¡|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184912 | Bahasa Indonesia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 11&nbsp; | 2 | 44/0&nbsp; | 38(14), 42(24), 42(11)</option>
+<option value="UG4912|¢|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184912 | Bahasa Indonesia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 12&nbsp; | 2 | 52/0&nbsp; | 38(14), 42(23), 42(12)</option>
+<option value="UG4912|£|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184912 | Bahasa Indonesia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 13&nbsp; | 2 | 51/0&nbsp; | 38(13), 42(24), 42(12)</option>
+<option value="UG4912|¤|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184912 | Bahasa Indonesia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 14&nbsp; | 2 | 52/0&nbsp; | 38(13), 42(24), 42(11)</option>
+<option value="UG4912|¥|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184912 | Bahasa Indonesia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 15&nbsp; | 2 | 44/0&nbsp; | 38(13), 42(24), 42(11)</option>
+<option value="UG4912|¦|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184912 | Bahasa Indonesia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 16&nbsp; | 2 | 56/0&nbsp; | 26(12), 36(16), 43(21)</option>
+<option value="UG4912|§|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184912 | Bahasa Indonesia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 17&nbsp; | 2 | 49/0&nbsp; | 26(12), 36(16), 43(21)</option>
+<option value="UG4912|¨|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184912 | Bahasa Indonesia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 18&nbsp; | 2 | 55/0&nbsp; | 26(12), 36(16), 43(21)</option>
+<option value="UG4912|©|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184912 | Bahasa Indonesia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 19&nbsp; | 2 | 45/0&nbsp; | 26(11), 36(17), 43(21)</option>
+<option value="UG4912|ª|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184912 | Bahasa Indonesia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 20&nbsp; | 2 | 45/0&nbsp; | 26(11), 36(17), 43(21)</option>
+<option value="UG4912|«|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184912 | Bahasa Indonesia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 21&nbsp; | 2 | 44/0&nbsp; | 26(11), 36(16), 43(22)</option>
+<option value="UG4912|¬|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184912 | Bahasa Indonesia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 22&nbsp; | 2 | 54/0&nbsp; | 22(39), 44(9)</option>
+<option value="UG4912|­|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184912 | Bahasa Indonesia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 23&nbsp; | 2 | 45/0&nbsp; | 22(39), 44(9)</option>
+<option value="UG4912|®|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184912 | Bahasa Indonesia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 24&nbsp; | 2 | 45/0&nbsp; | 22(39), 44(9)</option>
+<option value="UG4912|¯|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184912 | Bahasa Indonesia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 25&nbsp; | 2 | 45/0&nbsp; | 22(39), 44(9)</option>
+<option value="UG4912|°|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184912 | Bahasa Indonesia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 26&nbsp; | 2 | 49/0&nbsp; | 22(38), 44(10)</option>
+<option value="UG4912|±|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184912 | Bahasa Indonesia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 27&nbsp; | 2 | 49/0&nbsp; | 22(38), 44(9)</option>
+<option value="UG4912|²|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184912 | Bahasa Indonesia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 28&nbsp; | 2 | 45/0&nbsp; | 13(21), 34(14), 39(11)</option>
+<option value="UG4912|³|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184912 | Bahasa Indonesia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 29&nbsp; | 2 | 45/0&nbsp; | 13(21), 34(14), 39(11)</option>
+<option value="UG4912|´|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184912 | Bahasa Indonesia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 30&nbsp; | 2 | 45/0&nbsp; | 13(21), 34(14), 39(11)</option>
+<option value="UG4912|µ|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184912 | Bahasa Indonesia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 31&nbsp; | 2 | 42/0&nbsp; | 13(20), 34(15), 39(11)</option>
+<option value="UG4912|¶|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184912 | Bahasa Indonesia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 32&nbsp; | 2 | 52/0&nbsp; | 13(20), 34(14), 39(11)</option>
+<option value="UG4912|·|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184912 | Bahasa Indonesia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 33&nbsp; | 2 | 44/0&nbsp; | 29(20), 32(24)</option>
+<option value="UG4912|¸|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184912 | Bahasa Indonesia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 34&nbsp; | 2 | 44/0&nbsp; | 29(19), 32(25)</option>
+<option value="UG4912|¹|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184912 | Bahasa Indonesia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 35&nbsp; | 2 | 43/0&nbsp; | 29(19), 32(24)</option>
+<option value="UG4912|º|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184912 | Bahasa Indonesia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 36&nbsp; | 2 | 43/0&nbsp; | 29(19), 32(24)</option>
+<option value="UG0912|»|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG180912 | Bahasa Indonesia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 37&nbsp; | 2 | 38/0&nbsp; | 22(19), 31(19)</option>
+<option value="UG0912|¼|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG180912 | Bahasa Indonesia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 38&nbsp; | 2 | 38/0&nbsp; | 22(19), 31(19)</option>
+<option value="UG0912|½|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG180912 | Bahasa Indonesia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 39&nbsp; | 2 | 46/0&nbsp; | 21(26), 21(10), 22(13)</option>
+<option value="UG0912|¾|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG180912 | Bahasa Indonesia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 40&nbsp; | 2 | 46/0&nbsp; | 21(25), 21(11), 22(12)</option>
+<option value="UG0912|¿|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG180912 | Bahasa Indonesia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 41&nbsp; | 2 | 53/0&nbsp; | 21(25), 21(11), 22(12)</option>
+<option value="UG4912|À|2018|__TPB|0">2018 | UG184912 | Bahasa Indonesia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 42&nbsp; | 2 | 3/37&nbsp; | 12(30)</option>
+<option value="UG1912|À|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG181912 | Bahasa Indonesia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 42&nbsp; | 2 | 5/5&nbsp;&nbsp; | 31(5)</option>
+<option value="UG0912|À|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG180912 | Bahasa Indonesia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 42&nbsp; | 2 | 1/1&nbsp;&nbsp; | 31(1)</option>
+<option value="UG4912|Á|2018|__TPB|0">2018 | UG184912 | Bahasa Indonesia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 43&nbsp; | 2 | 0/37&nbsp; | 12(30)</option>
+<option value="UG4912|Â|2018|__TPB|0">2018 | UG184912 | Bahasa Indonesia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 44&nbsp; | 2 | 0/38&nbsp; | 12(30)</option>
+<option value="UG4912|Ã|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184912 | Bahasa Indonesia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 45&nbsp; | 2 | 0/0&nbsp;&nbsp; | Semua</option>
+<option value="UG1912|Ã|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG181912 | Bahasa Indonesia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 45&nbsp; | 2 | 0/0&nbsp;&nbsp; | Semua</option>
+<option value="UG0912|Ã|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG180912 | Bahasa Indonesia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 45&nbsp; | 2 | 0/0&nbsp;&nbsp; | Semua</option>
+<option value="UG4914|—|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184914 | Bahasa Inggris&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 1&nbsp;&nbsp; | 2 | 45/0&nbsp; | 15(22), 35(23)</option>
+<option value="UG4914|˜|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184914 | Bahasa Inggris&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 2&nbsp;&nbsp; | 2 | 45/0&nbsp; | 15(22), 35(23)</option>
+<option value="UG4914|™|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184914 | Bahasa Inggris&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 3&nbsp;&nbsp; | 2 | 45/0&nbsp; | 15(21), 35(24)</option>
+<option value="UG4914|š|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184914 | Bahasa Inggris&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 4&nbsp;&nbsp; | 2 | 44/0&nbsp; | 15(21), 35(23)</option>
+<option value="UG4914|›|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184914 | Bahasa Inggris&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 5&nbsp;&nbsp; | 2 | 45/0&nbsp; | 21(32), 33(19)</option>
+<option value="UG4914|œ|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184914 | Bahasa Inggris&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 6&nbsp;&nbsp; | 2 | 42/0&nbsp; | 21(32), 33(19)</option>
+<option value="UG4914||2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184914 | Bahasa Inggris&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 7&nbsp;&nbsp; | 2 | 60/0&nbsp; | 21(31), 33(20)</option>
+<option value="UG4914|ž|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184914 | Bahasa Inggris&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 8&nbsp;&nbsp; | 2 | 52/0&nbsp; | 21(31), 33(20)</option>
+<option value="UG4914|Ÿ|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184914 | Bahasa Inggris&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 9&nbsp;&nbsp; | 2 | 53/0&nbsp; | 21(31), 33(20)</option>
+<option value="UG4914| |2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184914 | Bahasa Inggris&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 10&nbsp; | 2 | 53/0&nbsp; | 21(31), 33(19)</option>
+<option value="UG4914|¡|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184914 | Bahasa Inggris&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 11&nbsp; | 2 | 50/0&nbsp; | 23(25), 31(25)</option>
+<option value="UG4914|¢|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184914 | Bahasa Inggris&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 12&nbsp; | 2 | 50/0&nbsp; | 23(25), 31(25)</option>
+<option value="UG4914|£|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184914 | Bahasa Inggris&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 13&nbsp; | 2 | 45/0&nbsp; | 23(25), 31(25)</option>
+<option value="UG4914|¤|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184914 | Bahasa Inggris&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 14&nbsp; | 2 | 60/0&nbsp; | 23(24), 31(26)</option>
+<option value="UG4914|¥|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184914 | Bahasa Inggris&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 15&nbsp; | 2 | 49/0&nbsp; | 23(24), 31(26)</option>
+<option value="UG4914|¦|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184914 | Bahasa Inggris&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 16&nbsp; | 2 | 45/0&nbsp; | 23(24), 31(26)</option>
+<option value="UG4914|§|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184914 | Bahasa Inggris&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 17&nbsp; | 2 | 45/0&nbsp; | 24(22), 52(25)</option>
+<option value="UG4914|¨|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184914 | Bahasa Inggris&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 18&nbsp; | 2 | 47/0&nbsp; | 24(22), 52(25)</option>
+<option value="UG4914|©|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184914 | Bahasa Inggris&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 19&nbsp; | 2 | 48/0&nbsp; | 24(22), 52(24)</option>
+<option value="UG4914|ª|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184914 | Bahasa Inggris&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 20&nbsp; | 2 | 46/0&nbsp; | 24(22), 52(24)</option>
+<option value="UG4914|«|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184914 | Bahasa Inggris&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 21&nbsp; | 2 | 46/0&nbsp; | 24(22), 52(24)</option>
+<option value="UG4914|¬|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184914 | Bahasa Inggris&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 22&nbsp; | 2 | 46/0&nbsp; | 24(21), 52(25)</option>
+<option value="UG4914|­|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184914 | Bahasa Inggris&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 23&nbsp; | 2 | 51/0&nbsp; | 25(40), 37(11)</option>
+<option value="UG4914|®|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184914 | Bahasa Inggris&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 24&nbsp; | 2 | 45/0&nbsp; | 25(40), 37(11)</option>
+<option value="UG4914|¯|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184914 | Bahasa Inggris&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 25&nbsp; | 2 | 54/0&nbsp; | 25(40), 37(11)</option>
+<option value="UG4914|°|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184914 | Bahasa Inggris&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 26&nbsp; | 2 | 54/0&nbsp; | 25(39), 37(12)</option>
+<option value="UG4914|±|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184914 | Bahasa Inggris&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 27&nbsp; | 2 | 50/0&nbsp; | 25(39), 37(11)</option>
+<option value="UG4914|²|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184914 | Bahasa Inggris&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 28&nbsp; | 2 | 51/0&nbsp; | 27(35), 53(12)</option>
+<option value="UG4914|³|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184914 | Bahasa Inggris&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 29&nbsp; | 2 | 45/0&nbsp; | 27(35), 53(12)</option>
+<option value="UG4914|´|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184914 | Bahasa Inggris&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 30&nbsp; | 2 | 45/0&nbsp; | 27(35), 53(11)</option>
+<option value="UG4914|µ|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184914 | Bahasa Inggris&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 31&nbsp; | 2 | 45/0&nbsp; | 27(35), 53(11)</option>
+<option value="UG1914|¶|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG181914 | Bahasa Inggris&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 32&nbsp; | 2 | 15/0&nbsp; | 31(14)</option>
+<option value="UG4914|¶|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184914 | Bahasa Inggris&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 32&nbsp; | 2 | 38/0&nbsp; | 51(34)</option>
+<option value="UG1914|·|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG181914 | Bahasa Inggris&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 33&nbsp; | 2 | 13/0&nbsp; | 31(14)</option>
+<option value="UG4914|·|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184914 | Bahasa Inggris&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 33&nbsp; | 2 | 32/0&nbsp; | 51(34)</option>
+<option value="UG1914|¸|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG181914 | Bahasa Inggris&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 34&nbsp; | 2 | 12/0&nbsp; | 31(14)</option>
+<option value="UG4914|¸|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184914 | Bahasa Inggris&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 34&nbsp; | 2 | 30/0&nbsp; | 51(34)</option>
+<option value="UG1914|¹|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG181914 | Bahasa Inggris&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 35&nbsp; | 2 | 13/0&nbsp; | 31(14)</option>
+<option value="UG4914|¹|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184914 | Bahasa Inggris&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 35&nbsp; | 2 | 32/0&nbsp; | 51(34)</option>
+<option value="UG1914|º|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG181914 | Bahasa Inggris&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 36&nbsp; | 2 | 16/0&nbsp; | 31(14)</option>
+<option value="UG4914|º|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184914 | Bahasa Inggris&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 36&nbsp; | 2 | 38/0&nbsp; | 51(34)</option>
+<option value="UG0914|»|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG180914 | Bahasa Inggris&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 37&nbsp; | 2 | 44/0&nbsp; | 23(22), 24(22)</option>
+<option value="UG0914|¼|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG180914 | Bahasa Inggris&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 38&nbsp; | 2 | 44/0&nbsp; | 23(22), 24(22)</option>
+<option value="UG0914|½|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG180914 | Bahasa Inggris&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 39&nbsp; | 2 | 43/0&nbsp; | 23(22), 24(21)</option>
+<option value="UG0914|¾|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG180914 | Bahasa Inggris&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 40&nbsp; | 2 | 43/0&nbsp; | 23(22), 24(21)</option>
+<option value="UG0914|¿|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG180914 | Bahasa Inggris&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 41&nbsp; | 2 | 0/0&nbsp;&nbsp; | 13(30)</option>
+<option value="UG0914|À|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG180914 | Bahasa Inggris&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 42&nbsp; | 2 | 0/0&nbsp;&nbsp; | 13(30)</option>
+<option value="UG0914|Á|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG180914 | Bahasa Inggris&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 43&nbsp; | 2 | 0/0&nbsp;&nbsp; | 13(30)</option>
+<option value="SF0104|—|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF180104 | Fisika 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 1&nbsp;&nbsp; | 3 | 45/0&nbsp; | 21(16), 21(6), 22(8), 22(7), 31(8)</option>
+<option value="SF0104|˜|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF180104 | Fisika 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 2&nbsp;&nbsp; | 3 | 44/0&nbsp; | 21(15), 21(7), 22(7), 22(8), 31(7)</option>
+<option value="SF0104|™|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF180104 | Fisika 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 3&nbsp;&nbsp; | 3 | 44/0&nbsp; | 21(15), 21(7), 22(7), 22(8), 31(7)</option>
+<option value="SF0104|š|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF180104 | Fisika 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 4&nbsp;&nbsp; | 3 | 44/0&nbsp; | 21(15), 21(6), 22(8), 22(7), 31(8)</option>
+<option value="SF0104|›|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF180104 | Fisika 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 5&nbsp;&nbsp; | 3 | 44/0&nbsp; | 21(15), 21(6), 22(8), 22(7), 31(8)</option>
+<option value="SF4101|Ø|2018|__TPB|0">2018 | SF184101 | Fisika 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 66&nbsp; | 4 | 1/10&nbsp; | Semua</option>
+<option value="SF1101|Ø|2018|__TPB|0">2018 | SF181101 | Fisika 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 66&nbsp; | 4 | 1/5&nbsp;&nbsp; | 31(5)</option>
+<option value="SF4103|Ú|2018|__TPB|0">2018 | SF184103 | Fisika 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 68&nbsp; | 3 | 1/5&nbsp;&nbsp; | Semua</option>
+<option value="SF0104|Û|2018|__TPB|0">2018 | SF180104 | Fisika 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 69&nbsp; | 3 | 0/5&nbsp;&nbsp; | Semua</option>
+<option value="SF4202|—|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF184202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 1&nbsp;&nbsp; | 3 | 48/0&nbsp; | 11(11), 22(23), 33(12)</option>
+<option value="SF4202|˜|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF184202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 2&nbsp;&nbsp; | 3 | 46/0&nbsp; | 11(11), 22(23), 33(12)</option>
+<option value="SF4202|™|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF184202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 3&nbsp;&nbsp; | 3 | 46/0&nbsp; | 11(11), 22(23), 33(12)</option>
+<option value="SF4202|š|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF184202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 4&nbsp;&nbsp; | 3 | 46/0&nbsp; | 11(11), 22(23), 33(12)</option>
+<option value="SF4202|›|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF184202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 5&nbsp;&nbsp; | 3 | 46/0&nbsp; | 11(11), 22(23), 33(12)</option>
+<option value="SF4202|œ|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF184202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 6&nbsp;&nbsp; | 3 | 46/0&nbsp; | 11(11), 22(23), 33(12)</option>
+<option value="SF4202||2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF184202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 7&nbsp;&nbsp; | 3 | 42/0&nbsp; | 11(11), 22(23), 33(11)</option>
+<option value="SF4202|ž|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF184202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 8&nbsp;&nbsp; | 3 | 45/0&nbsp; | 11(10), 22(24), 33(11)</option>
+<option value="SF4202|Ÿ|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF184202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 9&nbsp;&nbsp; | 3 | 45/0&nbsp; | 11(10), 22(24), 33(11)</option>
+<option value="SF4202| |2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF184202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 10&nbsp; | 3 | 45/0&nbsp; | 11(10), 22(23), 33(12)</option>
+<option value="SF4202|¡|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF184202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 11&nbsp; | 3 | 50/0&nbsp; | 14(13), 26(9), 35(12), 43(16)</option>
+<option value="SF4202|¢|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF184202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 12&nbsp; | 3 | 45/0&nbsp; | 14(13), 26(9), 35(12), 43(15)</option>
+<option value="SF4202|£|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF184202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 13&nbsp; | 3 | 51/0&nbsp; | 14(13), 26(9), 35(11), 43(16)</option>
+<option value="SF4202|¤|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF184202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 14&nbsp; | 3 | 51/0&nbsp; | 14(13), 26(9), 35(11), 43(16)</option>
+<option value="SF4202|¥|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF184202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 15&nbsp; | 3 | 49/0&nbsp; | 14(13), 26(9), 35(11), 43(16)</option>
+<option value="SF4202|¦|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF184202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 16&nbsp; | 3 | 49/0&nbsp; | 14(13), 26(8), 35(12), 43(16)</option>
+<option value="SF4202|§|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF184202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 17&nbsp; | 3 | 49/0&nbsp; | 14(13), 26(8), 35(12), 43(16)</option>
+<option value="SF4202|¨|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF184202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 18&nbsp; | 3 | 49/0&nbsp; | 14(13), 26(8), 35(12), 43(16)</option>
+<option value="SF4202|©|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF184202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 19&nbsp; | 3 | 49/0&nbsp; | 15(11), 29(10), 31(19), 44(7)</option>
+<option value="SF4202|ª|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF184202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 20&nbsp; | 3 | 50/0&nbsp; | 15(11), 29(10), 31(19), 44(7)</option>
+<option value="SF4202|«|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF184202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 21&nbsp; | 3 | 42/0&nbsp; | 15(11), 29(10), 31(19), 44(7)</option>
+<option value="SF4202|¬|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF184202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 22&nbsp; | 3 | 44/0&nbsp; | 15(11), 29(9), 31(20), 44(6)</option>
+<option value="SF4202|­|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF184202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 23&nbsp; | 3 | 50/0&nbsp; | 15(11), 29(9), 31(19), 44(7)</option>
+<option value="SF4202|®|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF184202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 24&nbsp; | 3 | 42/0&nbsp; | 15(11), 29(9), 31(19), 44(7)</option>
+<option value="SF4202|¯|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF184202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 25&nbsp; | 3 | 44/0&nbsp; | 15(10), 29(10), 31(19), 44(7)</option>
+<option value="SF4202|°|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF184202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 26&nbsp; | 3 | 50/0&nbsp; | 15(10), 29(10), 31(19), 44(7)</option>
+<option value="SF4202|±|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF184202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 27&nbsp; | 3 | 48/0&nbsp; | 12(13), 21(21), 41(9), 41(4)</option>
+<option value="SF4202|²|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF184202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 28&nbsp; | 3 | 42/0&nbsp; | 12(13), 21(20), 41(10), 41(3)</option>
+<option value="SF4202|³|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF184202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 29&nbsp; | 3 | 45/0&nbsp; | 12(12), 21(21), 41(10), 41(3)</option>
+<option value="SF4202|´|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF184202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 30&nbsp; | 3 | 48/0&nbsp; | 12(12), 21(21), 41(10), 41(3)</option>
+<option value="SF4202|µ|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF184202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 31&nbsp; | 3 | 48/0&nbsp; | 12(12), 21(21), 41(10), 41(3)</option>
+<option value="SF4202|¶|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF184202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 32&nbsp; | 3 | 48/0&nbsp; | 12(12), 21(21), 41(10), 41(3)</option>
+<option value="SF4202|·|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF184202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 33&nbsp; | 3 | 46/0&nbsp; | 12(12), 21(21), 41(10), 41(3)</option>
+<option value="SF4202|¸|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF184202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 34&nbsp; | 3 | 45/0&nbsp; | 12(12), 21(21), 41(9), 41(4)</option>
+<option value="SF4202|¹|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF184202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 35&nbsp; | 3 | 45/0&nbsp; | 12(12), 21(21), 41(9), 41(4)</option>
+<option value="SF4202|º|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF184202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 36&nbsp; | 3 | 54/0&nbsp; | 13(12), 23(16), 42(13), 42(7)</option>
+<option value="SF4202|»|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF184202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 37&nbsp; | 3 | 53/0&nbsp; | 13(12), 23(16), 42(13), 42(7)</option>
+<option value="SF4202|¼|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF184202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 38&nbsp; | 3 | 42/0&nbsp; | 13(12), 23(16), 42(13), 42(7)</option>
+<option value="SF4202|½|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF184202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 39&nbsp; | 3 | 45/0&nbsp; | 13(12), 23(16), 42(13), 42(6)</option>
+<option value="SF4202|¾|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF184202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 40&nbsp; | 3 | 54/0&nbsp; | 13(11), 23(17), 42(13), 42(6)</option>
+<option value="SF4202|¿|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF184202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 41&nbsp; | 3 | 42/0&nbsp; | 13(11), 23(17), 42(13), 42(6)</option>
+<option value="SF1202|×|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF181202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 65&nbsp; | 3 | 8/0&nbsp;&nbsp; | 31(9)</option>
+<option value="SF4202|×|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF184202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 65&nbsp; | 3 | 34/0&nbsp; | 51(21), 27(17)</option>
+<option value="SF4202|À|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF184202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 42&nbsp; | 3 | 45/0&nbsp; | 13(11), 23(17), 42(13), 42(6)</option>
+<option value="SF4202|Á|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF184202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 43&nbsp; | 3 | 45/0&nbsp; | 13(11), 23(16), 42(14), 42(6)</option>
+<option value="SF4202|Â|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF184202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 44&nbsp; | 3 | 45/0&nbsp; | 13(11), 23(16), 42(14), 42(6)</option>
+<option value="SF4202|Ã|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF184202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 45&nbsp; | 3 | 51/0&nbsp; | 16(9), 24(18), 52(21)</option>
+<option value="SF4202|Ä|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF184202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 46&nbsp; | 3 | 51/0&nbsp; | 16(8), 24(19), 52(21)</option>
+<option value="SF4202|Å|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF184202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 47&nbsp; | 3 | 42/0&nbsp; | 16(8), 24(19), 52(21)</option>
+<option value="SF4202|Æ|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF184202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 48&nbsp; | 3 | 45/0&nbsp; | 16(8), 24(19), 52(21)</option>
+<option value="SF4202|Ç|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF184202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 49&nbsp; | 3 | 51/0&nbsp; | 16(8), 24(19), 52(21)</option>
+<option value="SF4202|È|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF184202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 50&nbsp; | 3 | 48/0&nbsp; | 16(8), 24(19), 52(21)</option>
+<option value="SF4202|É|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF184202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 51&nbsp; | 3 | 47/0&nbsp; | 16(8), 24(18), 52(21)</option>
+<option value="SF4202|Ê|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF184202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 52&nbsp; | 3 | 50/0&nbsp; | 25(33), 37(10), 53(7)</option>
+<option value="SF4202|Ë|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF184202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 53&nbsp; | 3 | 50/0&nbsp; | 25(33), 37(10), 53(7)</option>
+<option value="SF4202|Ì|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF184202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 54&nbsp; | 3 | 50/0&nbsp; | 25(33), 37(9), 53(8)</option>
+<option value="SF4202|Í|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF184202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 55&nbsp; | 3 | 50/0&nbsp; | 25(33), 37(9), 53(8)</option>
+<option value="SF4202|Î|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF184202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 56&nbsp; | 3 | 50/0&nbsp; | 25(33), 37(9), 53(8)</option>
+<option value="SF4202|Ï|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF184202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 57&nbsp; | 3 | 50/0&nbsp; | 25(33), 37(9), 53(8)</option>
+<option value="SF1202|Ñ|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF181202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 59&nbsp; | 3 | 10/0&nbsp; | 31(9)</option>
+<option value="SF4202|Ñ|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF184202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 59&nbsp; | 3 | 41/0&nbsp; | 51(21), 27(18)</option>
+<option value="SF1202|Ò|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF181202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 60&nbsp; | 3 | 7/0&nbsp;&nbsp; | 31(8)</option>
+<option value="SF4202|Ò|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF184202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 60&nbsp; | 3 | 40/0&nbsp; | 27(18), 51(22)</option>
+<option value="SF1202|Ó|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF181202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 61&nbsp; | 3 | 8/0&nbsp;&nbsp; | 31(8)</option>
+<option value="SF4202|Ó|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF184202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 61&nbsp; | 3 | 40/0&nbsp; | 27(18), 51(22)</option>
+<option value="SF1202|Ô|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF181202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 62&nbsp; | 3 | 10/0&nbsp; | 31(9)</option>
+<option value="SF4202|Ô|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF184202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 62&nbsp; | 3 | 40/0&nbsp; | 27(17), 51(21)</option>
+<option value="SF1202|Õ|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF181202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 63&nbsp; | 3 | 9/0&nbsp;&nbsp; | 31(9)</option>
+<option value="SF4202|Õ|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF184202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 63&nbsp; | 3 | 40/0&nbsp; | 51(21), 27(17)</option>
+<option value="SF1202|Ö|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF181202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 64&nbsp; | 3 | 9/0&nbsp;&nbsp; | 31(9)</option>
+<option value="SF4202|Ö|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF184202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 64&nbsp; | 3 | 38/0&nbsp; | 27(17), 51(21)</option>
+<option value="SF4202|Ü|2018|__TPB|0">2018 | SF184202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 70&nbsp; | 3 | 0/5&nbsp;&nbsp; | Semua</option>
+<option value="SF1202|Ü|2018|__TPB|0">2018 | SF181202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 70&nbsp; | 3 | 4/25&nbsp; | 31(25)</option>
+<option value="SF1202|Ð|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF181202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 58&nbsp; | 3 | 8/0&nbsp;&nbsp; | 31(9)</option>
+<option value="SF4202|Ð|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SF184202 | Fisika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 58&nbsp; | 3 | 37/0&nbsp; | 27(18), 51(21)</option>
+<option value="UG4913|—|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184913 | Kewarganegaraan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 1&nbsp;&nbsp; | 2 | 51/0&nbsp; | 11(22), 52(29)</option>
+<option value="UG4913|˜|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184913 | Kewarganegaraan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 2&nbsp;&nbsp; | 2 | 50/0&nbsp; | 11(22), 52(29)</option>
+<option value="UG4913|™|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184913 | Kewarganegaraan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 3&nbsp;&nbsp; | 2 | 51/0&nbsp; | 11(21), 52(30)</option>
+<option value="UG4913|š|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184913 | Kewarganegaraan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 4&nbsp;&nbsp; | 2 | 51/0&nbsp; | 11(21), 52(30)</option>
+<option value="UG4913|›|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184913 | Kewarganegaraan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 5&nbsp;&nbsp; | 2 | 50/0&nbsp; | 11(21), 52(29)</option>
+<option value="UG4913|œ|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184913 | Kewarganegaraan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 6&nbsp;&nbsp; | 2 | 47/0&nbsp; | 14(18), 42(20), 42(9)</option>
+<option value="UG4913||2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184913 | Kewarganegaraan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 7&nbsp;&nbsp; | 2 | 47/0&nbsp; | 14(18), 42(19), 42(10)</option>
+<option value="UG4913|ž|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184913 | Kewarganegaraan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 8&nbsp;&nbsp; | 2 | 47/0&nbsp; | 14(17), 42(20), 42(10)</option>
+<option value="UG4913|Ÿ|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184913 | Kewarganegaraan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 9&nbsp;&nbsp; | 2 | 47/0&nbsp; | 14(17), 42(20), 42(10)</option>
+<option value="UG4913| |2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184913 | Kewarganegaraan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 10&nbsp; | 2 | 45/0&nbsp; | 14(17), 42(20), 42(9)</option>
+<option value="UG4913|¡|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184913 | Kewarganegaraan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 11&nbsp; | 2 | 47/0&nbsp; | 14(17), 42(20), 42(9)</option>
+<option value="UG4913|¢|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184913 | Kewarganegaraan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 12&nbsp; | 2 | 51/0&nbsp; | 15(22), 29(19), 53(12)</option>
+<option value="UG4913|£|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184913 | Kewarganegaraan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 13&nbsp; | 2 | 61/0&nbsp; | 15(22), 29(19), 53(11)</option>
+<option value="UG4913|¤|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184913 | Kewarganegaraan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 14&nbsp; | 2 | 52/0&nbsp; | 15(21), 29(20), 53(11)</option>
+<option value="UG4913|¥|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184913 | Kewarganegaraan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 15&nbsp; | 2 | 45/0&nbsp; | 15(21), 29(19), 53(12)</option>
+<option value="UG4913|¦|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184913 | Kewarganegaraan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 16&nbsp; | 2 | 50/0&nbsp; | 12(22), 41(18), 41(6)</option>
+<option value="UG4913|§|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184913 | Kewarganegaraan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 17&nbsp; | 2 | 45/0&nbsp; | 12(22), 41(18), 41(6)</option>
+<option value="UG4913|¨|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184913 | Kewarganegaraan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 18&nbsp; | 2 | 45/0&nbsp; | 12(22), 41(17), 41(6)</option>
+<option value="UG4913|©|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184913 | Kewarganegaraan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 19&nbsp; | 2 | 45/0&nbsp; | 12(22), 41(17), 41(6)</option>
+<option value="UG4913|ª|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184913 | Kewarganegaraan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 20&nbsp; | 2 | 42/0&nbsp; | 12(22), 41(17), 41(6)</option>
+<option value="UG4913|«|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184913 | Kewarganegaraan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 21&nbsp; | 2 | 45/0&nbsp; | 26(18), 43(31)</option>
+<option value="UG4913|¬|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184913 | Kewarganegaraan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 22&nbsp; | 2 | 53/0&nbsp; | 26(17), 43(32)</option>
+<option value="UG4913|­|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184913 | Kewarganegaraan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 23&nbsp; | 2 | 49/0&nbsp; | 26(17), 43(32)</option>
+<option value="UG4913|®|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184913 | Kewarganegaraan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 24&nbsp; | 2 | 49/0&nbsp; | 26(17), 43(32)</option>
+<option value="UG4913|¯|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184913 | Kewarganegaraan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 25&nbsp; | 2 | 49/0&nbsp; | 22(39), 44(9)</option>
+<option value="UG4913|°|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184913 | Kewarganegaraan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 26&nbsp; | 2 | 48/0&nbsp; | 22(39), 44(9)</option>
+<option value="UG4913|±|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184913 | Kewarganegaraan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 27&nbsp; | 2 | 45/0&nbsp; | 22(39), 44(9)</option>
+<option value="UG4913|²|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184913 | Kewarganegaraan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 28&nbsp; | 2 | 45/0&nbsp; | 22(39), 44(9)</option>
+<option value="UG4913|³|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184913 | Kewarganegaraan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 29&nbsp; | 2 | 50/0&nbsp; | 22(38), 44(10)</option>
+<option value="UG4913|´|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184913 | Kewarganegaraan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 30&nbsp; | 2 | 50/0&nbsp; | 22(38), 44(9)</option>
+<option value="UG1913|µ|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG181913 | Kewarganegaraan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 31&nbsp; | 2 | 12/0&nbsp; | 31(14)</option>
+<option value="UG4913|µ|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184913 | Kewarganegaraan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 31&nbsp; | 2 | 33/0&nbsp; | 51(34)</option>
+<option value="UG1913|¶|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG181913 | Kewarganegaraan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 32&nbsp; | 2 | 13/0&nbsp; | 31(14)</option>
+<option value="UG4913|¶|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184913 | Kewarganegaraan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 32&nbsp; | 2 | 33/0&nbsp; | 51(34)</option>
+<option value="UG1913|·|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG181913 | Kewarganegaraan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 33&nbsp; | 2 | 13/0&nbsp; | 31(14)</option>
+<option value="UG4913|·|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184913 | Kewarganegaraan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 33&nbsp; | 2 | 33/0&nbsp; | 51(34)</option>
+<option value="UG1913|¸|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG181913 | Kewarganegaraan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 34&nbsp; | 2 | 15/0&nbsp; | 31(14)</option>
+<option value="UG4913|¸|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184913 | Kewarganegaraan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 34&nbsp; | 2 | 36/0&nbsp; | 51(34)</option>
+<option value="UG1913|¹|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG181913 | Kewarganegaraan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 35&nbsp; | 2 | 16/0&nbsp; | 31(14)</option>
+<option value="UG4913|¹|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184913 | Kewarganegaraan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 35&nbsp; | 2 | 35/0&nbsp; | 51(34)</option>
+<option value="UG0913|º|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG180913 | Kewarganegaraan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 36&nbsp; | 2 | 38/0&nbsp; | 22(19), 31(19)</option>
+<option value="UG0913|»|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG180913 | Kewarganegaraan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 37&nbsp; | 2 | 38/0&nbsp; | 22(19), 31(19)</option>
+<option value="UG0913|¼|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG180913 | Kewarganegaraan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 38&nbsp; | 2 | 49/0&nbsp; | 21(26), 21(10), 22(13)</option>
+<option value="UG0913|½|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG180913 | Kewarganegaraan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 39&nbsp; | 2 | 48/0&nbsp; | 21(25), 21(11), 22(12)</option>
+<option value="UG0913|¾|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG180913 | Kewarganegaraan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 40&nbsp; | 2 | 48/0&nbsp; | 21(25), 21(11), 22(12)</option>
+<option value="UG4913|¿|2018|__TPB|0">2018 | UG184913 | Kewarganegaraan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 41&nbsp; | 2 | 0/40&nbsp; | 13(30)</option>
+<option value="UG0913|¿|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG180913 | Kewarganegaraan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 41&nbsp; | 2 | 1/1&nbsp;&nbsp; | 31(1)</option>
+<option value="UG4913|À|2018|__TPB|0">2018 | UG184913 | Kewarganegaraan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 42&nbsp; | 2 | 0/40&nbsp; | 13(30)</option>
+<option value="UG4913|Á|2018|__TPB|0">2018 | UG184913 | Kewarganegaraan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 43&nbsp; | 2 | 0/40&nbsp; | 13(30)</option>
+<option value="SK4101|—|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SK184101 | Kimia 1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 1&nbsp;&nbsp; | 3 | 42/0&nbsp; | 26(23), 37(19)</option>
+<option value="SK4101|˜|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SK184101 | Kimia 1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 2&nbsp;&nbsp; | 3 | 42/0&nbsp; | 26(23), 37(19)</option>
+<option value="SK4101|™|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SK184101 | Kimia 1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 3&nbsp;&nbsp; | 3 | 41/0&nbsp; | 26(23), 37(18)</option>
+<option value="SK0101|š|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SK180101 | Kimia 1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 4&nbsp;&nbsp; | 3 | 53/0&nbsp; | 13(30), 22(13), 22(12)</option>
+<option value="SK0101|›|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SK180101 | Kimia 1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 5&nbsp;&nbsp; | 3 | 53/0&nbsp; | 13(30), 22(13), 22(12)</option>
+<option value="SK0101|œ|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SK180101 | Kimia 1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 6&nbsp;&nbsp; | 3 | 59/0&nbsp; | 13(30), 22(12), 22(13)</option>
+<option value="SK4101||2018|__TPB|0" style="background-color:#FC6E6E">2018 | SK184101 | Kimia 1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 7&nbsp;&nbsp; | 3 | 60/0&nbsp; | 22(34), 33(16)</option>
+<option value="SK4101|ž|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SK184101 | Kimia 1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 8&nbsp;&nbsp; | 3 | 45/0&nbsp; | 22(33), 33(17)</option>
+<option value="SK4101|Ÿ|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SK184101 | Kimia 1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 9&nbsp;&nbsp; | 3 | 45/0&nbsp; | 22(33), 33(17)</option>
+<option value="SK4101| |2018|__TPB|0" style="background-color:#FC6E6E">2018 | SK184101 | Kimia 1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 10&nbsp; | 3 | 44/0&nbsp; | 22(33), 33(17)</option>
+<option value="SK4101|¡|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SK184101 | Kimia 1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 11&nbsp; | 3 | 56/0&nbsp; | 22(33), 33(17)</option>
+<option value="SK4101|¢|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SK184101 | Kimia 1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 12&nbsp; | 3 | 55/0&nbsp; | 22(33), 33(17)</option>
+<option value="SK4101|£|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SK184101 | Kimia 1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 13&nbsp; | 3 | 44/0&nbsp; | 22(33), 33(16)</option>
+<option value="SK4101|¤|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SK184101 | Kimia 1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 14&nbsp; | 3 | 48/0&nbsp; | 29(11), 31(22), 35(14)</option>
+<option value="SK4101|¥|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SK184101 | Kimia 1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 15&nbsp; | 3 | 45/0&nbsp; | 29(11), 31(22), 35(13)</option>
+<option value="SK4101|¦|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SK184101 | Kimia 1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 16&nbsp; | 3 | 45/0&nbsp; | 29(11), 31(22), 35(13)</option>
+<option value="SK4101|§|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SK184101 | Kimia 1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 17&nbsp; | 3 | 50/0&nbsp; | 29(11), 31(22), 35(13)</option>
+<option value="SK4101|¨|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SK184101 | Kimia 1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 18&nbsp; | 3 | 45/0&nbsp; | 29(11), 31(22), 35(13)</option>
+<option value="SK4101|©|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SK184101 | Kimia 1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 19&nbsp; | 3 | 42/0&nbsp; | 29(11), 31(22), 35(13)</option>
+<option value="SK4101|ª|2018|__TPB|0" style="background-color:#FC6E6E">2018 | SK184101 | Kimia 1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 20&nbsp; | 3 | 48/0&nbsp; | 29(11), 31(21), 35(14)</option>
+<option value="SK4101|«|2018|__TPB|0">2018 | SK184101 | Kimia 1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 21&nbsp; | 3 | 0/10&nbsp; | Semua</option>
+<option value="SK1101|«|2018|__TPB|0">2018 | SK181101 | Kimia 1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 21&nbsp; | 3 | 0/30&nbsp; | 31(30)</option>
+<option value="SK0101|­|2018|__TPB|0">2018 | SK180101 | Kimia 1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 23&nbsp; | 3 | 2/40&nbsp; | 31(30)</option>
+<option value="KM4151|—|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM184151 | Matematika 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 1&nbsp;&nbsp; | 3 | 42/0&nbsp; | 36(11), 38(7), 39(7), 32(11), 34(8)</option>
+<option value="KM4151|˜|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM184151 | Matematika 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 2&nbsp;&nbsp; | 3 | 45/0&nbsp; | 32(11), 34(8), 36(11), 38(7), 39(6)</option>
+<option value="KM4151|™|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM184151 | Matematika 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 3&nbsp;&nbsp; | 3 | 42/0&nbsp; | 32(11), 34(8), 36(11), 38(7), 39(6)</option>
+<option value="KM4151|š|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM184151 | Matematika 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 4&nbsp;&nbsp; | 3 | 43/0&nbsp; | 32(11), 34(8), 36(11), 38(7), 39(6)</option>
+<option value="KM4151|›|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM184151 | Matematika 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 5&nbsp;&nbsp; | 3 | 47/0&nbsp; | 32(11), 34(8), 36(11), 38(7), 39(6)</option>
+<option value="KM4151|œ|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM184151 | Matematika 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 6&nbsp;&nbsp; | 3 | 42/0&nbsp; | 32(11), 34(8), 36(10), 38(8), 39(6)</option>
+<option value="KM4151||2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM184151 | Matematika 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 7&nbsp;&nbsp; | 3 | 42/0&nbsp; | 32(11), 34(7), 36(11), 38(8), 39(6)</option>
+<option value="KM4151|ž|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM184151 | Matematika 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 8&nbsp;&nbsp; | 3 | 43/0&nbsp; | 32(10), 34(8), 36(11), 38(8), 39(6)</option>
+<option value="KM4151|Ÿ|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM184151 | Matematika 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 9&nbsp;&nbsp; | 3 | 42/0&nbsp; | 32(10), 34(8), 36(11), 38(8), 39(6)</option>
+<option value="KM4101|Ø|2018|__TPB|0">2018 | KM184101 | Matematika 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 66&nbsp; | 3 | 0/10&nbsp; | Semua</option>
+<option value="KM1101|Ø|2018|__TPB|0">2018 | KM181101 | Matematika 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 66&nbsp; | 3 | 0/5&nbsp;&nbsp; | 31(5)</option>
+<option value="KM4151|Ú|2018|__TPB|0">2018 | KM184151 | Matematika 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 68&nbsp; | 3 | 0/5&nbsp;&nbsp; | Semua</option>
+<option value="KM4152|Û|2018|__TPB|0">2018 | KM184152 | Matematika 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 69&nbsp; | 2 | 0/5&nbsp;&nbsp; | 28(5)</option>
+<option value="KM0153|Ü|2018|__TPB|0">2018 | KM180153 | Matematika 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 70&nbsp; | 3 | 0/5&nbsp;&nbsp; | Semua</option>
+<option value="KM4201|—|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 1&nbsp;&nbsp; | 3 | 47/0&nbsp; | 11(11), 22(23), 33(12)</option>
+<option value="KM4201|˜|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 2&nbsp;&nbsp; | 3 | 44/0&nbsp; | 11(11), 22(23), 33(12)</option>
+<option value="KM4201|™|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 3&nbsp;&nbsp; | 3 | 46/0&nbsp; | 11(11), 22(23), 33(12)</option>
+<option value="KM4201|š|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 4&nbsp;&nbsp; | 3 | 46/0&nbsp; | 11(11), 22(23), 33(12)</option>
+<option value="KM4201|›|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 5&nbsp;&nbsp; | 3 | 46/0&nbsp; | 11(11), 22(23), 33(12)</option>
+<option value="KM4201|œ|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 6&nbsp;&nbsp; | 3 | 44/0&nbsp; | 11(11), 22(23), 33(12)</option>
+<option value="KM4201||2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 7&nbsp;&nbsp; | 3 | 47/0&nbsp; | 11(11), 22(23), 33(12)</option>
+<option value="KM4201|ž|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 8&nbsp;&nbsp; | 3 | 45/0&nbsp; | 11(10), 22(24), 33(11)</option>
+<option value="KM4201|Ÿ|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 9&nbsp;&nbsp; | 3 | 45/0&nbsp; | 11(10), 22(24), 33(11)</option>
+<option value="KM4201| |2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 10&nbsp; | 3 | 45/0&nbsp; | 11(10), 22(24), 33(11)</option>
+<option value="KM4201|¡|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 11&nbsp; | 3 | 50/0&nbsp; | 14(13), 26(9), 35(12), 43(16)</option>
+<option value="KM4201|¢|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 12&nbsp; | 3 | 49/0&nbsp; | 14(13), 26(9), 35(12), 43(15)</option>
+<option value="KM4201|£|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 13&nbsp; | 3 | 49/0&nbsp; | 14(13), 26(9), 35(11), 43(16)</option>
+<option value="KM4201|¤|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 14&nbsp; | 3 | 49/0&nbsp; | 14(13), 26(9), 35(11), 43(16)</option>
+<option value="KM4201|¥|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 15&nbsp; | 3 | 49/0&nbsp; | 14(13), 26(9), 35(11), 43(16)</option>
+<option value="KM4201|¦|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 16&nbsp; | 3 | 49/0&nbsp; | 14(13), 26(8), 35(12), 43(16)</option>
+<option value="KM4201|§|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 17&nbsp; | 3 | 49/0&nbsp; | 14(13), 26(8), 35(12), 43(16)</option>
+<option value="KM4201|¨|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 18&nbsp; | 3 | 49/0&nbsp; | 14(13), 26(8), 35(12), 43(16)</option>
+<option value="KM4201|©|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 19&nbsp; | 3 | 52/0&nbsp; | 15(11), 29(10), 31(19), 44(7)</option>
+<option value="KM4201|ª|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 20&nbsp; | 3 | 42/0&nbsp; | 15(11), 29(10), 31(19), 44(7)</option>
+<option value="KM4201|«|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 21&nbsp; | 3 | 45/0&nbsp; | 15(11), 29(10), 31(19), 44(7)</option>
+<option value="KM4201|¬|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 22&nbsp; | 3 | 48/0&nbsp; | 15(11), 29(9), 31(20), 44(6)</option>
+<option value="KM4201|­|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 23&nbsp; | 3 | 46/0&nbsp; | 15(11), 29(9), 31(19), 44(7)</option>
+<option value="KM4201|®|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 24&nbsp; | 3 | 42/0&nbsp; | 15(11), 29(9), 31(19), 44(7)</option>
+<option value="KM4201|¯|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 25&nbsp; | 3 | 54/0&nbsp; | 15(10), 29(10), 31(19), 44(7)</option>
+<option value="KM4201|°|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 26&nbsp; | 3 | 42/0&nbsp; | 15(10), 29(10), 31(19), 44(7)</option>
+<option value="KM4201|±|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 27&nbsp; | 3 | 47/0&nbsp; | 12(13), 21(21), 41(9), 41(4)</option>
+<option value="KM4201|²|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 28&nbsp; | 3 | 48/0&nbsp; | 12(13), 21(20), 41(10), 41(3)</option>
+<option value="KM4201|³|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 29&nbsp; | 3 | 48/0&nbsp; | 12(12), 21(21), 41(10), 41(3)</option>
+<option value="KM4201|´|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 30&nbsp; | 3 | 48/0&nbsp; | 12(12), 21(21), 41(10), 41(3)</option>
+<option value="KM4201|µ|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 31&nbsp; | 3 | 46/0&nbsp; | 12(12), 21(21), 41(10), 41(3)</option>
+<option value="KM4201|¶|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 32&nbsp; | 3 | 42/0&nbsp; | 12(12), 21(21), 41(10), 41(3)</option>
+<option value="KM4201|·|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 33&nbsp; | 3 | 46/0&nbsp; | 12(12), 21(21), 41(10), 41(3)</option>
+<option value="KM4201|¸|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 34&nbsp; | 3 | 46/0&nbsp; | 12(12), 21(21), 41(9), 41(4)</option>
+<option value="KM4201|¹|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 35&nbsp; | 3 | 44/0&nbsp; | 12(12), 21(21), 41(9), 41(4)</option>
+<option value="KM4201|º|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 36&nbsp; | 3 | 51/0&nbsp; | 13(12), 23(16), 42(13), 42(7)</option>
+<option value="KM4201|»|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 37&nbsp; | 3 | 51/0&nbsp; | 13(12), 23(16), 42(13), 42(7)</option>
+<option value="KM4201|¼|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 38&nbsp; | 3 | 41/0&nbsp; | 13(12), 23(16), 42(13), 42(7)</option>
+<option value="KM4201|½|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 39&nbsp; | 3 | 45/0&nbsp; | 13(12), 23(16), 42(13), 42(6)</option>
+<option value="KM4201|¾|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 40&nbsp; | 3 | 52/0&nbsp; | 13(11), 23(17), 42(13), 42(6)</option>
+<option value="KM4201|¿|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 41&nbsp; | 3 | 52/0&nbsp; | 13(11), 23(17), 42(13), 42(6)</option>
+<option value="KM1201|×|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM181201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 65&nbsp; | 3 | 8/0&nbsp;&nbsp; | 31(9)</option>
+<option value="KM4201|×|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 65&nbsp; | 3 | 34/0&nbsp; | 27(17), 51(21)</option>
+<option value="KM4201|À|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 42&nbsp; | 3 | 49/0&nbsp; | 13(11), 23(17), 42(13), 42(6)</option>
+<option value="KM4201|Á|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 43&nbsp; | 3 | 42/0&nbsp; | 13(11), 23(16), 42(14), 42(6)</option>
+<option value="KM4201|Â|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 44&nbsp; | 3 | 42/0&nbsp; | 13(11), 23(16), 42(14), 42(6)</option>
+<option value="KM4201|Ã|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 45&nbsp; | 3 | 53/0&nbsp; | 16(9), 24(18), 52(21)</option>
+<option value="KM4201|Ä|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 46&nbsp; | 3 | 54/0&nbsp; | 16(8), 24(19), 52(21)</option>
+<option value="KM4201|Å|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 47&nbsp; | 3 | 42/0&nbsp; | 16(8), 24(19), 52(21)</option>
+<option value="KM4201|Æ|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 48&nbsp; | 3 | 45/0&nbsp; | 16(8), 24(19), 52(21)</option>
+<option value="KM4201|Ç|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 49&nbsp; | 3 | 54/0&nbsp; | 16(8), 24(19), 52(21)</option>
+<option value="KM4201|È|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 50&nbsp; | 3 | 42/0&nbsp; | 16(8), 24(19), 52(21)</option>
+<option value="KM4201|É|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 51&nbsp; | 3 | 45/0&nbsp; | 16(8), 24(18), 52(21)</option>
+<option value="KM4201|Ê|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 52&nbsp; | 3 | 57/0&nbsp; | 25(33), 37(10), 53(7)</option>
+<option value="KM4201|Ë|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 53&nbsp; | 3 | 57/0&nbsp; | 25(33), 37(10), 53(7)</option>
+<option value="KM4201|Ì|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 54&nbsp; | 3 | 42/0&nbsp; | 25(33), 37(9), 53(8)</option>
+<option value="KM4201|Í|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 55&nbsp; | 3 | 45/0&nbsp; | 25(33), 37(9), 53(8)</option>
+<option value="KM4201|Î|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 56&nbsp; | 3 | 57/0&nbsp; | 25(33), 37(9), 53(8)</option>
+<option value="KM4201|Ï|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 57&nbsp; | 3 | 42/0&nbsp; | 25(33), 37(9), 53(8)</option>
+<option value="KM1201|Ñ|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM181201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 59&nbsp; | 3 | 7/0&nbsp;&nbsp; | 31(9)</option>
+<option value="KM4201|Ñ|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 59&nbsp; | 3 | 35/0&nbsp; | 27(18), 51(21)</option>
+<option value="KM1201|Ò|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM181201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 60&nbsp; | 3 | 9/0&nbsp;&nbsp; | 31(8)</option>
+<option value="KM4201|Ò|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 60&nbsp; | 3 | 48/0&nbsp; | 27(18), 51(22)</option>
+<option value="KM1201|Ó|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM181201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 61&nbsp; | 3 | 8/0&nbsp;&nbsp; | 31(8)</option>
+<option value="KM4201|Ó|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 61&nbsp; | 3 | 40/0&nbsp; | 27(18), 51(22)</option>
+<option value="KM1201|Ô|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM181201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 62&nbsp; | 3 | 8/0&nbsp;&nbsp; | 31(9)</option>
+<option value="KM4201|Ô|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 62&nbsp; | 3 | 34/0&nbsp; | 27(17), 51(21)</option>
+<option value="KM1201|Õ|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM181201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 63&nbsp; | 3 | 8/0&nbsp;&nbsp; | 31(9)</option>
+<option value="KM4201|Õ|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 63&nbsp; | 3 | 34/0&nbsp; | 27(17), 51(21)</option>
+<option value="KM1201|Ö|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM181201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 64&nbsp; | 3 | 9/0&nbsp;&nbsp; | 31(9)</option>
+<option value="KM4201|Ö|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 64&nbsp; | 3 | 38/0&nbsp; | 27(17), 51(21)</option>
+<option value="KM1201|Ý|2018|__TPB|0">2018 | KM181201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 71&nbsp; | 3 | 2/27&nbsp; | 31(27)</option>
+<option value="KM4201|Ý|2018|__TPB|0">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 71&nbsp; | 3 | 0/10&nbsp; | Semua</option>
+<option value="KM1201|Ð|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM181201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 58&nbsp; | 3 | 12/0&nbsp; | 31(9)</option>
+<option value="KM4201|Ð|2018|__TPB|0" style="background-color:#FC6E6E">2018 | KM184201 | Matematika 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 58&nbsp; | 3 | 47/0&nbsp; | 27(18), 51(21)</option>
+<option value="UG4911|—|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184911 | Pancasila&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 1&nbsp;&nbsp; | 2 | 51/0&nbsp; | 21(38), 38(13)</option>
+<option value="UG4911|˜|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184911 | Pancasila&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 2&nbsp;&nbsp; | 2 | 51/0&nbsp; | 21(38), 38(13)</option>
+<option value="UG4911|™|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184911 | Pancasila&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 3&nbsp;&nbsp; | 2 | 51/0&nbsp; | 21(38), 38(13)</option>
+<option value="UG4911|š|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184911 | Pancasila&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 4&nbsp;&nbsp; | 2 | 51/0&nbsp; | 21(37), 38(14)</option>
+<option value="UG4911|›|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184911 | Pancasila&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 5&nbsp;&nbsp; | 2 | 51/0&nbsp; | 21(37), 38(14)</option>
+<option value="UG4911|œ|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184911 | Pancasila&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 6&nbsp;&nbsp; | 2 | 51/0&nbsp; | 31(25), 23(25)</option>
+<option value="UG4911||2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184911 | Pancasila&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 7&nbsp;&nbsp; | 2 | 51/0&nbsp; | 23(25), 31(25)</option>
+<option value="UG4911|ž|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184911 | Pancasila&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 8&nbsp;&nbsp; | 2 | 51/0&nbsp; | 23(25), 31(25)</option>
+<option value="UG4911|Ÿ|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184911 | Pancasila&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 9&nbsp;&nbsp; | 2 | 51/0&nbsp; | 23(24), 31(26)</option>
+<option value="UG4911| |2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184911 | Pancasila&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 10&nbsp; | 2 | 51/0&nbsp; | 23(24), 31(26)</option>
+<option value="UG4911|¡|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184911 | Pancasila&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 11&nbsp; | 2 | 51/0&nbsp; | 23(24), 31(26)</option>
+<option value="UG4911|¢|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184911 | Pancasila&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 12&nbsp; | 2 | 51/0&nbsp; | 24(22), 28(25)</option>
+<option value="UG4911|£|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184911 | Pancasila&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 13&nbsp; | 2 | 51/0&nbsp; | 24(22), 28(25)</option>
+<option value="UG4911|¤|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184911 | Pancasila&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 14&nbsp; | 2 | 51/0&nbsp; | 24(22), 28(25)</option>
+<option value="UG4911|¥|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184911 | Pancasila&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 15&nbsp; | 2 | 51/0&nbsp; | 24(22), 28(24)</option>
+<option value="UG4911|¦|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184911 | Pancasila&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 16&nbsp; | 2 | 51/0&nbsp; | 24(22), 28(24)</option>
+<option value="UG4911|§|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184911 | Pancasila&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 17&nbsp; | 2 | 51/0&nbsp; | 24(21), 28(25)</option>
+<option value="UG4911|¨|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184911 | Pancasila&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 18&nbsp; | 2 | 51/0&nbsp; | 25(40), 37(11)</option>
+<option value="UG4911|©|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184911 | Pancasila&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 19&nbsp; | 2 | 51/0&nbsp; | 25(40), 37(11)</option>
+<option value="UG4911|ª|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184911 | Pancasila&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 20&nbsp; | 2 | 51/0&nbsp; | 25(40), 37(11)</option>
+<option value="UG4911|«|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184911 | Pancasila&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 21&nbsp; | 2 | 51/0&nbsp; | 25(39), 37(12)</option>
+<option value="UG4911|¬|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184911 | Pancasila&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 22&nbsp; | 2 | 51/0&nbsp; | 25(39), 37(11)</option>
+<option value="UG4911|­|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184911 | Pancasila&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 23&nbsp; | 2 | 51/0&nbsp; | 27(28), 32(20)</option>
+<option value="UG4911|®|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184911 | Pancasila&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 24&nbsp; | 2 | 51/0&nbsp; | 27(28), 32(20)</option>
+<option value="UG4911|¯|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184911 | Pancasila&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 25&nbsp; | 2 | 51/0&nbsp; | 27(28), 32(19)</option>
+<option value="UG4911|°|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184911 | Pancasila&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 26&nbsp; | 2 | 51/0&nbsp; | 27(28), 32(19)</option>
+<option value="UG4911|±|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184911 | Pancasila&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 27&nbsp; | 2 | 51/0&nbsp; | 27(28), 32(19)</option>
+<option value="UG4911|²|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184911 | Pancasila&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 28&nbsp; | 2 | 51/0&nbsp; | 33(30), 36(24)</option>
+<option value="UG4911|³|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184911 | Pancasila&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 29&nbsp; | 2 | 51/0&nbsp; | 33(29), 36(25)</option>
+<option value="UG4911|´|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184911 | Pancasila&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 30&nbsp; | 2 | 51/0&nbsp; | 33(29), 36(25)</option>
+<option value="UG4911|µ|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184911 | Pancasila&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 31&nbsp; | 2 | 51/0&nbsp; | 33(29), 36(24)</option>
+<option value="UG4911|¶|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184911 | Pancasila&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 32&nbsp; | 2 | 51/0&nbsp; | 34(15), 35(18), 39(11)</option>
+<option value="UG4911|·|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184911 | Pancasila&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 33&nbsp; | 2 | 51/0&nbsp; | 34(14), 35(19), 39(11)</option>
+<option value="UG4911|¸|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184911 | Pancasila&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 34&nbsp; | 2 | 51/0&nbsp; | 34(14), 35(19), 39(11)</option>
+<option value="UG4911|¹|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184911 | Pancasila&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 35&nbsp; | 2 | 51/0&nbsp; | 34(14), 35(19), 39(11)</option>
+<option value="UG4911|º|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184911 | Pancasila&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 36&nbsp; | 2 | 51/0&nbsp; | 34(14), 35(18), 39(11)</option>
+<option value="UG0911|»|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG180911 | Pancasila&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 37&nbsp; | 2 | 44/0&nbsp; | 23(22), 24(22)</option>
+<option value="UG0911|¼|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG180911 | Pancasila&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 38&nbsp; | 2 | 44/0&nbsp; | 23(22), 24(22)</option>
+<option value="UG0911|½|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG180911 | Pancasila&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 39&nbsp; | 2 | 43/0&nbsp; | 23(22), 24(21)</option>
+<option value="UG0911|¾|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG180911 | Pancasila&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 40&nbsp; | 2 | 43/0&nbsp; | 23(22), 24(21)</option>
+<option value="UG0911|¿|2018|__TPB|0">2018 | UG180911 | Pancasila&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 41&nbsp; | 2 | 0/40&nbsp; | 13(30), 31(1)</option>
+<option value="UG0911|À|2018|__TPB|0">2018 | UG180911 | Pancasila&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 42&nbsp; | 2 | -2/40 | 13(30)</option>
+<option value="UG4915|—|2018|__TPB|0">2018 | UG184915 | Teknopreneur&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 1&nbsp;&nbsp; | 2 | 30/45 | 21(26), 44(7), 29(7)</option>
+<option value="UG4915|˜|2018|__TPB|0">2018 | UG184915 | Teknopreneur&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 2&nbsp;&nbsp; | 2 | 13/45 | 21(26), 44(7), 29(7)</option>
+<option value="UG4915|™|2018|__TPB|0">2018 | UG184915 | Teknopreneur&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 3&nbsp;&nbsp; | 2 | 31/45 | 44(7), 21(26), 29(7)</option>
+<option value="UG4915|š|2018|__TPB|0">2018 | UG184915 | Teknopreneur&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 4&nbsp;&nbsp; | 2 | 18/50 | 21(27), 44(9), 29(9)</option>
+<option value="UG4915|›|2018|__TPB|0">2018 | UG184915 | Teknopreneur&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 5&nbsp;&nbsp; | 2 | 2/45&nbsp; | 44(7), 29(7), 21(26)</option>
+<option value="UG4915|œ|2018|__TPB|0">2018 | UG184915 | Teknopreneur&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 6&nbsp;&nbsp; | 2 | 3/45&nbsp; | 21(26), 29(7), 44(7)</option>
+<option value="UG4915||2018|__TPB|0">2018 | UG184915 | Teknopreneur&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 7&nbsp;&nbsp; | 2 | 37/40 | 23(35)</option>
+<option value="UG1915||2018|__TPB|0">2018 | UG181915 | Teknopreneur&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 7&nbsp;&nbsp; | 2 | 5/20&nbsp; | 31(20)</option>
+<option value="UG4915|ž|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184915 | Teknopreneur&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 8&nbsp;&nbsp; | 2 | 28/28 | 23(23)</option>
+<option value="UG1915|ž|2018|__TPB|0">2018 | UG181915 | Teknopreneur&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 8&nbsp;&nbsp; | 2 | -3/17 | 31(17)</option>
+<option value="UG4915|Ÿ|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG184915 | Teknopreneur&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 9&nbsp;&nbsp; | 2 | 28/28 | 23(23)</option>
+<option value="UG1915|Ÿ|2018|__TPB|0">2018 | UG181915 | Teknopreneur&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 9&nbsp;&nbsp; | 2 | -4/17 | 31(17)</option>
+<option value="UG4915| |2018|__TPB|0">2018 | UG184915 | Teknopreneur&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 10&nbsp; | 2 | 23/28 | 23(23)</option>
+<option value="UG1915| |2018|__TPB|0">2018 | UG181915 | Teknopreneur&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 10&nbsp; | 2 | 0/17&nbsp; | 31(17)</option>
+<option value="UG4915|¡|2018|__TPB|0">2018 | UG184915 | Teknopreneur&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 11&nbsp; | 2 | 12/25 | 23(20)</option>
+<option value="UG1915|¡|2018|__TPB|0">2018 | UG181915 | Teknopreneur&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 11&nbsp; | 2 | 0/15&nbsp; | 31(15)</option>
+<option value="UG4915|¢|2018|__TPB|0">2018 | UG184915 | Teknopreneur&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 12&nbsp; | 2 | 13/50 | 25(20), 41(17), 26(8)</option>
+<option value="UG4915|£|2018|__TPB|0">2018 | UG184915 | Teknopreneur&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 13&nbsp; | 2 | 13/40 | 25(16), 41(13), 26(6)</option>
+<option value="UG4915|¤|2018|__TPB|0">2018 | UG184915 | Teknopreneur&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 14&nbsp; | 2 | 12/45 | 26(7), 25(18), 41(15)</option>
+<option value="UG4915|¥|2018|__TPB|0">2018 | UG184915 | Teknopreneur&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 15&nbsp; | 2 | 1/50&nbsp; | 25(20), 41(17), 26(8)</option>
+<option value="UG4915|¦|2018|__TPB|0">2018 | UG184915 | Teknopreneur&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 16&nbsp; | 2 | 11/45 | 25(18), 26(7), 41(15)</option>
+<option value="UG4915|§|2018|__TPB|0">2018 | UG184915 | Teknopreneur&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 17&nbsp; | 2 | 3/45&nbsp; | 25(18), 41(15), 26(7)</option>
+<option value="UG4915|¨|2018|__TPB|0">2018 | UG184915 | Teknopreneur&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 18&nbsp; | 2 | 4/45&nbsp; | 22(22), 27(18)</option>
+<option value="UG4915|©|2018|__TPB|0">2018 | UG184915 | Teknopreneur&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 19&nbsp; | 2 | 6/50&nbsp; | 22(25), 27(20)</option>
+<option value="UG4915|ª|2018|__TPB|0">2018 | UG184915 | Teknopreneur&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 20&nbsp; | 2 | 0/50&nbsp; | 27(20), 22(25)</option>
+<option value="UG4915|«|2018|__TPB|0">2018 | UG184915 | Teknopreneur&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 21&nbsp; | 2 | 22/45 | 27(18), 22(22)</option>
+<option value="UG4915|¬|2018|__TPB|0">2018 | UG184915 | Teknopreneur&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 22&nbsp; | 2 | 16/45 | 27(18), 22(22)</option>
+<option value="UG4915|­|2018|__TPB|0">2018 | UG184915 | Teknopreneur&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 23&nbsp; | 2 | 4/45&nbsp; | 27(18), 22(22)</option>
+<option value="UG4915|®|2018|__TPB|0">2018 | UG184915 | Teknopreneur&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 24&nbsp; | 2 | 18/40 | 28(16), 43(19)</option>
+<option value="UG4915|¯|2018|__TPB|0">2018 | UG184915 | Teknopreneur&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 25&nbsp; | 2 | 23/50 | 28(20), 43(25)</option>
+<option value="UG4915|°|2018|__TPB|0">2018 | UG184915 | Teknopreneur&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 26&nbsp; | 2 | 26/40 | 28(16), 43(19)</option>
+<option value="UG4915|±|2018|__TPB|0">2018 | UG184915 | Teknopreneur&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 27&nbsp; | 2 | 20/50 | 43(25), 28(20)</option>
+<option value="UG4915|²|2018|__TPB|0">2018 | UG184915 | Teknopreneur&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 28&nbsp; | 2 | 2/45&nbsp; | 43(19), 28(16)</option>
+<option value="UG0915|³|2018|__TPB|0">2018 | UG180915 | Teknopreneur&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 29&nbsp; | 2 | 0/50&nbsp; | 21(9), 22(9), 31(27)</option>
+<option value="UG0915|´|2018|__TPB|0">2018 | UG180915 | Teknopreneur&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 30&nbsp; | 2 | 0/50&nbsp; | 31(27), 21(9), 22(9)</option>
+<option value="UG0915|µ|2018|__TPB|0">2018 | UG180915 | Teknopreneur&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 31&nbsp; | 2 | 0/49&nbsp; | 22(9), 31(27), 21(9)</option>
+<option value="UG0915|¶|2018|__TPB|0">2018 | UG180915 | Teknopreneur&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 32&nbsp; | 2 | 0/40&nbsp; | 22(6), 31(23), 21(6)</option>
+<option value="UG0915|·|2018|__TPB|0">2018 | UG180915 | Teknopreneur&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 33&nbsp; | 2 | 0/45&nbsp; | 21(8), 22(8), 31(24)</option>
+<option value="UG0915|¸|2018|__TPB|0">2018 | UG180915 | Teknopreneur&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 34&nbsp; | 2 | 5/45&nbsp; | 21(16), 22(13), 24(11)</option>
+<option value="UG0915|¹|2018|__TPB|0">2018 | UG180915 | Teknopreneur&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 35&nbsp; | 2 | 5/45&nbsp; | 22(12), 21(16), 24(12)</option>
+<option value="UG0915|º|2018|__TPB|0">2018 | UG180915 | Teknopreneur&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 36&nbsp; | 2 | 6/40&nbsp; | 21(14), 22(11), 24(10)</option>
+<option value="UG0915|»|2018|__TPB|0">2018 | UG180915 | Teknopreneur&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 37&nbsp; | 2 | 3/45&nbsp; | 24(11), 21(17), 22(12)</option>
+<option value="UG0915|¼|2018|__TPB|0">2018 | UG180915 | Teknopreneur&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 38&nbsp; | 2 | 0/60&nbsp; | 22(18), 24(16), 21(21)</option>
+<option value="UG4915|½|2018|__TPB|0">2018 | UG184915 | Teknopreneur&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 39&nbsp; | 2 | 8/11&nbsp; | 23(11)</option>
+<option value="UG1915|½|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG181915 | Teknopreneur&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 39&nbsp; | 2 | 1/1&nbsp;&nbsp; | 31(1)</option>
+<option value="UG0915|½|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG180915 | Teknopreneur&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 39&nbsp; | 2 | 30/30 | 31(30)</option>
+<option value="UG4915|¾|2018|__TPB|0">2018 | UG184915 | Teknopreneur&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 40&nbsp; | 2 | 6/11&nbsp; | 23(11)</option>
+<option value="UG0915|¾|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG180915 | Teknopreneur&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 40&nbsp; | 2 | 31/31 | 31(31)</option>
+<option value="UG4916|—|2018|__TPB|0">2018 | UG184916 | Wawasan dan Aplikasi Teknologi &nbsp;&nbsp;&nbsp;&nbsp; | 1&nbsp;&nbsp; | 3 | 22/45 | 11(11), 37(7), 51(22)</option>
+<option value="UG4916|˜|2018|__TPB|0">2018 | UG184916 | Wawasan dan Aplikasi Teknologi &nbsp;&nbsp;&nbsp;&nbsp; | 2&nbsp;&nbsp; | 3 | 22/45 | 37(7), 51(22), 11(11)</option>
+<option value="UG4916|™|2018|__TPB|0">2018 | UG184916 | Wawasan dan Aplikasi Teknologi &nbsp;&nbsp;&nbsp;&nbsp; | 3&nbsp;&nbsp; | 3 | 13/30 | 11(9), 51(11), 37(5)</option>
+<option value="UG4916|š|2018|__TPB|0">2018 | UG184916 | Wawasan dan Aplikasi Teknologi &nbsp;&nbsp;&nbsp;&nbsp; | 4&nbsp;&nbsp; | 3 | 11/45 | 11(11), 37(7), 51(22)</option>
+<option value="UG4916|›|2018|__TPB|0">2018 | UG184916 | Wawasan dan Aplikasi Teknologi &nbsp;&nbsp;&nbsp;&nbsp; | 5&nbsp;&nbsp; | 3 | 10/40 | 37(5), 11(10), 51(20)</option>
+<option value="UG4916|œ|2018|__TPB|0">2018 | UG184916 | Wawasan dan Aplikasi Teknologi &nbsp;&nbsp;&nbsp;&nbsp; | 6&nbsp;&nbsp; | 3 | 0/50&nbsp; | 11(13), 51(24), 37(8)</option>
+<option value="UG4916||2018|__TPB|0">2018 | UG184916 | Wawasan dan Aplikasi Teknologi &nbsp;&nbsp;&nbsp;&nbsp; | 7&nbsp;&nbsp; | 3 | 0/40&nbsp; | 37(5), 11(10), 51(20)</option>
+<option value="UG4916|ž|2018|__TPB|0">2018 | UG184916 | Wawasan dan Aplikasi Teknologi &nbsp;&nbsp;&nbsp;&nbsp; | 8&nbsp;&nbsp; | 3 | 3/45&nbsp; | 29(8), 34(16), 14(16)</option>
+<option value="UG4916|Ÿ|2018|__TPB|0">2018 | UG184916 | Wawasan dan Aplikasi Teknologi &nbsp;&nbsp;&nbsp;&nbsp; | 9&nbsp;&nbsp; | 3 | 0/45&nbsp; | 34(15), 29(9), 14(16)</option>
+<option value="UG4916| |2018|__TPB|0">2018 | UG184916 | Wawasan dan Aplikasi Teknologi &nbsp;&nbsp;&nbsp;&nbsp; | 10&nbsp; | 3 | 1/45&nbsp; | 14(17), 29(8), 34(15)</option>
+<option value="UG4916|¡|2018|__TPB|0">2018 | UG184916 | Wawasan dan Aplikasi Teknologi &nbsp;&nbsp;&nbsp;&nbsp; | 11&nbsp; | 3 | 0/60&nbsp; | 34(20), 14(21), 29(14)</option>
+<option value="UG4916|¢|2018|__TPB|0">2018 | UG184916 | Wawasan dan Aplikasi Teknologi &nbsp;&nbsp;&nbsp;&nbsp; | 12&nbsp; | 3 | 0/50&nbsp; | 14(18), 29(10), 34(17)</option>
+<option value="UG4916|£|2018|__TPB|0">2018 | UG184916 | Wawasan dan Aplikasi Teknologi &nbsp;&nbsp;&nbsp;&nbsp; | 13&nbsp; | 3 | 1/50&nbsp; | 36(20), 52(25), 53(0)</option>
+<option value="UG4916|¤|2018|__TPB|0">2018 | UG184916 | Wawasan dan Aplikasi Teknologi &nbsp;&nbsp;&nbsp;&nbsp; | 14&nbsp; | 3 | 0/50&nbsp; | 52(25), 36(20), 53(0)</option>
+<option value="UG4916|¥|2018|__TPB|0">2018 | UG184916 | Wawasan dan Aplikasi Teknologi &nbsp;&nbsp;&nbsp;&nbsp; | 15&nbsp; | 3 | 0/45&nbsp; | 53(0), 52(23), 36(17)</option>
+<option value="UG4916|¦|2018|__TPB|0">2018 | UG184916 | Wawasan dan Aplikasi Teknologi &nbsp;&nbsp;&nbsp;&nbsp; | 16&nbsp; | 3 | 0/55&nbsp; | 52(27), 53(0), 36(23)</option>
+<option value="UG4916|§|2018|__TPB|0">2018 | UG184916 | Wawasan dan Aplikasi Teknologi &nbsp;&nbsp;&nbsp;&nbsp; | 17&nbsp; | 3 | 0/50&nbsp; | 36(20), 52(25), 53(0)</option>
+<option value="UG4916|¨|2018|__TPB|0">2018 | UG184916 | Wawasan dan Aplikasi Teknologi &nbsp;&nbsp;&nbsp;&nbsp; | 18&nbsp; | 3 | 21/50 | 12(20), 31(25)</option>
+<option value="UG4916|©|2018|__TPB|0">2018 | UG184916 | Wawasan dan Aplikasi Teknologi &nbsp;&nbsp;&nbsp;&nbsp; | 19&nbsp; | 3 | -21/50 | 31(25), 12(20)</option>
+<option value="UG4916|ª|2018|__TPB|0">2018 | UG184916 | Wawasan dan Aplikasi Teknologi &nbsp;&nbsp;&nbsp;&nbsp; | 20&nbsp; | 3 | 24/45 | 12(17), 31(23)</option>
+<option value="UG4916|«|2018|__TPB|0">2018 | UG184916 | Wawasan dan Aplikasi Teknologi &nbsp;&nbsp;&nbsp;&nbsp; | 21&nbsp; | 3 | 16/45 | 12(17), 31(23)</option>
+<option value="UG4916|¬|2018|__TPB|0">2018 | UG184916 | Wawasan dan Aplikasi Teknologi &nbsp;&nbsp;&nbsp;&nbsp; | 22&nbsp; | 3 | 9/45&nbsp; | 12(17), 31(23)</option>
+<option value="UG4916|­|2018|__TPB|0">2018 | UG184916 | Wawasan dan Aplikasi Teknologi &nbsp;&nbsp;&nbsp;&nbsp; | 23&nbsp; | 3 | 0/45&nbsp; | 33(17), 38(6), 13(17)</option>
+<option value="UG4916|®|2018|__TPB|0">2018 | UG184916 | Wawasan dan Aplikasi Teknologi &nbsp;&nbsp;&nbsp;&nbsp; | 24&nbsp; | 3 | 1/45&nbsp; | 38(6), 13(17), 33(17)</option>
+<option value="UG4916|¯|2018|__TPB|0">2018 | UG184916 | Wawasan dan Aplikasi Teknologi &nbsp;&nbsp;&nbsp;&nbsp; | 25&nbsp; | 3 | 0/50&nbsp; | 33(19), 13(19), 38(7)</option>
+<option value="UG4916|°|2018|__TPB|0">2018 | UG184916 | Wawasan dan Aplikasi Teknologi &nbsp;&nbsp;&nbsp;&nbsp; | 26&nbsp; | 3 | 0/50&nbsp; | 33(19), 13(19), 38(7)</option>
+<option value="UG4916|±|2018|__TPB|0">2018 | UG184916 | Wawasan dan Aplikasi Teknologi &nbsp;&nbsp;&nbsp;&nbsp; | 27&nbsp; | 3 | 0/45&nbsp; | 33(17), 38(6), 13(17)</option>
+<option value="UG4916|²|2018|__TPB|0">2018 | UG184916 | Wawasan dan Aplikasi Teknologi &nbsp;&nbsp;&nbsp;&nbsp; | 28&nbsp; | 3 | 0/60&nbsp; | 38(11), 13(23), 33(21)</option>
+<option value="UG4916|³|2018|__TPB|0">2018 | UG184916 | Wawasan dan Aplikasi Teknologi &nbsp;&nbsp;&nbsp;&nbsp; | 29&nbsp; | 3 | 2/40&nbsp; | 16(0), 35(15), 32(20)</option>
+<option value="UG4916|´|2018|__TPB|0">2018 | UG184916 | Wawasan dan Aplikasi Teknologi &nbsp;&nbsp;&nbsp;&nbsp; | 30&nbsp; | 3 | 0/60&nbsp; | 35(26), 32(29)</option>
+<option value="UG4916|µ|2018|__TPB|0">2018 | UG184916 | Wawasan dan Aplikasi Teknologi &nbsp;&nbsp;&nbsp;&nbsp; | 31&nbsp; | 3 | 0/45&nbsp; | 32(22), 35(18)</option>
+<option value="UG4916|¶|2018|__TPB|0">2018 | UG184916 | Wawasan dan Aplikasi Teknologi &nbsp;&nbsp;&nbsp;&nbsp; | 32&nbsp; | 3 | 0/50&nbsp; | 35(21), 32(24)</option>
+<option value="UG0916|·|2018|__TPB|0">2018 | UG180916 | Wawasan dan Aplikasi Teknologi &nbsp;&nbsp;&nbsp;&nbsp; | 33&nbsp; | 3 | 1/45&nbsp; | 13(19), 23(21)</option>
+<option value="UG0916|¸|2018|__TPB|0">2018 | UG180916 | Wawasan dan Aplikasi Teknologi &nbsp;&nbsp;&nbsp;&nbsp; | 34&nbsp; | 3 | 0/45&nbsp; | 23(21), 13(19)</option>
+<option value="UG0916|¹|2018|__TPB|0">2018 | UG180916 | Wawasan dan Aplikasi Teknologi &nbsp;&nbsp;&nbsp;&nbsp; | 35&nbsp; | 3 | 2/40&nbsp; | 13(17), 23(18)</option>
+<option value="UG0916|º|2018|__TPB|0">2018 | UG180916 | Wawasan dan Aplikasi Teknologi &nbsp;&nbsp;&nbsp;&nbsp; | 36&nbsp; | 3 | 5/45&nbsp; | 13(20), 23(20)</option>
+<option value="UG0916|»|2018|__TPB|0">2018 | UG180916 | Wawasan dan Aplikasi Teknologi &nbsp;&nbsp;&nbsp;&nbsp; | 37&nbsp; | 3 | 2/49&nbsp; | 22(19), 22(7), 24(18)</option>
+<option value="UG0916|¼|2018|__TPB|0">2018 | UG180916 | Wawasan dan Aplikasi Teknologi &nbsp;&nbsp;&nbsp;&nbsp; | 38&nbsp; | 3 | 0/40&nbsp; | 22(5), 24(15), 22(15)</option>
+<option value="UG0916|½|2018|__TPB|0">2018 | UG180916 | Wawasan dan Aplikasi Teknologi &nbsp;&nbsp;&nbsp;&nbsp; | 39&nbsp; | 3 | 1/45&nbsp; | 22(17), 22(6), 24(17)</option>
+<option value="UG0916|¾|2018|__TPB|0">2018 | UG180916 | Wawasan dan Aplikasi Teknologi &nbsp;&nbsp;&nbsp;&nbsp; | 40&nbsp; | 3 | 6/48&nbsp; | 24(18), 22(6), 22(19)</option>
+<option value="UG0916|¿|2018|__TPB|0">2018 | UG180916 | Wawasan dan Aplikasi Teknologi &nbsp;&nbsp;&nbsp;&nbsp; | 41&nbsp; | 3 | 0/48&nbsp; | 22(19), 22(6), 24(18)</option>
+<option value="UG4916|À|2018|__TPB|0">2018 | UG184916 | Wawasan dan Aplikasi Teknologi &nbsp;&nbsp;&nbsp;&nbsp; | 42&nbsp; | 3 | 0/45&nbsp; | 23(31), 41(0), 42(9)</option>
+<option value="UG4916|Á|2018|__TPB|0">2018 | UG184916 | Wawasan dan Aplikasi Teknologi &nbsp;&nbsp;&nbsp;&nbsp; | 43&nbsp; | 3 | 0/53&nbsp; | 42(9), 23(39), 41(0)</option>
+<option value="UG4916|Â|2018|__TPB|0">2018 | UG184916 | Wawasan dan Aplikasi Teknologi &nbsp;&nbsp;&nbsp;&nbsp; | 44&nbsp; | 3 | 0/53&nbsp; | 23(39), 41(0), 42(9)</option>
+<option value="UG4916|Ã|2018|__TPB|0">2018 | UG184916 | Wawasan dan Aplikasi Teknologi &nbsp;&nbsp;&nbsp;&nbsp; | 45&nbsp; | 3 | 0/53&nbsp; | 41(0), 42(9), 23(39)</option>
+<option value="UG4916|Ä|2018|__TPB|0">2018 | UG184916 | Wawasan dan Aplikasi Teknologi &nbsp;&nbsp;&nbsp;&nbsp; | 46&nbsp; | 3 | 4/50&nbsp; | 24(27), 42(18)</option>
+<option value="UG4916|Å|2018|__TPB|0">2018 | UG184916 | Wawasan dan Aplikasi Teknologi &nbsp;&nbsp;&nbsp;&nbsp; | 47&nbsp; | 3 | 4/30&nbsp; | 42(9), 24(16)</option>
+<option value="UG4916|Æ|2018|__TPB|0">2018 | UG184916 | Wawasan dan Aplikasi Teknologi &nbsp;&nbsp;&nbsp;&nbsp; | 48&nbsp; | 3 | 2/45&nbsp; | 24(25), 42(15)</option>
+<option value="UG4916|Ç|2018|__TPB|0">2018 | UG184916 | Wawasan dan Aplikasi Teknologi &nbsp;&nbsp;&nbsp;&nbsp; | 49&nbsp; | 3 | 4/40&nbsp; | 42(12), 24(23)</option>
+<option value="UG4916|È|2018|__TPB|0">2018 | UG184916 | Wawasan dan Aplikasi Teknologi &nbsp;&nbsp;&nbsp;&nbsp; | 50&nbsp; | 3 | 1/50&nbsp; | 42(18), 24(27)</option>
+<option value="UG1916|É|2018|__TPB|0">2018 | UG181916 | Wawasan dan Aplikasi Teknologi &nbsp;&nbsp;&nbsp;&nbsp; | 51&nbsp; | 3 | 14/30 | 31(30)</option>
+<option value="UG0916|É|2018|__TPB|0">2018 | UG180916 | Wawasan dan Aplikasi Teknologi &nbsp;&nbsp;&nbsp;&nbsp; | 51&nbsp; | 3 | 1/2&nbsp;&nbsp; | 31(2)</option>
+<option value="UG1916|Ê|2018|__TPB|0">2018 | UG181916 | Wawasan dan Aplikasi Teknologi &nbsp;&nbsp;&nbsp;&nbsp; | 52&nbsp; | 3 | 7/31&nbsp; | 31(31)</option>
+<option value="UG0916|Ê|2018|__TPB|0" style="background-color:#FC6E6E">2018 | UG180916 | Wawasan dan Aplikasi Teknologi &nbsp;&nbsp;&nbsp;&nbsp; | 52&nbsp; | 3 | 1/1&nbsp;&nbsp; | 31(1)</option>
+</select> <input type="button" class="ControlStyle" value="Ambil" onclick="goTake(&#39;tpb&#39;)"> <input type="button" class="ControlStyle" value="Peserta" onclick="goPeserta(&#39;tpb&#39;)"></td>
+	</tr>
+	<tr>
+		<td><strong>Kelas Pengayaan</strong></td>
+		<td align="center"><strong>:</strong></td>
+		<td>Belum bisa mengambil kelas pengayaan (SKS Tempuh: 
+				56/90) 
+				</td>
+	</tr>
+	
+</tbody></table>
+<br>
+<table cellpadding="2" cellspacing="0" class="InfoBox">
+	<tbody><tr valign="top">
+		<td>
+		<ul class="orange">
+			<li><font color="#FF0000">Pengambilan mata kuliah TPB untuk mengulang hanya untuk yang sebelumnya mendapat nilai E, atau D yang terkena batas waktu. [Instruksi PR1 ITS]</font></li>
+			<li>Jika ada kelas yang belum dibuka (belum terdapat di combo box), hubungi <u style="cursor:pointer;color:#3300FF;" onclick="showTataUsaha(this)">[Tata Usaha]</u> jurusan masing-masing untuk mengentrikan.</li>
+			<li><font color="#FF0000">Untuk menambah kapasitas kelas, hanya oleh Tata Usaha melalui persetujuan Ketua Jurusan.</font></li>
+		</ul>		</td>
+	</tr>
+</tbody></table>
+<div id="div_tu" align="center" style="display:none;position:relative"></div>
+	<input type="hidden" name="nrp" id="nrp" value="5117100029">
+	<input type="hidden" name="act" id="act">
+	<input type="hidden" name="key" id="key">
+</form>
+</div>
+
+
+<script type="text/javascript">
+
+var filedetail = "";
+
+var mouseX = 0; 
+var mouseY = 0;
+
+var ie  = document.all; 
+var ns6 = document.getElementById&&!document.all;
+
+var isMenuOpened  = false ;
+var menuSelObj = null ;
+var overpopupmenu = false;
+var gParam;
+
+var posx = 0; 
+var posy = 0;
+
+var newWin = null;
+
+function popUp(strURL, strType, strHeight, strWidth) {
+	if (newWin != null && !newWin.closed)
+		newWin.close();
+	
+	var strOptions="";
+	
+	if (strType=="console")
+		strOptions="resizable,height="+strHeight+",width="+strWidth;
+	if (strType=="fixed")
+		strOptions="status,height="+strHeight+",width="+strWidth;
+	if (strType=="elastic")
+		strOptions="toolbar,menubar,scrollbars,"+"resizable,location,height="+strHeight+",width="+strWidth;
+	
+	newWin = window.open(strURL, 'newWin', strOptions);
+	newWin.focus();
+}
+
+function etrGanti(e) {
+	var ev = (window.event) ? window.event : e;
+	var key = (ev.keyCode) ? ev.keyCode : ev.which;
+	
+	if (key == 13)
+		goGanti();
+}
+
+function goGanti() {
+	document.getElementById("act").value = "gantinrp";
+	goSubmit();
+}
+
+function goApprove() {
+	document.getElementById("act").value = "approve";
+	goSubmit();
+}
+
+function goDisApprove() {
+	document.getElementById("act").value = "disapprove";
+	goSubmit();
+}
+
+function goDrop(key,label) {
+	var hapus = confirm('Apakah anda yakin akan drop kelas "'+label+'"?');
+	if(hapus) {
+		document.getElementById("act").value = "drop";
+		document.getElementById("key").value = key;
+		goSubmit();
+	}
+}
+
+function goTake(tipe) {
+	var elem = document.getElementById("kelas"+tipe);
+	if(elem) {
+		var val = elem.value;
+		
+		document.getElementById("act").value = "ambil";
+		document.getElementById("key").value = val;
+		goSubmit();
+	}
+}
+
+function goPeserta(tipe) {
+	var elem = document.getElementById("kelas"+tipe);
+	if(elem) {
+		var val = elem.value;
+		var arrval = val.split("|");
+		
+		var jur = arrval[3];
+		var mkid = arrval[0];
+		var kelas = arrval[1];
+		
+		window.open("lv_peserta.php?mkJur="+jur+"&mkID="+mkid+"&mkSem=2&mkThn=2018&mkKelas="+kelas);
+	}
+}
+
+function showTataUsaha(el) {
+	var offset = $(el).offset();
+	
+	if($("#div_tu").html() == "") {
+		$.ajax({
+			type: "POST",
+			url: "inc_functionajax.php",
+			data: "act=tu",
+			timeout: 20000,
+			
+			success: function(result) {
+				$("#div_tu").html(result);
+				$("#div_tu").show();
+			},
+			
+			error: function(obj,err) {
+				if(err == "timeout") {
+					alert("Proses pemuatan pegawai Tata Usaha timeout, coba ulangi sekali lagi.");
+				}
+			}
+		});
+	}
+	else if($("#div_tu").css("display") == "none")
+		$("#div_tu").show();
+	else
+		$("#div_tu").hide();
+}
+
+function cekPersetujuan(isubah) {
+	if(isubah == '1' && window.opener)
+		window.opener.document.getElementById("sipform").submit();
+}
+
+function goPrint() {
+		window.alert("FRS Mahasiswa ini belum disetujui Dosen Wali!");
+	}
+
+</script>
+
+
+</body></html>
