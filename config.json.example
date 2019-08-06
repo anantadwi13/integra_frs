@@ -1,0 +1,31 @@
+{
+  "username" : "05111740000029",
+  "password" : "Password",
+
+  "nrp" : "5117100029",
+  "semester" : "1",
+  "tahun_ajaran" : "2019",
+  "pilihan_kelas" : [
+    {
+      "kode": "IF184501",
+      "kelas": "A"
+    },
+    {
+      "kode": "IF184502",
+      "kelas": "B"
+    },
+    {
+      "kode": "IF184506",
+      "kelas": "D"
+    }
+  ],
+
+  "time_sleep" : 5,
+  "mulai": false,
+  "time_ambil" : "2019-08-19 00:00:00",
+  "format_value" : "{}|{}|2018|51100|0",
+
+  "cookies_file" : "cookies",
+  "url_integra": "https://integra.its.ac.id",
+  "url_siakad": "https://akademik.its.ac.id"
+}
