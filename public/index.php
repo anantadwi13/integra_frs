@@ -1,8 +1,8 @@
 <?php
 
 $passcode = "9078ckj12d90as1kjas";
-$fileconfig = "config.json";
-$filelog = "log.txt";
+$fileconfig = "../config.json";
+$filelog = "../log.txt";
 
 header('Content-Type: application/json');
 
