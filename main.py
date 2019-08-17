@@ -206,6 +206,7 @@ if __name__ == "__main__":
                 v2 = threading.Thread(target=ambil_matkul_v2)
                 v1.start()
                 v2.start()
+                try_logging = -1
             elif try_logging % 12 == 0:
                 logging.info('Info: Not Started, {} s remaining'.format(diffTime.total_seconds()))
             try_logging += 1
