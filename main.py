@@ -165,7 +165,7 @@ def login(force=False):
 
     with open(COOKIES_FILE, 'wb') as file:
         pickle.dump(session.cookies, file)
-    logging.info('Info: ' + str(session.cookies))
+    #logging.info('Info: ' + str(session.cookies))
     TRY_LOGIN = False
     return True
 
