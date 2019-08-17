@@ -209,6 +209,7 @@ if __name__ == "__main__":
                 try_logging = -1
             elif try_logging % 12 == 0:
                 logging.info('Info: Not Started, {} s remaining'.format(diffTime.total_seconds()))
+                login(True)
             try_logging += 1
             time.sleep(get_config()['time_sleep'])
         except Exception:
