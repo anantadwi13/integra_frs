@@ -8,15 +8,33 @@
   "pilihan_kelas" : [
     {
       "kode": "IF184501",
-      "kelas": "A"
+      "value": "IF4501",
+      "kelas": "E"
     },
     {
       "kode": "IF184502",
-      "kelas": "B"
+      "value": "IF4502",
+      "kelas": "E"
+    },
+    {
+      "kode": "IF184503",
+      "value": "IF4503",
+      "kelas": "C"
     },
     {
       "kode": "IF184506",
-      "kelas": "D"
+      "value": "IF4506",
+      "kelas": "C"
+    },
+    {
+      "kode": "IF184701",
+      "value": "IF4701",
+      "kelas": "B"
+    },
+    {
+      "kode": "IF184942",
+      "value": "IF4942",
+      "kelas": "_"
     }
   ],
 

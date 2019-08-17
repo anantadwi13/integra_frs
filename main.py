@@ -106,7 +106,7 @@ def ambil_matkul_v2():
         logging.info('Info: v2 - Force sending request')
         kelas = []
         for pilihan in get_config()['pilihan_kelas']:
-            value = get_config()['format_value'].format(pilihan['kode'], pilihan['kelas'])
+            value = get_config()['format_value'].format(pilihan['value'], pilihan['kelas'])
             kelas.append({'value': value, 'text': value})
 
         logging.info('Info: v2 - Sending ' + str(kelas.__len__()) + ' class(es)')
@@ -173,7 +173,10 @@ def login(force=False):
 if __name__ == "__main__":
     format = "%(asctime)s: %(message)s"
     logging.basicConfig(format=format, level=logging.INFO,
-                        datefmt="%H:%M:%S")
+                        datefmt="%Y-%m-%d %H:%M:%S", handlers=[
+                            logging.FileHandler("log.txt"),
+                            logging.StreamHandler()
+                        ])
 
     session = requests.session()
     try:
@@ -183,6 +186,8 @@ if __name__ == "__main__":
         logging.info("Cookies Not Found")
 
     # login(True)
+
+    try_logging = 0
 
     while True:
         try:
@@ -201,8 +206,9 @@ if __name__ == "__main__":
                 v2 = threading.Thread(target=ambil_matkul_v2)
                 v1.start()
                 v2.start()
-            else:
+            elif try_logging % 12 == 0:
                 logging.info('Info: Not Started, {} s remaining'.format(diffTime.total_seconds()))
+            try_logging += 1
             time.sleep(get_config()['time_sleep'])
         except Exception:
             logging.error('Error: Unexpected error!')
