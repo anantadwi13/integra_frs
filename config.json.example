@@ -5,37 +5,47 @@
   "nrp" : "5117100029",
   "semester" : "1",
   "tahun_ajaran" : "2019",
-  "pilihan_kelas" : [
-    {
-      "kode": "IF184501",
-      "value": "IF4501",
-      "kelas": "E"
-    },
-    {
-      "kode": "IF184502",
-      "value": "IF4502",
-      "kelas": "E"
-    },
-    {
-      "kode": "IF184503",
-      "value": "IF4503",
-      "kelas": "C"
-    },
-    {
-      "kode": "IF184506",
-      "value": "IF4506",
-      "kelas": "C"
-    },
-    {
-      "kode": "IF184701",
-      "value": "IF4701",
-      "kelas": "B"
-    },
-    {
-      "kode": "IF184942",
-      "value": "IF4942",
-      "kelas": "_"
-    }
+  "pilihan_kelas": [
+      {
+          "kode": "IF184501",
+          "value": "IF4501",
+          "kelas": "E"
+      },
+      {
+          "kode": "IF184502",
+          "value": "IF4502",
+          "kelas": "E"
+      },
+      {
+          "kode": "IF184503",
+          "value": "IF4503",
+          "kelas": "C"
+      },
+      {
+          "kode": "IF184506",
+          "value": "IF4506",
+          "kelas": "C"
+      },
+      {
+          "kode": "IF184701",
+          "value": "IF4701",
+          "kelas": "B"
+      },
+      {
+          "kode": "IF184965",
+          "value": "IF4965",
+          "kelas": "_"
+      },
+      {
+          "kode": "IF184944",
+          "value": "IF4944",
+          "kelas": "_"
+      },
+      {
+          "kode": "IF184955",
+          "value": "IF4955",
+          "kelas": "_"
+      }
   ],
 
   "time_sleep" : 5,
