@@ -116,6 +116,11 @@ if __name__ == "__main__":
                         data={'act': 'gantinrp', 'key': '', 'nrp': get_config()['nrp'],
                             'semesterTerm': get_config()['semester'], 'thnAjaran': get_config()['tahun_ajaran']})
     dom = BeautifulSoup(r.text, features="html.parser")
+
+    # DUMMY
+    filehtml = html.unescape(str(open("[SIAKAD-ITS] Formulir Rencana Studi (FRS).html", "rb").read(), 'Latin'))
+    dom = BeautifulSoup(filehtml, features="html.parser")
+    # END DUMMY
     
     for option in dom.find(attrs={'id': 'kelasjur'}).findChildren("option", recursive=False):
         try:
