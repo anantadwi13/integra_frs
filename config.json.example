@@ -3,55 +3,59 @@
   "password" : "Password",
 
   "nrp" : "5117100029",
-  "semester" : "1",
+  "semester" : "2",
   "tahun_ajaran" : "2019",
   "pilihan_kelas": [
       {
-          "kode": "IF184501",
-          "value": "IF4501",
-          "kelas": "E"
+          "kode": "IF184605",
+          "value": "IF4605",
+          "kelas": "A",
+          "tipe": 1
       },
       {
-          "kode": "IF184502",
-          "value": "IF4502",
-          "kelas": "E"
+          "kode": "IF184603",
+          "value": "IF4603",
+          "kelas": "C",
+          "tipe": 1
       },
       {
-          "kode": "IF184503",
-          "value": "IF4503",
-          "kelas": "C"
+          "kode": "IF184602",
+          "value": "IF4602",
+          "kelas": "C",
+          "tipe": 1
       },
       {
-          "kode": "IF184506",
-          "value": "IF4506",
-          "kelas": "C"
+          "kode": "IF184601",
+          "value": "IF4601",
+          "kelas": "B",
+          "tipe": 1
       },
       {
-          "kode": "IF184701",
-          "value": "IF4701",
-          "kelas": "B"
+          "kode": "IF184958",
+          "value": "IF4958",
+          "kelas": "_",
+          "tipe": 1
       },
       {
-          "kode": "IF184965",
-          "value": "IF4965",
-          "kelas": "_"
+          "kode": "IF184947",
+          "value": "IF4947",
+          "kelas": "_",
+          "tipe": 1
       },
       {
-          "kode": "IF184944",
-          "value": "IF4944",
-          "kelas": "_"
-      },
-      {
-          "kode": "IF184955",
-          "value": "IF4955",
-          "kelas": "_"
+          "kode": "DI4734",
+          "value": "DI4734",
+          "kelas": "_",
+          "tipe": 3
       }
   ],
 
   "time_sleep" : 5,
-  "mulai": false,
+  "mulai": true,
   "time_ambil" : "2019-08-19 00:00:00",
-  "format_value" : "{}|{}|2018|51100|0",
+  "format_value_jur" : "{}|{}|2018|51100|0",
+  "format_value_tpb" : "{}|{}|2018|__TPB|0",
+  "format_value_pengayaan" : "{}|{}|2018|__PENGAYAAN|0",
 
   "cookies_file" : "cookies",
   "url_integra": "https://integra.its.ac.id",
