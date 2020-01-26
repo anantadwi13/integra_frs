@@ -7,21 +7,15 @@
   "tahun_ajaran" : "2019",
   "pilihan_kelas": [
       {
-          "kode": "IF184605",
-          "value": "IF4605",
-          "kelas": "A",
-          "tipe": 1
-      },
-      {
           "kode": "IF184603",
           "value": "IF4603",
           "kelas": "C",
           "tipe": 1
       },
       {
-          "kode": "IF184602",
-          "value": "IF4602",
-          "kelas": "C",
+          "kode": "IF184958",
+          "value": "IF4958",
+          "kelas": "_",
           "tipe": 1
       },
       {
@@ -31,9 +25,15 @@
           "tipe": 1
       },
       {
-          "kode": "IF184958",
-          "value": "IF4958",
-          "kelas": "_",
+          "kode": "IF184605",
+          "value": "IF4605",
+          "kelas": "C",
+          "tipe": 1
+      },
+      {
+          "kode": "IF184602",
+          "value": "IF4602",
+          "kelas": "C",
           "tipe": 1
       },
       {
@@ -47,6 +47,18 @@
           "value": "DI4734",
           "kelas": "_",
           "tipe": 3
+      },
+      {
+          "kode": "UG184916",
+          "value": "UG4916",
+          "kelas": "34",
+          "tipe": 2
+      },
+      {
+          "kode": "UG184916",
+          "value": "UG4916",
+          "kelas": "35",
+          "tipe": 2
       }
   ],
 
