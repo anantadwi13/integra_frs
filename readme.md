@@ -1,17 +1,24 @@
 # Integra FRS
-Bot auto frs integra
+Auto FRS Integra Bot & Course Participant Crawler
 
 ### Features
 - Autologin
-- Using multiple threads to send requests at a same time
-- 2 methods to take class:
-    - Sending requests by using auto fetch payload values
+- Using multiple threads to send course requests at the same time
+- 2 ways to take a course:
+    - Sending requests by using auto fetch payloads
     - Force sending requests by using manual payloads
 - Run at specific date & time
+- Config can be changed at runtime
 
 ### Usage
+FRS
 ```bash
 python3 main.py
+```
+
+Course Participant Crawler
+```bash
+python3 peserta.py
 ```
 
 ### Installation
@@ -43,7 +50,11 @@ python3 main.py
 `cookies_file` - Cookies file name  
 `url_integra` - Integra URL  
 `url_siakad` - SIAKAD URL  
-`tipe` - Tipe Kelas  
+`tipe` - Course type  
 - 1 -> Kelas Jurusan
 - 2 -> Kelas TPB
 - 3 -> Kelas Pengayaan
+
+
+### Footnote
+- Any pull requests are welcomed
