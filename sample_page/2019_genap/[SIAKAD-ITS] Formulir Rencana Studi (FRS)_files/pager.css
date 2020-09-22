@@ -1,0 +1,582 @@
+/* gaya (style) untuk list (pager) */
+
+body,td {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+}
+
+table th {
+	background-color:#58adc9;
+	font-size:14px;
+	font-weight:bold;
+	padding:3px;
+}
+
+ul.orange {
+	padding-left: 2em;
+}
+
+ul.orange li {
+	list-style-image:url(../images/bullet.gif);
+}
+
+.ControlStyle {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	border: 1px solid #999999;
+	z-index: -10;
+}
+
+.ControlStyleAC {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	border: 1px solid #6AC046;
+	z-index: -10;
+}
+
+.ControlStyleSmall {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	border: 1px solid #999999;
+	z-index: -10;
+}
+
+.SControlStyle 
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 7pt;
+	border: 1px solid #999999;
+	z-index: -10;
+}
+
+.ControlStyleRO {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	border: 1px solid #999999;
+	z-index: -10;
+	background-color:#98d4f6;
+}
+
+
+.ControlErr {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	border: 1px solid #999999;
+	background-color: yellow;
+	color: red;
+	z-index: -10;
+}
+
+.ControlRead {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	border: 1px solid #999999;
+	background: #F0D9B3;
+	z-index: -10;
+}
+
+.ControlRead disabled {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	color: #000000;
+	border: 1px solid #999999;
+	background-color: #E0EEFB;
+	z-index: -10;
+}
+
+.EnabledButton
+{
+	color:			#FFFFFF;
+	font-weight:	bold;
+	font-size:	8pt;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#3F72C7, endColorstr=#A5B6FA); 
+	background-color : #3F72C7;
+	
+}
+
+.DisabledButton {
+	color : #A8A8A8;
+	font-weight:bold;
+	font-size:	8pt;
+	background-color: #cccccc;
+}
+
+.FilterDialog
+{
+	color : white;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	font-weight:bold;
+	display : none;
+	position : absolute;
+	background-color: #00CC66;
+	filter: Alpha(Opacity=85);
+	border:1px outset buttonface;
+}
+
+.FilterText
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	border:1px groove buttonface;
+	height:22px;
+	background-color: #CCFFCC;
+}
+
+.ShadowStyle 
+{
+	FONT-WEIGHT: bold; FILTER: Alpha(Opacity=100) DropShadow(Color=#000000, OffX=1, OffY=1, Positive=1); COLOR: #000000; TEXT-DECORATION: none
+}
+
+
+.HeaderBG {
+	color:#663300;
+	font-size: 14px;
+	font-weight:bold;
+	text-align:left;
+	padding: 8px 4px 8px 32px;
+	background: url("../images/head_table_icon.png");
+	background-position:left;
+	background-repeat:no-repeat;
+}
+
+.SubHeaderBG {
+	color: #FFFFFF;
+	font-weight: bold;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#0293db, endColorstr=#98d4f6); 
+	background-color : #98d4f6; /* kalau gagal pakai filter */
+}
+
+
+.PagerBG {
+	color:#333333;
+	font-size: 10px;
+	font-weight:normal;
+	text-align:left;
+	padding: 8px 4px 8px 20px;
+	background: url("../images/pager_icon.png");
+	background-color:#98d4f6;
+	background-position:left;
+	background-repeat:no-repeat;
+	/*
+	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr=#0293db, endColorstr=#0293db); 
+	background-color: #0293db; /* kalau gagal pakai filter */
+}
+
+.SearchBG {
+	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr=#0293db, endColorstr=#0293db); 
+	background: url('../images/back2.gif')/* repeat-x center left*/;
+
+}
+
+.FixedHeader
+{
+	position:relative;
+	top:expression(this.offsetParent.scrollTop-2);
+}
+
+.FixedFooter
+{
+	position:relative;
+	top:expression(this.offsetParent.clientHeight-this.offsetParent.scrollHeight+this.offsetParent.scrollTop);
+}
+
+.combo
+{
+	font-family:"Courier New";
+	font-size:8pt;
+}
+
+.textField
+{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:8pt;
+}
+
+.GreenBG 
+{
+	background-color:#00AA66;
+	color : white;
+}
+
+.GrayBG 
+{
+	background-color : whitesmoke;
+}
+
+.GreyBG
+{
+	color: #666666;
+	border:none;
+}
+
+.YellowBG 
+{
+	background-color : yellow;
+}
+
+.RedBG 
+{
+	background-color : red;
+	color : white;
+}
+
+/* tambahan */
+
+.PageTitle {
+	color:#0293DB;
+	font-size:18px;
+	font-weight:bold;
+}
+
+.SubHeaderBGAlt
+{
+	font-size: 11px;
+	font-weight: bold;
+	padding: 0px 4px;
+	height: 22px;
+	color:#FFFFFF;
+	border-right: 1px solid #fff;
+	background: url('../images/back2.gif')/* repeat-x center left*/;
+}
+
+.SubHeaderBGAlt2
+{
+	font-size: 11px;
+	font-weight: bold;
+	padding: 0px 4px;
+	height: 22px;
+	color:#FFFFFF;
+	border-right: 1px solid #fff;
+	background: url('../images/back22.gif')/* repeat-x center left*/;
+}
+
+.SubHeaderBGAltSmall
+{
+	font-size: 10px;
+	padding: 0px 4px;
+	height: 18px;
+	color: #FFFFFF;
+	border-right: 1px solid #fff;
+	background: url('../images/back3.gif');
+}
+
+
+table.GridStyle 
+{
+	background-color: #ffffff;
+	background-image: url('../images/grey-bar.gif');
+	background-repeat: repeat-x;
+	background-attachment: scroll;
+	background-position: 0pt 0pt;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #d2d2d2;
+	border-right-color: #d2d2d2;
+	border-bottom-color: #d2d2d2;
+	border-left-color: #d2d2d2;
+	border-top-width: 0pt;
+	border-right-width:1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	padding-top: 16px;
+	padding-right: 11px;
+	padding-bottom: 13px;
+	padding-left: 14px;
+	margin-bottom: 15px;
+	display: inline-block;
+	position:relative;
+	border-collapse: collapse;
+	-moz-border-radius:5px;
+}
+
+.GridStyle tr.NormalBG:hover td, .GridStyle tr.AlternateBG:hover td
+{
+	/*padding: 8px;*/
+	background:#f6b143;border-right:none;
+
+}
+
+.GridStyle tr.HighlightBG0:hover td {
+	background:#FF4400;
+	color:#FFFFFF;
+}
+
+.GridStyle tr.HighlightBG1:hover td {
+	background:#FF3300;
+	color:#FFFFFF;
+}
+
+.DetailStyle 
+{
+	border: 1px solid #999;
+	
+}
+
+.DetailStyle table 
+{
+	border-collapse: collapse;
+}
+
+
+
+.DataLabel 
+{
+	font-size: 11px;
+	font-weight: bold;
+	padding: 4px 4px;
+	color:#666;
+	background-color:#D3DBEB;
+	border-bottom: 1px solid #fff;
+	vertical-align:top;
+}
+
+.HighlightBG0
+{
+	background:#FF9900;
+	color:#FFFFFF;
+	border:none;
+}
+.HighlightBG1
+{
+	background:#FF6600;
+	color:#FFFFFF;
+	border:none;
+}
+
+.NormalBG
+{
+	background:#ffffff;
+	border:none;
+}
+
+.AlternateBG 
+{
+	background: #e3ebef;
+	border:none;
+}
+
+.AlternateBG2
+{
+	background-color: #4fd0d0;
+	border: none;
+}
+
+
+.MenuStyle
+{
+	border: #0099FF;
+	border-collapse:collapse;
+}
+
+.ComboSmallStyle 
+{
+	font-size:8pt;
+	font-family:tahoma;
+}
+
+
+.FilterBox
+{
+	background-color: #DFE3EB;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #d2d2d2;
+	border-right-color: #d2d2d2;
+	border-bottom-color: #d2d2d2;
+	border-left-color: #d2d2d2;
+	border-top-width: 1px;
+	border-right-width:1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	padding-top: 10px;
+	padding-right: 11px;
+	padding-bottom: 13px;
+	padding-left: 14px;
+	margin-bottom: 15px;
+	display: inline-block;
+	position:relative;
+	border-collapse: collapse;
+	-moz-border-radius:5px;
+}
+
+.InfoBox
+{
+	background-color: #FFFFCC;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #d2d2d2;
+	border-right-color: #d2d2d2;
+	border-bottom-color: #d2d2d2;
+	border-left-color: #d2d2d2;
+	border-top-width: 1px;
+	border-right-width:1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	padding-top: 10px;
+	padding-right: 11px;
+	padding-bottom: 13px;
+	padding-left: 14px;
+	margin-bottom: 15px;
+	display: inline-block;
+	position:relative;
+	border-collapse: collapse;
+	-moz-border-radius:5px;
+}
+.trtelat {
+/*	font-family: Verdana; */
+	font-family:"Trebuchet MS";
+	height:20px;
+	font-size: 8pt;
+	background-color:#CCFFD9;
+	color:#666666;
+}
+.traneh {
+/*	font-family: Verdana; */
+	font-family:"Trebuchet MS";
+	height:20px;
+	font-size: 8pt;
+	background-color:#FFD2FF;
+	color:#666666;
+}
+.labelx {
+	font:bold 12px "Trebuchet MS";
+}
+
+.popWindow {
+	background-color:#d3e4fe;
+	border:1px solid #efefef;
+	border-right:2px solid #777;
+	border-bottom:2px solid #777;
+	display:none;
+	position:absolute;
+}
+
+.popWindow h3 {
+	padding:3px;
+}
+
+.popWindowtr {
+	background-color:#84bce6;
+}
+
+.btn_close {
+	border:1px solid #efefef;
+	border-bottom:1px solid #cc3300;
+	border-right:1px solid #cc3300;
+	background-color:#dd0000;
+	color:white;
+	padding-left:3px;
+	padding-right:3px;
+}
+
+table.dataGrid
+{
+	background: white;
+	border-collapse: collapse;
+}
+
+table.dataGrid th, table.dataGrid td
+{
+	font-size: 13px;
+	border: 1px #b4cbc4 solid;
+	padding: 0.3em;
+}
+
+table.dataGrid td
+{
+	font-size: 11px;
+	border: 1px #b4cbc4 solid;
+	padding: 0.3em;
+}
+
+table.dataGrid th
+{
+	background: #d8e4e0;
+	text-align: center;
+}
+
+table.dataGrid th a
+{
+	color: #555;
+	text-decoration: none;
+}
+
+table.dataGrid th a:hover
+{
+	color: #333;
+	border-bottom: 1px solid gray;
+}
+
+table.dataGrid tr.odd
+{
+	background: #f7f9f4;
+}
+
+table.dataGrid tr.bold
+{
+	color:#006633;
+	font-weight:bold;
+}
+
+table.dataGrid tr a
+{
+    color:#555;
+    font-size:9px;
+}
+
+table.dataGrid tr.bold a
+{
+    color:#555;
+    font-size:9px;
+    font-weight:bold;
+}
+
+table.dataGrid tr:hover
+{
+    background-color:#f4f3ce;
+}
+
+table.dataGrid td:hover a
+{
+    color:#650b01;
+}
+.form-umum {
+	width:800px;
+	border: 1px solid #ccc;
+	background:#efefef;
+	padding:20px;
+	margin-top:10px;
+/*    border-bottom:5px solid #3399FF; */
+    border-bottom:5px solid #ccc; 
+
+}
+.show_hide {
+	display:none;
+	cursor:pointer;
+}
+.close_button {
+	cursor:pointer;
+	color:#999;
+}
+
+
+.flatTable {
+	background:#000000;
+}
+.flatTable th, .flatTable td {
+	background:#FFFFFF;
+}
+.flatTable th {
+	text-transform: uppercase;
+	font:bold 10px Arial, Helvetica, sans-serif;
+}
+.AlternateRowBg {
+	background: #efefef;
+} 

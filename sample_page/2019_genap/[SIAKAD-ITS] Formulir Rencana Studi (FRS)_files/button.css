@@ -1,0 +1,137 @@
+
+a.button {
+	background:url(../images/tombol/button.gif);
+	display:block;
+	color:#555555;
+	font-weight:bold;
+	height:30px;
+	line-height:29px;
+	text-decoration:none;
+	width:191px;
+	text-align:center;
+	
+}
+
+a.buttonw {
+	background:url(../images/tombol/button_w.gif);
+	display:block;
+	color:#555555;
+	font-weight:bold;
+	height:30px;
+	line-height:29px;
+	text-decoration:none;
+	width:191px;
+	text-align:center;
+}
+
+a:hover.button, a:hover.buttonw {
+	color:#0066CC;
+	background-position: 0px -30px;
+	text-align:center;
+}
+
+
+a.buttonshort {
+	background:url(../images/tombol/button_160.gif) no-repeat;
+	display:block;
+	color:#555555;
+	font-weight:bold;
+	height:30px;
+	line-height:29px;
+	text-decoration:none;
+	width:161px;
+	text-align:center;
+}
+
+a:hover.buttonshort {
+	color:#0066CC;
+	background-position: 0px -30px;
+		text-align:center;
+}
+
+
+a.buttonshortdis {
+	background:url(../images/tombol/button_160.gif) no-repeat;
+	background-position: 0px -60px;
+	display:block;
+	color:#999;
+	font-weight:bold;
+	height:30px;
+	line-height:29px;
+	text-decoration:none;
+	width:161px;
+	text-align:center;
+	cursor:normal;
+}
+
+a:hover.buttonshortdis {
+	color:#999;
+	background-position: 0px -60px;
+	text-align:center;
+	cursor:normal;
+}
+a.buttonwshort {
+	background:url(../images/tombol/button_w_160.gif) no-repeat;
+	display:block;
+	color:#555555;
+	font-weight:bold;
+	height:30px;
+	line-height:29px;
+	text-decoration:none;
+	width:161px;
+		text-align:center;
+}
+a:hover.buttonwshort {
+	color:#0066CC;
+		text-align:center;
+}
+
+/* -------------------- */
+/* CLASSES */
+/* -------------------- */
+
+.add {
+	background:url(../images/tombol/irc-join.png) no-repeat 10px 8px;
+	display:block;
+}
+
+.delete {
+	background:url(../images/tombol/delete.png) no-repeat 10px 8px;
+	display:block;
+}
+
+.list {
+	background:url(../images/tombol/chat-event.png) no-repeat 10px 8px;
+	display:block;
+	
+	
+}
+
+.reset {
+	background:url(../images/tombol/irc-quick.png) no-repeat 10px 8px;
+	display:block;
+}
+
+.save {
+	background:url(../images/tombol/file.png) no-repeat 10px 8px;
+	display:block;
+}
+
+.new {
+	background:url(../images/tombol/irc-join.png) no-repeat 10px 8px;
+	display:block;
+}
+
+.misc {
+	background:url(../images/tombol/icq.png) no-repeat 10px 8px;
+	display:block;
+}
+
+.refresh {
+	background:url(../images/tombol/icq2.png) no-repeat 10px 8px;
+	display:block;
+}
+
+.print {
+	background:url(../images/tombol/rss.png) no-repeat 10px 8px;	display:block;
+}

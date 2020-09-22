@@ -43,3 +43,7 @@ python3 main.py
 `cookies_file` - Cookies file name  
 `url_integra` - Integra URL  
 `url_siakad` - SIAKAD URL  
+`tipe` - Tipe Kelas  
+- 1 -> Kelas Jurusan
+- 2 -> Kelas TPB
+- 3 -> Kelas Pengayaan

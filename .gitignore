@@ -3,3 +3,4 @@ cookies
 config.json
 log.txt
 dump/*
+.DS_Store

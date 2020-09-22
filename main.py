@@ -45,7 +45,8 @@ TRY_LOGIN = False
 def send_post(type, item):
     try:
         logging.info('Info: {} - Ambil [{}]'.format(type, str(item['text'])))
-        postData = {'act': 'ambil', 'kelasjur': item['value'], 'key': item['value'], 'nrp': get_config()['nrp'],
+        postData = {'act': 'ambil', 'kelasjur': item['value'], 'kelastpb': item['value'], 'kelaspengayaan': item['value'], 
+                    'key': item['value'], 'nrp': get_config()['nrp'],
                     'semesterTerm': get_config()['semester'], 'thnAjaran': get_config()['tahun_ajaran']}
 
         r = session.post(URL_SIAKAD + "/list_frs.php", headers=baseHeaders, data=postData)
@@ -79,7 +80,7 @@ def ambil_matkul_v1():
             return
 
         # DUMMY
-        # filehtml = html.unescape(str(open("[SIAKAD-ITS] Formulir Rencana Studi (FRS).html", "rb").read(), 'Latin'))
+        # filehtml = html.unescape(str(open("sample_page/2020_ganjil/[SIAKAD-ITS] Formulir Rencana Studi (FRS).html", "rb").read(), 'Latin'))
         # dom = BeautifulSoup(filehtml, features="html.parser")
         # END DUMMY
 
@@ -91,7 +92,37 @@ def ambil_matkul_v1():
                 if pilihan['kode'] in text and " " + pilihan['kelas'] + " " in text:
                     kelas.append({'value': value, 'text': text})
 
-        logging.info('Info: v1 - Found ' + str(kelas.__len__()) + ' class(es)')
+        logging.info('Info: v1 - Found Jurusan ' + str(kelas.__len__()) + ' class(es)')
+
+        # Submit
+        for item in kelas:
+            mthread = threading.Thread(target=send_post, args=('v1', item,))
+            mthread.start()
+
+        kelas = []
+        for option in dom.find(attrs={'id': 'kelastpb'}).findChildren("option", recursive=False):
+            value = option.get('value')
+            text = option.text
+            for pilihan in get_config()['pilihan_kelas']:
+                if pilihan['kode'] in text and " " + pilihan['kelas'] + " " in text:
+                    kelas.append({'value': value, 'text': text})
+
+        logging.info('Info: v1 - Found TPB ' + str(kelas.__len__()) + ' class(es)')
+
+        # Submit
+        for item in kelas:
+            mthread = threading.Thread(target=send_post, args=('v1', item,))
+            mthread.start()
+
+        kelas = []
+        for option in dom.find(attrs={'id': 'kelaspengayaan'}).findChildren("option", recursive=False):
+            value = option.get('value')
+            text = option.text
+            for pilihan in get_config()['pilihan_kelas']:
+                if pilihan['kode'] in text and " " + pilihan['kelas'] + " " in text:
+                    kelas.append({'value': value, 'text': text})
+
+        logging.info('Info: v1 - Found Pengayaan ' + str(kelas.__len__()) + ' class(es)')
 
         # Submit
         for item in kelas:
@@ -106,7 +137,13 @@ def ambil_matkul_v2():
         logging.info('Info: v2 - Force sending request')
         kelas = []
         for pilihan in get_config()['pilihan_kelas']:
-            value = get_config()['format_value'].format(pilihan['value'], pilihan['kelas'])
+            value = ''
+            if pilihan['tipe'] == 1:
+                value = get_config()['format_value_jur'].format(pilihan['value'], pilihan['kelas'])
+            elif pilihan['tipe'] == 2:
+                value = get_config()['format_value_tpb'].format(pilihan['value'], pilihan['kelas'])
+            elif pilihan['tipe'] == 3:
+                value = get_config()['format_value_pengayaan'].format(pilihan['value'], pilihan['kelas'], pilihan['id_dept'])
             kelas.append({'value': value, 'text': value})
 
         logging.info('Info: v2 - Sending ' + str(kelas.__len__()) + ' class(es)')

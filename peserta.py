@@ -94,6 +94,35 @@ def login(force=False):
     return True
 
 
+def fetch_kelas(kelas, output_folder='default'):
+    r = session.get(URL_SIAKAD + "/lv_peserta.php", headers=baseHeaders,
+                        params={'mkJur': kelas[3], 'mkID': kelas[0], 'mkKelas': kelas[1],
+                            'mkSem': get_config()['semester'], 'mkThn': get_config()['tahun_ajaran']})
+    
+    dom = BeautifulSoup(r.text, features="html.parser")
+
+    table = dom.find('table', {'class': 'GridStyle'})
+    
+    pesertas = []
+
+    i = 0
+    for peserta in table.findChildren("tr", recursive=False):
+        if i != 0: 
+            data = peserta.findChildren("td", recursive=False)
+            row = {'no': data[0].text, 'nrp': data[1].text, 'nama': data[2].text}
+            pesertas.append(row)
+        i += 1
+    
+    if len(pesertas)>0 :
+        title = dom.findAll('td', {'class':'PageTitle'})[1].text
+        filepath = 'dump/{}/peserta-{}.csv'.format(output_folder, title)
+        os.makedirs(os.path.dirname(filepath), exist_ok=True)
+        with open(filepath, 'w') as output_file:
+            dict_writer = csv.DictWriter(output_file, pesertas[0].keys())
+            dict_writer.writeheader()
+            dict_writer.writerows(pesertas)
+
+
 
 if __name__ == "__main__":
     format = "%(asctime)s: %(message)s"
@@ -118,40 +147,30 @@ if __name__ == "__main__":
     dom = BeautifulSoup(r.text, features="html.parser")
 
     # DUMMY
-    filehtml = html.unescape(str(open("[SIAKAD-ITS] Formulir Rencana Studi (FRS).html", "rb").read(), 'Latin'))
-    dom = BeautifulSoup(filehtml, features="html.parser")
+    # filehtml = html.unescape(str(open("sample_page/2020_ganjil/[SIAKAD-ITS] Formulir Rencana Studi (FRS).html", "rb").read(), 'Latin'))
+    # dom = BeautifulSoup(filehtml, features="html.parser")
     # END DUMMY
     
     for option in dom.find(attrs={'id': 'kelasjur'}).findChildren("option", recursive=False):
         try:
             kelas = option.get('value').split('|')
+            fetch_kelas(kelas, 'jurusan')
+        except Exception:
+            logging.info("Gagal {}".format(option.text))
+            pass
 
-            r = session.get(URL_SIAKAD + "/lv_peserta.php", headers=baseHeaders,
-                                params={'mkJur': '51100', 'mkID': kelas[0], 'mkKelas': kelas[1],
-                                    'mkSem': get_config()['semester'], 'mkThn': get_config()['tahun_ajaran']})
-            
-            dom = BeautifulSoup(r.text, features="html.parser")
+    for option in dom.find(attrs={'id': 'kelastpb'}).findChildren("option", recursive=False):
+        try:
+            kelas = option.get('value').split('|')
+            fetch_kelas(kelas, 'tpb')
+        except Exception:
+            logging.info("Gagal {}".format(option.text))
+            pass
 
-            table = dom.find('table', {'class': 'GridStyle'})
-            
-            pesertas = []
-
-            i = 0
-            for peserta in table.findChildren("tr", recursive=False):
-                if i != 0: 
-                    data = peserta.findChildren("td", recursive=False)
-                    row = {'no': data[0].text, 'nrp': data[1].text, 'nama': data[2].text}
-                    pesertas.append(row)
-                i += 1
-            
-            if len(pesertas)>0 :
-                title = dom.findAll('td', {'class':'PageTitle'})[1].text
-                filepath = 'dump/peserta-{}.csv'.format(title)
-                os.makedirs(os.path.dirname(filepath), exist_ok=True)
-                with open(filepath, 'w') as output_file:
-                    dict_writer = csv.DictWriter(output_file, pesertas[0].keys())
-                    dict_writer.writeheader()
-                    dict_writer.writerows(pesertas)
+    for option in dom.find(attrs={'id': 'kelaspengayaan'}).findChildren("option", recursive=False):
+        try:
+            kelas = option.get('value').split('|')
+            fetch_kelas(kelas, 'pengayaan')
         except Exception:
             logging.info("Gagal {}".format(option.text))
             pass
