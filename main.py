@@ -80,7 +80,7 @@ def ambil_matkul_v1():
             return
 
         # DUMMY
-        # filehtml = html.unescape(str(open("[SIAKAD-ITS] Formulir Rencana Studi (FRS).html", "rb").read(), 'Latin'))
+        # filehtml = html.unescape(str(open("sample_page/2020_ganjil/[SIAKAD-ITS] Formulir Rencana Studi (FRS).html", "rb").read(), 'Latin'))
         # dom = BeautifulSoup(filehtml, features="html.parser")
         # END DUMMY
 
@@ -143,7 +143,7 @@ def ambil_matkul_v2():
             elif pilihan['tipe'] == 2:
                 value = get_config()['format_value_tpb'].format(pilihan['value'], pilihan['kelas'])
             elif pilihan['tipe'] == 3:
-                value = get_config()['format_value_pengayaan'].format(pilihan['value'], pilihan['kelas'])
+                value = get_config()['format_value_pengayaan'].format(pilihan['value'], pilihan['kelas'], pilihan['id_dept'])
             kelas.append({'value': value, 'text': value})
 
         logging.info('Info: v2 - Sending ' + str(kelas.__len__()) + ' class(es)')

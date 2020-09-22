@@ -3,71 +3,48 @@
   "password" : "Password",
 
   "nrp" : "5117100029",
-  "semester" : "2",
-  "tahun_ajaran" : "2019",
+  "semester" : "1",
+  "tahun_ajaran" : "2020",
   "pilihan_kelas": [
       {
-          "kode": "IF184603",
-          "value": "IF4603",
-          "kelas": "C",
+          "kode": "IF184974",
+          "value": "IF4974",
+          "kelas": "A",
           "tipe": 1
       },
       {
-          "kode": "IF184958",
-          "value": "IF4958",
-          "kelas": "_",
+          "kode": "IF184912",
+          "value": "IF4912",
+          "kelas": "A",
           "tipe": 1
       },
       {
-          "kode": "IF184601",
-          "value": "IF4601",
-          "kelas": "B",
-          "tipe": 1
+          "kode": "UG184915",
+          "value": "UG4915",
+          "kelas": "3",
+          "tipe": 2
       },
       {
-          "kode": "IF184605",
-          "value": "IF4605",
-          "kelas": "C",
-          "tipe": 1
+          "kode": "UG184915",
+          "value": "UG4915",
+          "kelas": "4",
+          "tipe": 2
       },
       {
-          "kode": "IF184602",
-          "value": "IF4602",
-          "kelas": "C",
-          "tipe": 1
-      },
-      {
-          "kode": "IF184947",
-          "value": "IF4947",
-          "kelas": "_",
-          "tipe": 1
-      },
-      {
-          "kode": "DI4734",
-          "value": "DI4734",
-          "kelas": "_",
+          "kode": "SF184899",
+          "value": "SF4899",
+          "kelas": "P",
+          "id_dept": "11100",
           "tipe": 3
-      },
-      {
-          "kode": "UG184916",
-          "value": "UG4916",
-          "kelas": "34",
-          "tipe": 2
-      },
-      {
-          "kode": "UG184916",
-          "value": "UG4916",
-          "kelas": "35",
-          "tipe": 2
       }
   ],
 
   "time_sleep" : 5,
   "mulai": true,
-  "time_ambil" : "2019-08-19 00:00:00",
-  "format_value_jur" : "{}|{}|2018|51100|0",
-  "format_value_tpb" : "{}|{}|2018|__TPB|0",
-  "format_value_pengayaan" : "{}|{}|2018|__PENGAYAAN|0",
+  "time_ambil" : "2020-09-21 00:00:00",
+  "format_value_jur" : "{}|{}|2018|51100|0|1|",
+  "format_value_tpb" : "{}|{}|2018|__TPB|0|1|",
+  "format_value_pengayaan" : "{}|{}|2018|{}|1|1|",
 
   "cookies_file" : "cookies",
   "url_integra": "https://integra.its.ac.id",

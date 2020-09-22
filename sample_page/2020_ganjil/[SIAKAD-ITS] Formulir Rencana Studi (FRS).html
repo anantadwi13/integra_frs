@@ -1,0 +1,910 @@
+
+<!-- saved from url=(0039)https://akademik.its.ac.id/list_frs.php -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+	<title>[SIAKAD-ITS] Formulir Rencana Studi (FRS)</title>
+	
+	<link rel="stylesheet" href="./[SIAKAD-ITS] Formulir Rencana Studi (FRS)_files/pager.css">
+	<link rel="stylesheet" href="./[SIAKAD-ITS] Formulir Rencana Studi (FRS)_files/officexp.css">
+	<link rel="stylesheet" href="./[SIAKAD-ITS] Formulir Rencana Studi (FRS)_files/button.css">
+	<link rel="stylesheet" href="./[SIAKAD-ITS] Formulir Rencana Studi (FRS)_files/jquery-ui.min.css">
+	<script type="text/javascript" async="" src="./[SIAKAD-ITS] Formulir Rencana Studi (FRS)_files/analytics.js"></script><script type="text/javascript" src="./[SIAKAD-ITS] Formulir Rencana Studi (FRS)_files/foredit.js"></script>
+
+</head>
+<body leftmargin="0" rightmargin="0" topmargin="0" bottommargin="0" onload="cekPersetujuan(&#39;0&#39;)">
+
+<!--<script type="text/javascript" src="scripts/jquery.js"></script>-->
+<!-- <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>-->
+<script type="text/javascript" src="./[SIAKAD-ITS] Formulir Rencana Studi (FRS)_files/jquery-2.1.0.min.js"></script>
+<script type="text/javascript" src="./[SIAKAD-ITS] Formulir Rencana Studi (FRS)_files/jquery.dimensions.js"></script>
+<script type="text/javascript" src="./[SIAKAD-ITS] Formulir Rencana Studi (FRS)_files/jquery.positionBy.js"></script>
+<script type="text/javascript" src="./[SIAKAD-ITS] Formulir Rencana Studi (FRS)_files/jquery.jdMenu.js"></script>
+<link rel="stylesheet" href="./[SIAKAD-ITS] Formulir Rencana Studi (FRS)_files/jquery.jdMenu.css" type="text/css">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="./[SIAKAD-ITS] Formulir Rencana Studi (FRS)_files/js"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'UA-156881742-1');
+</script>
+<style>
+.badge1 {
+   position:relative;
+}
+.badge1[data-badge]:after {
+   content:attr(data-badge);
+   position:absolute;
+   top:-13px;
+   right:-5px;
+   font-size:.7em;
+   background:#FE2727;
+   color:white;
+   width:20px;height:20px;
+   text-align:center;
+   line-height:18px;
+   border-radius:50%;
+   letter-spacing:-1px;
+}
+.badge1[data-badge=""]:after, .badge1[data-badge="0"]:after  {
+	content: none;
+}
+</style>
+<div id="banner">
+	<img src="./[SIAKAD-ITS] Formulir Rencana Studi (FRS)_files/header.png">
+</div>
+<form name="fMenu" id="fMenu" method="post" action="https://akademik.its.ac.id/list_frs.php">
+<input type="hidden" id="actmenu" name="actmenu">
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody><tr> 
+    <td valign="top" colspan="2">
+	
+	<div>
+		<ul class="jd_menu">
+		
+		
+	<li><a href="https://akademik.its.ac.id/home.php">Home</a></li>
+	<li>Data&nbsp;<img src="./[SIAKAD-ITS] Formulir Rencana Studi (FRS)_files/down_m.gif">
+		<ul>
+		<li>Biodata&nbsp;<img src="./[SIAKAD-ITS] Formulir Rencana Studi (FRS)_files/left_m.gif">
+			<ul>
+			<li><a href="https://akademik.its.ac.id/data_update_biodata.php">Verifikasi Biodata</a></li>
+			</ul>
+		</li>
+		<li><a href="https://akademik.its.ac.id/data_mhswisuda.php">Update Data Wisuda</a></li>
+		<li>Lain - lain&nbsp;<img src="./[SIAKAD-ITS] Formulir Rencana Studi (FRS)_files/left_m.gif">
+			<ul>
+			<li><a href="https://akademik.its.ac.id/list_ekivalensi.php">Ekivalensi</a></li>
+			</ul>
+		</li>
+		</ul>
+	</li>
+	<li>Proses&nbsp;<img src="./[SIAKAD-ITS] Formulir Rencana Studi (FRS)_files/down_m.gif">
+		<ul>
+		<li><a href="https://akademik.its.ac.id/ipd_kuesionermk.php">Kuesioner Dosen dan MK</a></li>
+		<li><a href="https://akademik.its.ac.id/data_kur.php">Kurikulum Semester</a></li>
+		<li><a href="https://akademik.its.ac.id/list_frs.php">Formulir Rencana Studi</a></li>
+		</ul>
+	</li>
+	<li>Laporan&nbsp;<img src="./[SIAKAD-ITS] Formulir Rencana Studi (FRS)_files/down_m.gif">
+		<ul>
+		<li>Transkrip&nbsp;<img src="./[SIAKAD-ITS] Formulir Rencana Studi (FRS)_files/left_m.gif">
+			<ul>
+			<li><a href="https://akademik.its.ac.id/xrep_transkrip.php">Transkrip</a></li>
+			<li><a href="https://akademik.its.ac.id/xrep_transkrip_sementara.php">Transkrip Sementara</a></li>
+			</ul>
+		</li>
+		<li>Mahasiswa&nbsp;<img src="./[SIAKAD-ITS] Formulir Rencana Studi (FRS)_files/left_m.gif">
+			<ul>
+			<li><a href="https://akademik.its.ac.id/data_mhsakademik.php">Akademik Mahasiswa</a></li>
+			<li><a href="https://akademik.its.ac.id/data_kuliah.php">Perkuliahan Mahasiswa</a></li>
+			<li><a href="https://akademik.its.ac.id/data_mhs.php">Biodata Mahasiswa</a></li>
+			<li><a href="https://akademik.its.ac.id/list_mhsmk.php">Daftar Mhs &amp; Matakuliah</a></li>
+			<li><a href="https://akademik.its.ac.id/list_mhsstatang.php">Status Per Angkatan</a></li>
+			</ul>
+		</li>
+		<li><a href="https://akademik.its.ac.id/list_prasyarat.php">Prasyarat Matakuliah</a></li>
+		<li><a href="https://akademik.its.ac.id/list_mhsjadwal.php">Jadwal Kuliah Mhs</a></li>
+		<li>Nilai&nbsp;<img src="./[SIAKAD-ITS] Formulir Rencana Studi (FRS)_files/left_m.gif">
+			<ul>
+			<li><a href="https://akademik.its.ac.id/data_nilaimhs.php">Nilai Per Mhs</a></li>
+			<li><a href="https://akademik.its.ac.id/data_nilaipersem.php">Nilai Per Semester</a></li>
+			<li><a href="https://akademik.its.ac.id/list_ipkrank.php">Ranking IPK</a></li>
+			<li><a href="https://akademik.its.ac.id/list_ipsrank.php">Ranking IPS</a></li>
+			</ul>
+		</li>
+		</ul>
+	</li>
+	<li>Lain-Lain&nbsp;<img src="./[SIAKAD-ITS] Formulir Rencana Studi (FRS)_files/down_m.gif">
+		<ul>
+		<li><a href="https://akademik.its.ac.id/css_bio_puas.php">Survei Kepuasan Mahasiswa</a></li>
+		</ul>
+	</li>
+	<li>Ekivalensi&nbsp;<img src="./[SIAKAD-ITS] Formulir Rencana Studi (FRS)_files/down_m.gif">
+		<ul>
+		<li><a href="https://akademik.its.ac.id/ekivalensi_rekapitulasi_mhs.php">Rekapitulasi Ekivalensi</a></li>
+		</ul>
+	</li>
+	<li>Yudisium&nbsp;<img src="./[SIAKAD-ITS] Formulir Rencana Studi (FRS)_files/down_m.gif">
+		<ul>
+		<li>Nilai Bahasa Asing&nbsp;<img src="./[SIAKAD-ITS] Formulir Rencana Studi (FRS)_files/left_m.gif">
+			<ul>
+			<li><a href="https://akademik.its.ac.id/yudisium_nilai_bahasa_asing.php">Unggah Nilai Bahasa Asing</a></li>
+			</ul>
+		</li>
+		</ul>
+	</li>
+	<li>SKPI&nbsp;<img src="./[SIAKAD-ITS] Formulir Rencana Studi (FRS)_files/down_m.gif">
+		<ul>
+		<li><a href="https://akademik.its.ac.id/skpi_draft.php">Draft SKPI</a></li>
+		<li>Panduan Pengguna&nbsp;<img src="./[SIAKAD-ITS] Formulir Rencana Studi (FRS)_files/left_m.gif">
+			<ul>
+			<li><a href="https://akademik.its.ac.id/downloads/panduan_umum_pengisian_skpi.pdf">Panduan Umum (pdf)</a></li>
+			<li><a href="https://akademik.its.ac.id/downloads/user_manual_skpi_akad_mhs_v01.pdf">Sebagai Mahasiswa (pdf)</a></li>
+			</ul>
+		</li>
+		</ul>
+	</li>
+	<li>Biaya Pendidikan&nbsp;<img src="./[SIAKAD-ITS] Formulir Rencana Studi (FRS)_files/down_m.gif">
+		<ul>
+		<li><a href="https://akademik.its.ac.id/data_historis_pembayaran.php">Historis Pembayaran SPP</a></li>
+		<li><a href="https://akademik.its.ac.id/data_tagihan_pendidikan.php">Tagihan Biaya Pendidikan</a></li>
+		<li><a href="https://akademik.its.ac.id/data_pembayaran_wisuda.php">Pembayaran Wisuda</a></li>
+		</ul>
+	</li>
+	<li class="badge1" data-badge="0">Surat Mahasiswa&nbsp;<img src="./[SIAKAD-ITS] Formulir Rencana Studi (FRS)_files/down_m.gif">
+		<ul>
+		<li><a href="https://akademik.its.ac.id/surat_mahasiswa.php">Layanan Surat Mahasiswa</a></li>
+		<li><a href="https://akademik.its.ac.id/downloads/panduan_layanan_surat_mahasiswa.pdf">Panduan Layanan (PDF)</a></li></ul></li>		
+		
+			<li><font color="yellow">Keluar </font><img src="./[SIAKAD-ITS] Formulir Rencana Studi (FRS)_files/down_m.gif">
+				<ul>
+					<li><a href="https://integra.its.ac.id/">Kembali ke Menu</a></li>
+					<li><a href="https://akademik.its.ac.id/sys_logout.php"><font color="yellow">Logout</font></a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	</td>
+</tr>
+<tr height="20" style="font-family: sans-serif, Tahoma; background-color:#ece9d8;">
+	<td nowrap="" style="padding-left:5">
+		Periode: Semester Gasal 2020/2021		Tanggal: Tue, 22 Sep 2020 08:58:39 +0700	</td>
+	
+		
+	
+  	<td align="right" nowrap="" style="padding-right:5;color:#666;padding-right:10px">
+    		<b>[n136
+] User ID: </b>NRP, NAMA &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 		<b>Hak Akses:</b> 
+	
+	
+	<select id="sRoles" name="sRoles" class="comboSmallStyle" onchange="do_changeRoles();" style="width:100px">
+	<option value="">- Pilih Hak Akses -</option>
+	<option value="10" selected="">Mahasiswa</option>
+	</select>
+
+	<select id="sFak" name="sFak" class="comboSmallStyle" onchange="do_changeFak()" style="width:100px;background-color:#eeef66">
+	<option value="">- Pilih Fakultas -</option>
+	<option value="7" selected="" style="background-color:#eeef66">ELECTICS</option>
+	</select>
+
+	<select id="sJur" name="sJur" class="comboSmallStyle" onchange="do_changeUnit()" style="background-color:#99ff99">
+	<option value="">- Pilih Prodi -</option>
+	<option value="51100" selected="" style="background-color:#99ff99">51100 - 05114000 - S-1 TEKNIK INFORMATIKA</option>
+	</select>
+
+	</td>
+	
+</tr>
+</tbody></table>
+</form>
+<script language="JavaScript">
+
+function do_changeRoles() 
+{
+	document.getElementById("sJur").value = ""; 
+	document.getElementById("actmenu").value = "changeRole"; 
+	document.getElementById("fMenu").submit();
+}
+
+function do_changeFak() 
+{
+	document.getElementById("actmenu").value = "changeFak"; 
+	document.getElementById("fMenu").submit();
+}
+
+function do_changeUnit() 
+{
+	document.getElementById("actmenu").value = "changeUnit"; 
+	document.getElementById("fMenu").submit();
+}
+</script>
+
+<div align="center">
+<form name="sipform" id="sipform" method="post" action="https://akademik.its.ac.id/list_frs.php">
+<table width="765" cellpadding="4" cellspacing="0">
+	<tbody><tr>
+		<td align="center" class="PageTitle">Formulir Rencana Studi (FRS)</td>
+	</tr>
+		<tr>
+		<td align="center"><font size="1">
+		<strong>Pengisian :</strong> 21 Sep 2020 s/d 25 Sep 2020 <strong>|</strong>
+		<strong>Perubahan :</strong> 26 Sep 2020 s/d 16 Okt 2020 <strong>|</strong>
+		<strong>Drop :</strong> 17 Okt 2020 s/d 4 Des 2020		</font></td>
+	</tr>
+	</tbody></table>
+<br>
+<table cellpadding="4" cellspacing="0" class="FilterBox">
+			<tbody><tr>
+		<td width="80"><strong>NRP</strong></td>
+		<td width="10" align="center"><strong>:</strong></td>
+		<td width="250">05111740000029</td>
+		<td width="80"><strong>Periode</strong></td>
+		<td width="10" align="center"><strong>:</strong></td>
+		<td width="260"><select name="semesterTerm" id="semesterTerm" class="ControlStyle">
+<option></option>
+<option selected="selected" value="1">Gasal</option>
+<option value="2">Genap</option>
+<option value="3">Pendek</option>
+<option value="4">Sisipan</option>
+</select>
+ <select name="thnAjaran" id="thnAjaran" class="ControlStyle">
+<option></option>
+<option selected="selected" value="2020">2020</option>
+<option value="2019">2019</option>
+<option value="2018">2018</option>
+<option value="2017">2017</option>
+<option value="2016">2016</option>
+<option value="2015">2015</option>
+<option value="2014">2014</option>
+<option value="2013">2013</option>
+<option value="2012">2012</option>
+<option value="2011">2011</option>
+<option value="2010">2010</option>
+<option value="2009">2009</option>
+<option value="2008">2008</option>
+<option value="2007">2007</option>
+<option value="2006">2006</option>
+<option value="2005">2005</option>
+<option value="2004">2004</option>
+<option value="2003">2003</option>
+<option value="2002">2002</option>
+<option value="2001">2001</option>
+<option value="2000">2000</option>
+<option value="1999">1999</option>
+<option value="1998">1998</option>
+<option value="1997">1997</option>
+<option value="1996">1996</option>
+<option value="1995">1995</option>
+</select>
+ <input type="button" class="ControlStyle" value="Ganti" onclick="goGanti()"> </td>
+	</tr>
+	<tr>
+		<td><strong>Nama</strong></td>
+		<td align="center"><strong>:</strong></td>
+		<td>NAMA</td>
+		<td><strong>Dosen Wali</strong></td>
+		<td align="center"><strong>:</strong></td>
+		<td>NAMA DOSWAL</td>
+	</tr>
+	<tr>
+		<td><strong>IPK / IPS</strong></td>
+		<td align="center"><strong>:</strong></td>
+		<td>
+        		IPK / IPS                </td>
+		<td><strong>Batas / Sisa</strong></td>
+		<td align="center"><strong>:</strong></td>
+		<td>24 / 2 SKS</td>
+	</tr>    
+	<tr>
+		<td><strong>Tautan</strong></td>
+		<td align="center"><strong>:</strong></td>
+        <td colspan="4"><font size="1"><a href="https://akademik.its.ac.id/lv_mkulang.php?nrp=5117100029" onclick="popUp(this.href,&#39;elastic&#39;,600,600);return false;" target="_blank">MK Harus Diulang</a> | <a href="https://akademik.its.ac.id/lv_mkambil.php?nrp=5117100029" onclick="popUp(this.href,&#39;elastic&#39;,600,600);return false;" target="_blank">MK Wajib diambil (pd saat ganti Kurikulum)</a> | <a href="https://akademik.its.ac.id/lv_mkprasyarat.php?nrp=5117100029&amp;mkThn=2020&amp;mkSem=1" onclick="popUp(this.href,&#39;elastic&#39;,600,600);return false;" target="_blank">Pengambilan melanggar prasyarat</a> | <a href="https://akademik.its.ac.id/ekivalensi_rekapitulasi_mhs.php?edit=5117100029" onclick="popUp(this.href,&#39;elastic&#39;,600,1000);return false;" target="_blank">Ekivalensi</a>   </font>   </td>
+	</tr>
+	</tbody></table>
+<br>
+<input type="button" class="ControlStyle" value="Klik di sini untuk KRSM versi cetak" onclick="goPrint()">
+<br>
+
+<table cellpadding="4" cellspacing="0" class="GridStyle">
+
+		
+	
+		
+		<tbody><tr>
+		<td width="70" align="center" class="SubHeaderBGAlt">Kode</td>
+		<td width="270" align="center" class="SubHeaderBGAlt">Mata Kuliah</td>
+		<td width="30" align="center" class="SubHeaderBGAlt">SKS</td>
+		<td width="30" align="center" class="SubHeaderBGAlt">Kelas</td>
+								<td width="50" align="center" class="SubHeaderBGAlt">Drop</td>
+			</tr>
+		<tr valign="top" class=" HighlightBG1 ">		<td>IF184702</td>
+		<td>Pra-Tugas Akhir   <br>�<strong>BLM MENGISI KUESIONER</strong>�</td>
+		<td align="center">3</td>
+		<td align="center">A</td>
+						<td align="center">
+				                <u title="Drop Kelas" onclick="javascript:goDrop(&#39;IF4702|2018|A|51100&#39;,&#39;Pra-Tugas Akhir (A)&#39;);" style="cursor:pointer;color:#3300FF;">[Drop]</u>
+						</td>
+	</tr>
+		<tr valign="top" bgcolor="#FF3A3A"> 		<td>IF184801</td>
+		<td>Kerja Praktik   <br>�<strong>BLM MENGISI KUESIONER</strong>�</td>
+		<td align="center">2</td>
+		<td align="center">A</td>
+						<td align="center">
+				                <u title="Drop Kelas" onclick="javascript:goDrop(&#39;IF4801|2018|A|51100&#39;,&#39;Kerja Praktik (A)&#39;);" style="cursor:pointer;color:#3300FF;">[Drop]</u>
+						</td>
+	</tr>
+		<tr valign="top" class=" HighlightBG1 ">		<td>IF184912</td>
+		<td>Teknologi antar Jaringan   <br>�<strong>BLM MENGISI KUESIONER</strong>�</td>
+		<td align="center">3</td>
+		<td align="center">A</td>
+						<td align="center">
+				                <u title="Drop Kelas" onclick="javascript:goDrop(&#39;IF4912|2018|A|51100&#39;,&#39;Teknologi antar Jaringan (A)&#39;);" style="cursor:pointer;color:#3300FF;">[Drop]</u>
+						</td>
+	</tr>
+		<tr valign="top" class=" HighlightBG0 ">		<td>IF184942</td>
+		<td>Komputasi Awan   <br>�<strong>BLM MENGISI KUESIONER</strong>�</td>
+		<td align="center">3</td>
+		<td align="center">A</td>
+						<td align="center">
+				                <u title="Drop Kelas" onclick="javascript:goDrop(&#39;IF4942|2018|A|51100&#39;,&#39;Komputasi Awan (A)&#39;);" style="cursor:pointer;color:#3300FF;">[Drop]</u>
+						</td>
+	</tr>
+		<tr valign="top" class=" HighlightBG1 ">		<td>IF184955</td>
+		<td>Sistem Temu Kembali Informasi   <br>�<strong>BLM MENGISI KUESIONER</strong>�</td>
+		<td align="center">3</td>
+		<td align="center">A</td>
+						<td align="center">
+				                <u title="Drop Kelas" onclick="javascript:goDrop(&#39;IF4955|2018|A|51100&#39;,&#39;Sistem Temu Kembali Informasi (A)&#39;);" style="cursor:pointer;color:#3300FF;">[Drop]</u>
+						</td>
+	</tr>
+		<tr valign="top" class=" HighlightBG0 ">		<td>IF184956</td>
+		<td>Visi Komputer   <br>�<strong>BLM MENGISI KUESIONER</strong>�</td>
+		<td align="center">3</td>
+		<td align="center">A</td>
+						<td align="center">
+				                <u title="Drop Kelas" onclick="javascript:goDrop(&#39;IF4956|2018|A|51100&#39;,&#39;Visi Komputer (A)&#39;);" style="cursor:pointer;color:#3300FF;">[Drop]</u>
+						</td>
+	</tr>
+		<tr valign="top" class=" HighlightBG1 ">		<td>IF184974</td>
+		<td>Konstruksi Perangkat Lunak   <br>�<strong>BLM MENGISI KUESIONER</strong>�</td>
+		<td align="center">3</td>
+		<td align="center">A</td>
+						<td align="center">
+				                <u title="Drop Kelas" onclick="javascript:goDrop(&#39;IF4974|2018|A|51100&#39;,&#39;Konstruksi Perangkat Lunak (A)&#39;);" style="cursor:pointer;color:#3300FF;">[Drop]</u>
+						</td>
+	</tr>
+		<tr valign="top" class=" HighlightBG0 ">		<td>UG184915</td>
+		<td>Teknopreneur   <br>�<strong>BLM MENGISI KUESIONER</strong>�</td>
+		<td align="center">2</td>
+		<td align="center">3</td>
+						<td align="center">
+				                <u title="Drop Kelas" onclick="javascript:goDrop(&#39;UG4915|2018|3|__TPB&#39;,&#39;Teknopreneur (3)&#39;);" style="cursor:pointer;color:#3300FF;">[Drop]</u>
+						</td>
+	</tr>
+		<tr>
+		<td colspan="2" align="right" class="SubHeaderBGAlt"><strong>Total SKS</strong></td>
+		<td align="center" class="SubHeaderBGAlt"><strong>22</strong></td>
+		<td align="center" colspan="4" class="SubHeaderBGAlt">&nbsp;</td>
+	</tr>
+	<tr>
+		<td></td>	
+	</tr>
+		<tr>
+		<td>ket :</td>	
+	</tr>
+		<tr>
+		<td border="2" bgcolor="#FF3A3A"></td>
+		<td>mahasiswa mengambil mata kuliah semester atas</td>
+	</tr>
+		<tr>
+		<td></td>	
+	</tr>
+
+		<tr height="30" bgcolor="#FFCECE">
+		<td align="center" colspan="6" style="border:1px solid #FF0000">
+		<font color="#FF0000"><strong>FRS BELUM DISETUJUI</strong></font>
+		</td>
+	</tr>
+	</tbody></table>
+<br>
+<table cellpadding="4" cellspacing="0" class="FilterBox">
+		<tbody><tr>
+		<td width="100"><strong>Kelas Dep.</strong></td>
+		<td width="10" align="center"><strong>:</strong></td>
+		<td width="670"><select name="kelasjur" id="kelasjur" class="combo" style="width:530">
+<option value="IF4302|A|2018|51100|0|1|">IF184302 Aljabar Linier(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A 45/46</option>
+<option value="IF4302|B|2018|51100|0|1|" style="background-color:#FC6E6E">IF184302 Aljabar Linier(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; B 46/46</option>
+<option value="IF4302|C|2018|51100|0|1|" style="background-color:#FC6E6E">IF184302 Aljabar Linier(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; C 46/46</option>
+<option value="IF4302|D|2018|51100|0|1|">IF184302 Aljabar Linier(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; D 35/46</option>
+<option value="IF4302|E|2018|51100|0|1|" style="background-color:#FC6E6E">IF184302 Aljabar Linier(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; E 46/46</option>
+<option value="IF4965|A|2018|51100|0|1|" style="background-color:#FC6E6E">IF184965 Basis Data Terdistribusi(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A 40/40</option>
+<option value="IF4101|A|2018|51100|0|1|">IF184101 Dasar Pemrograman(4)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A 36/37</option>
+<option value="IF4101|B|2018|51100|0|1|">IF184101 Dasar Pemrograman(4)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; B 33/37</option>
+<option value="IF4101|C|2018|51100|0|1|">IF184101 Dasar Pemrograman(4)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; C 33/37</option>
+<option value="IF4101|D|2018|51100|0|1|">IF184101 Dasar Pemrograman(4)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; D 30/37</option>
+<option value="IF4101|E|2018|51100|0|1|">IF184101 Dasar Pemrograman(4)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; E 30/37</option>
+<option value="IF4101|F|2018|51100|0|1|">IF184101 Dasar Pemrograman(4)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; F 30/37</option>
+<option value="IF4101|G|2018|51100|0|1|">IF184101 Dasar Pemrograman(4)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; G 31/37</option>
+<option value="IF4101|H|2018|51100|0|1|">IF184101 Dasar Pemrograman(4)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; H 31/37</option>
+<option value="IF4101|P|2018|51100|0|1|" style="background-color:#FC6E6E">IF184101 Dasar Pemrograman(4)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; P 0/0&nbsp;&nbsp;</option>
+<option value="IF4973|A|2018|51100|0|1|" style="background-color:#FC6E6E">IF184973 Evolusi Perangkat Lunak(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A 40/40</option>
+<option value="IF4502|A|2018|51100|0|1|">IF184502 Grafika Komputer(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A 35/36</option>
+<option value="IF4502|B|2018|51100|0|1|">IF184502 Grafika Komputer(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; B 20/36</option>
+<option value="IF4502|C|2018|51100|0|1|">IF184502 Grafika Komputer(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; C 16/36</option>
+<option value="IF4502|D|2018|51100|0|1|">IF184502 Grafika Komputer(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; D 8/36&nbsp;</option>
+<option value="IF4502|E|2018|51100|0|1|" style="background-color:#FC6E6E">IF184502 Grafika Komputer(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; E 36/36</option>
+<option value="IF4505|A|2018|51100|0|1|" style="background-color:#FC6E6E">IF184505 Jaringan Komputer(4)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A 30/30</option>
+<option value="IF4505|B|2018|51100|0|1|">IF184505 Jaringan Komputer(4)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; B 28/30</option>
+<option value="IF4505|C|2018|51100|0|1|" style="background-color:#FC6E6E">IF184505 Jaringan Komputer(4)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; C 30/30</option>
+<option value="IF4505|D|2018|51100|0|1|">IF184505 Jaringan Komputer(4)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; D 29/30</option>
+<option value="IF4505|E|2018|51100|0|1|">IF184505 Jaringan Komputer(4)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; E 21/30</option>
+<option value="IF4911|A|2018|51100|0|1|" style="background-color:#FC6E6E">IF184911 Jaringan Nirkabel(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A 30/30</option>
+<option value="IF4701|A|2018|51100|0|1|">IF184701 Keamanan Informasi dan Jaringan(3)&nbsp; A 2/29&nbsp;</option>
+<option value="IF4701|B|2018|51100|0|1|">IF184701 Keamanan Informasi dan Jaringan(3)&nbsp; B 2/29&nbsp;</option>
+<option value="IF4701|C|2018|51100|0|1|">IF184701 Keamanan Informasi dan Jaringan(3)&nbsp; C 14/29</option>
+<option value="IF4701|D|2018|51100|0|1|">IF184701 Keamanan Informasi dan Jaringan(3)&nbsp; D 2/29&nbsp;</option>
+<option value="IF4701|E|2018|51100|0|1|">IF184701 Keamanan Informasi dan Jaringan(3)&nbsp; E 1/29&nbsp;</option>
+<option value="IF4701|F|2018|51100|0|1|">IF184701 Keamanan Informasi dan Jaringan(3)&nbsp; F 0/29&nbsp;</option>
+<option value="IF4403|S|2018|51100|0|1|">IF184403 Kecerdasan Buatan(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; S 2/30&nbsp;</option>
+<option value="IF4503|A|2018|51100|0|1|" style="background-color:#FC6E6E">IF184503 Kecerdasan Komputasional(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A 26/26</option>
+<option value="IF4503|B|2018|51100|0|1|">IF184503 Kecerdasan Komputasional(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; B 19/26</option>
+<option value="IF4503|C|2018|51100|0|1|">IF184503 Kecerdasan Komputasional(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; C 24/26</option>
+<option value="IF4503|D|2018|51100|0|1|" style="background-color:#FC6E6E">IF184503 Kecerdasan Komputasional(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; D 26/26</option>
+<option value="IF4503|E|2018|51100|0|1|">IF184503 Kecerdasan Komputasional(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; E 25/26</option>
+<option value="IF4503|F|2018|51100|0|1|" style="background-color:#FC6E6E">IF184503 Kecerdasan Komputasional(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; F 26/26</option>
+<option value="IF4801|A|2018|51100|0|1|">IF184801 Kerja Praktik(2)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A 102/250</option>
+<option value="IF4942|A|2018|51100|0|1|" style="background-color:#FC6E6E">IF184942 Komputasi Awan(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A 30/30</option>
+<option value="IF4943|A|2018|51100|0|1|" style="background-color:#FC6E6E">IF184943 Komputasi Bergerak(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A 30/30</option>
+<option value="IF4953|A|2018|51100|0|1|" style="background-color:#FC6E6E">IF184953 Komputasi Biomedik(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A 30/30</option>
+<option value="IF4303|A|2018|51100|0|1|" style="background-color:#FC6E6E">IF184303 Komputasi Numerik(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A 39/39</option>
+<option value="IF4303|B|2018|51100|0|1|" style="background-color:#FC6E6E">IF184303 Komputasi Numerik(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; B 39/39</option>
+<option value="IF4303|C|2018|51100|0|1|" style="background-color:#FC6E6E">IF184303 Komputasi Numerik(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; C 39/39</option>
+<option value="IF4303|D|2018|51100|0|1|">IF184303 Komputasi Numerik(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; D 9/39&nbsp;</option>
+<option value="IF4303|E|2018|51100|0|1|" style="background-color:#FC6E6E">IF184303 Komputasi Numerik(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; E 39/39</option>
+<option value="IF4303|F|2018|51100|0|1|" style="background-color:#FC6E6E">IF184303 Komputasi Numerik(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; F 39/39</option>
+<option value="IF4974|A|2018|51100|0|1|" style="background-color:#FC6E6E">IF184974 Konstruksi Perangkat Lunak(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A 40/40</option>
+<option value="IF4506|A|2018|51100|0|1|">IF184506 Manajemen Proyek Perangkat Lunak(3) A 30/31</option>
+<option value="IF4506|B|2018|51100|0|1|" style="background-color:#FC6E6E">IF184506 Manajemen Proyek Perangkat Lunak(3) B 31/31</option>
+<option value="IF4506|C|2018|51100|0|1|" style="background-color:#FC6E6E">IF184506 Manajemen Proyek Perangkat Lunak(3) C 33/31</option>
+<option value="IF4506|D|2018|51100|0|1|">IF184506 Manajemen Proyek Perangkat Lunak(3) D 16/31</option>
+<option value="IF4506|E|2018|51100|0|1|" style="background-color:#FC6E6E">IF184506 Manajemen Proyek Perangkat Lunak(3) E 31/31</option>
+<option value="IF4304|A|2018|51100|0|1|">IF184304 Matematika Diskrit(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A 46/47</option>
+<option value="IF4304|B|2018|51100|0|1|">IF184304 Matematika Diskrit(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; B 46/47</option>
+<option value="IF4304|C|2018|51100|0|1|">IF184304 Matematika Diskrit(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; C 27/47</option>
+<option value="IF4304|D|2018|51100|0|1|">IF184304 Matematika Diskrit(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; D 31/47</option>
+<option value="IF4304|E|2018|51100|0|1|">IF184304 Matematika Diskrit(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; E 23/47</option>
+<option value="IF4305|A|2018|51100|0|1|" style="background-color:#FC6E6E">IF184305 Organisasi Komputer(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A 39/39</option>
+<option value="IF4305|B|2018|51100|0|1|" style="background-color:#FC6E6E">IF184305 Organisasi Komputer(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; B 39/39</option>
+<option value="IF4305|C|2018|51100|0|1|">IF184305 Organisasi Komputer(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; C 25/39</option>
+<option value="IF4305|D|2018|51100|0|1|" style="background-color:#FC6E6E">IF184305 Organisasi Komputer(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; D 39/39</option>
+<option value="IF4305|E|2018|51100|0|1|" style="background-color:#FC6E6E">IF184305 Organisasi Komputer(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; E 39/39</option>
+<option value="IF4305|F|2018|51100|0|1|" style="background-color:#FC6E6E">IF184305 Organisasi Komputer(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; F 39/39</option>
+<option value="IF4901|A|2018|51100|0|1|" style="background-color:#FC6E6E">IF184901 Pemorgraman Perangkat Bergerak(3)&nbsp;&nbsp; A 49/49</option>
+<option value="IF4301|A|2018|51100|0|1|" style="background-color:#FC6E6E">IF184301 Pemrograman Berorientasi Objek(3)&nbsp;&nbsp; A 29/29</option>
+<option value="IF4301|B|2018|51100|0|1|">IF184301 Pemrograman Berorientasi Objek(3)&nbsp;&nbsp; B 28/29</option>
+<option value="IF4301|C|2018|51100|0|1|" style="background-color:#FC6E6E">IF184301 Pemrograman Berorientasi Objek(3)&nbsp;&nbsp; C 29/29</option>
+<option value="IF4301|D|2018|51100|0|1|">IF184301 Pemrograman Berorientasi Objek(3)&nbsp;&nbsp; D 21/29</option>
+<option value="IF4301|E|2018|51100|0|1|">IF184301 Pemrograman Berorientasi Objek(3)&nbsp;&nbsp; E 26/29</option>
+<option value="IF4301|F|2018|51100|0|1|">IF184301 Pemrograman Berorientasi Objek(3)&nbsp;&nbsp; F 27/29</option>
+<option value="IF4301|G|2018|51100|0|1|" style="background-color:#FC6E6E">IF184301 Pemrograman Berorientasi Objek(3)&nbsp;&nbsp; G 29/29</option>
+<option value="IF4301|H|2018|51100|0|1|" style="background-color:#FC6E6E">IF184301 Pemrograman Berorientasi Objek(3)&nbsp;&nbsp; H 29/29</option>
+<option value="IF4301|S|2018|51100|0|1|">IF184301 Pemrograman Berorientasi Objek(3)&nbsp;&nbsp; S 0/40&nbsp;</option>
+<option value="IF4504|A|2018|51100|0|1|">IF184504 Pemrograman Web(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A 24/30</option>
+<option value="IF4504|B|2018|51100|0|1|" style="background-color:#FC6E6E">IF184504 Pemrograman Web(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; B 30/30</option>
+<option value="IF4504|C|2018|51100|0|1|" style="background-color:#FC6E6E">IF184504 Pemrograman Web(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; C 30/30</option>
+<option value="IF4504|D|2018|51100|0|1|">IF184504 Pemrograman Web(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; D 20/30</option>
+<option value="IF4504|E|2018|51100|0|1|" style="background-color:#FC6E6E">IF184504 Pemrograman Web(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; E 30/30</option>
+<option value="IF4401|A|2018|51100|0|1|" style="background-color:#FC6E6E">IF184401 Perancangan dan Analisis Algoritma(4) A 20/20</option>
+<option value="IF4501|A|2018|51100|0|1|" style="background-color:#FC6E6E">IF184501 Perancangan Perangkat Lunak(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A 31/31</option>
+<option value="IF4501|B|2018|51100|0|1|" style="background-color:#FC6E6E">IF184501 Perancangan Perangkat Lunak(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; B 31/31</option>
+<option value="IF4501|C|2018|51100|0|1|" style="background-color:#FC6E6E">IF184501 Perancangan Perangkat Lunak(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; C 31/31</option>
+<option value="IF4501|D|2018|51100|0|1|">IF184501 Perancangan Perangkat Lunak(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; D 30/31</option>
+<option value="IF4501|E|2018|51100|0|1|">IF184501 Perancangan Perangkat Lunak(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; E 24/31</option>
+<option value="IF4702|A|2018|51100|0|1|">IF184702 Pra-Tugas Akhir(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A 98/250</option>
+<option value="IF4932|A|2018|51100|0|1|" style="background-color:#FC6E6E">IF184932 Realitas Virtual dan Augmentasi(3)&nbsp; A 40/40</option>
+<option value="IF4962|A|2018|51100|0|1|" style="background-color:#FC6E6E">IF184962 Rekayasa Pengetahuan(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A 40/40</option>
+<option value="IF4923|A|2018|51100|0|1|" style="background-color:#FC6E6E">IF184923 Riset Operasi(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A 20/20</option>
+<option value="IF4923|B|2018|51100|0|1|" style="background-color:#FC6E6E">IF184923 Riset Operasi(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; B 20/20</option>
+<option value="IF4954|A|2018|51100|0|1|" style="background-color:#FC6E6E">IF184954 Robotika(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A 30/30</option>
+<option value="IW4301|A|2018|51100|0|1|">IW184301 Sistem Basis Data(4)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A 23/33</option>
+<option value="IW4301|B|2018|51100|0|1|">IW184301 Sistem Basis Data(4)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; B 31/33</option>
+<option value="IW4301|C|2018|51100|0|1|" style="background-color:#FC6E6E">IW184301 Sistem Basis Data(4)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; C 33/33</option>
+<option value="IW4301|D|2018|51100|0|1|">IW184301 Sistem Basis Data(4)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; D 32/33</option>
+<option value="IW4301|E|2018|51100|0|1|" style="background-color:#FC6E6E">IW184301 Sistem Basis Data(4)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; E 33/33</option>
+<option value="IW4301|F|2018|51100|0|1|">IW184301 Sistem Basis Data(4)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; F 32/33</option>
+<option value="IW4301|G|2018|51100|0|1|" style="background-color:#FC6E6E">IW184301 Sistem Basis Data(4)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; G 33/33</option>
+<option value="IF4201|A|2018|51100|0|1|">IF184201 Sistem Digital(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A 3/20&nbsp;</option>
+<option value="IF4961|A|2018|51100|0|1|" style="background-color:#FC6E6E">IF184961 Sistem Enterprise(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A 40/40</option>
+<option value="IF4967|A|2018|51100|0|1|" style="background-color:#FC6E6E">IF184967 Sistem Informasi Geografis(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A 40/40</option>
+<option value="IF4955|A|2018|51100|0|1|" style="background-color:#FC6E6E">IF184955 Sistem Temu Kembali Informasi(3)&nbsp;&nbsp;&nbsp; A 30/30</option>
+<option value="IF4944|A|2018|51100|0|1|" style="background-color:#FC6E6E">IF184944 Sistem Terdistribusi(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A 30/30</option>
+<option value="IF4202|A|2018|51100|0|1|">IF184202 Struktur Data(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A 3/20&nbsp;</option>
+<option value="IF4202|S|2018|51100|0|1|">IF184202 Struktur Data(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; S 0/40&nbsp;</option>
+<option value="IF4931|A|2018|51100|0|1|" style="background-color:#FC6E6E">IF184931 Teknik Pengembangan Game(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A 40/40</option>
+<option value="IF4912|A|2018|51100|0|1|" style="background-color:#FC6E6E">IF184912 Teknologi antar Jaringan(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A 30/30</option>
+<option value="IF4981|A|2018|51100|0|1|">IF184981 Topik Khusus(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A 18/40</option>
+<option value="IF4802|A|2018|51100|0|1|">IF184802 Tugas Akhir(4)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A 31/250</option>
+<option value="IF4956|A|2018|51100|0|1|" style="background-color:#FC6E6E">IF184956 Visi Komputer(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A 30/30</option>
+</select> 
+					<input type="button" class="ControlStyle" value="Ambil" onclick="goTake(&#39;jur&#39;)"> 
+		<input type="button" class="ControlStyle" value="Peserta" onclick="goPeserta(&#39;jur&#39;)">
+				</td>
+	</tr>
+	<tr>
+		<td><strong>Kelas Dep. Lain</strong></td>
+		<td><strong>:</strong></td>
+		<td>Belum ada kelas yang ditawarkan. 
+				</td>
+	</tr>
+	     	<tr>
+		<td><strong>Kelas UPMB</strong></td>
+		<td align="center"><strong>:</strong></td>
+		<td><select name="kelastpb" id="kelastpb" class="combo" style="width:530">
+<option value="UG4912|29|2018|__TPB|0|1|" style="background-color:#FC6E6E">UG184912 Bahasa Indonesia(2)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 29&nbsp; 47/0&nbsp; | S1-GEOM(16) S1-INF(31)</option>
+<option value="UG4912|30|2018|__TPB|0|1|" style="background-color:#FC6E6E">UG184912 Bahasa Indonesia(2)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 30&nbsp; 47/0&nbsp; | S1-GEOM(15) S1-INF(32)</option>
+<option value="UG4912|31|2018|__TPB|0|1|" style="background-color:#FC6E6E">UG184912 Bahasa Indonesia(2)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 31&nbsp; 47/0&nbsp; | S1-GEOM(15) S1-INF(32)</option>
+<option value="UG4912|32|2018|__TPB|0|1|" style="background-color:#FC6E6E">UG184912 Bahasa Indonesia(2)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 32&nbsp; 47/0&nbsp; | S1-GEOM(15) S1-INF(32)</option>
+<option value="UG4912|33|2018|__TPB|0|1|" style="background-color:#FC6E6E">UG184912 Bahasa Indonesia(2)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 33&nbsp; 46/0&nbsp; | S1-GEOM(15) S1-INF(31)</option>
+<option value="UG4912|34|2018|__TPB|0|1|" style="background-color:#FC6E6E">UG184912 Bahasa Indonesia(2)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 34&nbsp; 46/0&nbsp; | S1-GEOM(15) S1-INF(31)</option>
+<option value="UG4912|35|2018|__TPB|0|1|" style="background-color:#FC6E6E">UG184912 Bahasa Indonesia(2)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 35&nbsp; 46/0&nbsp; | S1-GEOM(15) S1-INF(31)</option>
+<option value="UG4912|36|2018|__TPB|0|1|" style="background-color:#FC6E6E">UG184912 Bahasa Indonesia(2)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 36&nbsp; 46/0&nbsp; | S1-GEOM(15) S1-INF(31)</option>
+<option value="SF4101|47|2018|__TPB|0|1|" style="background-color:#FC6E6E">SF184101 Fisika 1(4)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 47&nbsp; 49/0&nbsp; | S1-AKT(12) S1-TKOMP(9) S1-INF(28)</option>
+<option value="SF4101|48|2018|__TPB|0|1|" style="background-color:#FC6E6E">SF184101 Fisika 1(4)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 48&nbsp; 49/0&nbsp; | S1-AKT(12) S1-TKOMP(9) S1-INF(28)</option>
+<option value="SF4101|49|2018|__TPB|0|1|" style="background-color:#FC6E6E">SF184101 Fisika 1(4)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 49&nbsp; 49/0&nbsp; | S1-AKT(12) S1-TKOMP(9) S1-INF(28)</option>
+<option value="SF4101|50|2018|__TPB|0|1|" style="background-color:#FC6E6E">SF184101 Fisika 1(4)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 50&nbsp; 49/0&nbsp; | S1-AKT(12) S1-TKOMP(9) S1-INF(28)</option>
+<option value="SF4101|51|2018|__TPB|0|1|" style="background-color:#FC6E6E">SF184101 Fisika 1(4)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 51&nbsp; 49/0&nbsp; | S1-AKT(12) S1-TKOMP(9) S1-INF(28)</option>
+<option value="SF4101|52|2018|__TPB|0|1|" style="background-color:#FC6E6E">SF184101 Fisika 1(4)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 52&nbsp; 48/0&nbsp; | S1-AKT(12) S1-TKOMP(9) S1-INF(27)</option>
+<option value="SF4101|53|2018|__TPB|0|1|" style="background-color:#FC6E6E">SF184101 Fisika 1(4)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 53&nbsp; 48/0&nbsp; | S1-AKT(12) S1-TKOMP(8) S1-INF(28)</option>
+<option value="SF4101|54|2018|__TPB|0|1|" style="background-color:#FC6E6E">SF184101 Fisika 1(4)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 54&nbsp; 48/0&nbsp; | S1-AKT(12) S1-TKOMP(8) S1-INF(28)</option>
+<option value="SF4101|55|2018|__TPB|0|1|" style="background-color:#FC6E6E">SF184101 Fisika 1(4)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 55&nbsp; 48/0&nbsp; | S1-AKT(12) S1-TKOMP(8) S1-INF(28)</option>
+<option value="SK4101|31|2018|__TPB|0|1|" style="background-color:#FC6E6E">SK184101 Kimia 1(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 31&nbsp; 46/0&nbsp; | S1-BIO(12) S1-TRANSLA(6) S1-INF(28)</option>
+<option value="SK4101|32|2018|__TPB|0|1|" style="background-color:#FC6E6E">SK184101 Kimia 1(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 32&nbsp; 46/0&nbsp; | S1-BIO(12) S1-TRANSLA(6) S1-INF(28)</option>
+<option value="SK4101|33|2018|__TPB|0|1|" style="background-color:#FC6E6E">SK184101 Kimia 1(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 33&nbsp; 46/0&nbsp; | S1-BIO(11) S1-TRANSLA(7) S1-INF(28)</option>
+<option value="SK4101|34|2018|__TPB|0|1|" style="background-color:#FC6E6E">SK184101 Kimia 1(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 34&nbsp; 46/0&nbsp; | S1-BIO(11) S1-TRANSLA(7) S1-INF(28)</option>
+<option value="SK4101|35|2018|__TPB|0|1|" style="background-color:#FC6E6E">SK184101 Kimia 1(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 35&nbsp; 46/0&nbsp; | S1-BIO(11) S1-TRANSLA(7) S1-INF(28)</option>
+<option value="SK4101|36|2018|__TPB|0|1|" style="background-color:#FC6E6E">SK184101 Kimia 1(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 36&nbsp; 46/0&nbsp; | S1-BIO(11) S1-TRANSLA(7) S1-INF(28)</option>
+<option value="SK4101|37|2018|__TPB|0|1|" style="background-color:#FC6E6E">SK184101 Kimia 1(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 37&nbsp; 46/0&nbsp; | S1-BIO(11) S1-TRANSLA(7) S1-INF(28)</option>
+<option value="SK4101|38|2018|__TPB|0|1|" style="background-color:#FC6E6E">SK184101 Kimia 1(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 38&nbsp; 46/0&nbsp; | S1-BIO(11) S1-TRANSLA(7) S1-INF(28)</option>
+<option value="SK4101|39|2018|__TPB|0|1|" style="background-color:#FC6E6E">SK184101 Kimia 1(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 39&nbsp; 45/0&nbsp; | S1-BIO(11) S1-TRANSLA(7) S1-INF(27)</option>
+<option value="KM4101|54|2018|__TPB|0|1|" style="background-color:#FC6E6E">KM184101 Matematika 1(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 54&nbsp; 47/0&nbsp; | S1-AKT(12) S1-TRANSLA(7) S1-INF(28)</option>
+<option value="KM4101|55|2018|__TPB|0|1|" style="background-color:#FC6E6E">KM184101 Matematika 1(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 55&nbsp; 47/0&nbsp; | S1-AKT(12) S1-TRANSLA(7) S1-INF(28)</option>
+<option value="KM4101|56|2018|__TPB|0|1|" style="background-color:#FC6E6E">KM184101 Matematika 1(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 56&nbsp; 47/0&nbsp; | S1-AKT(12) S1-TRANSLA(7) S1-INF(28)</option>
+<option value="KM4101|57|2018|__TPB|0|1|" style="background-color:#FC6E6E">KM184101 Matematika 1(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 57&nbsp; 47/0&nbsp; | S1-AKT(12) S1-TRANSLA(7) S1-INF(28)</option>
+<option value="KM4101|58|2018|__TPB|0|1|" style="background-color:#FC6E6E">KM184101 Matematika 1(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 58&nbsp; 47/0&nbsp; | S1-AKT(12) S1-TRANSLA(7) S1-INF(28)</option>
+<option value="KM4101|59|2018|__TPB|0|1|" style="background-color:#FC6E6E">KM184101 Matematika 1(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 59&nbsp; 47/0&nbsp; | S1-AKT(12) S1-TRANSLA(7) S1-INF(28)</option>
+<option value="KM4101|60|2018|__TPB|0|1|" style="background-color:#FC6E6E">KM184101 Matematika 1(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 60&nbsp; 47/0&nbsp; | S1-AKT(14) S1-TRANSLA(7) S1-INF(27)</option>
+<option value="KM4101|61|2018|__TPB|0|1|" style="background-color:#FC6E6E">KM184101 Matematika 1(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 61&nbsp; 46/0&nbsp; | S1-AKT(12) S1-TRANSLA(6) S1-INF(28)</option>
+<option value="KM4101|62|2018|__TPB|0|1|" style="background-color:#FC6E6E">KM184101 Matematika 1(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 62&nbsp; 46/0&nbsp; | S1-AKT(12) S1-TRANSLA(6) S1-INF(28)</option>
+<option value="UG4911|34|2018|__TPB|0|1|" style="background-color:#FC6E6E">UG184911 Pancasila(2)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 34&nbsp; 46/0&nbsp; | S1-FIS(18) S1-INF(28)</option>
+<option value="UG4911|35|2018|__TPB|0|1|" style="background-color:#FC6E6E">UG184911 Pancasila(2)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 35&nbsp; 46/0&nbsp; | S1-FIS(18) S1-INF(28)</option>
+<option value="UG4911|36|2018|__TPB|0|1|" style="background-color:#FC6E6E">UG184911 Pancasila(2)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 36&nbsp; 46/0&nbsp; | S1-FIS(18) S1-INF(28)</option>
+<option value="UG4911|37|2018|__TPB|0|1|" style="background-color:#FC6E6E">UG184911 Pancasila(2)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 37&nbsp; 46/0&nbsp; | S1-FIS(18) S1-INF(28)</option>
+<option value="UG4911|38|2018|__TPB|0|1|" style="background-color:#FC6E6E">UG184911 Pancasila(2)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 38&nbsp; 45/0&nbsp; | S1-FIS(18) S1-INF(27)</option>
+<option value="UG4911|39|2018|__TPB|0|1|" style="background-color:#FC6E6E">UG184911 Pancasila(2)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 39&nbsp; 45/0&nbsp; | S1-FIS(17) S1-INF(28)</option>
+<option value="UG4911|40|2018|__TPB|0|1|" style="background-color:#FC6E6E">UG184911 Pancasila(2)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 40&nbsp; 45/0&nbsp; | S1-FIS(17) S1-INF(28)</option>
+<option value="UG4911|41|2018|__TPB|0|1|" style="background-color:#FC6E6E">UG184911 Pancasila(2)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 41&nbsp; 45/0&nbsp; | S1-FIS(17) S1-INF(28)</option>
+<option value="UG4911|42|2018|__TPB|0|1|" style="background-color:#FC6E6E">UG184911 Pancasila(2)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 42&nbsp; 45/0&nbsp; | S1-FIS(17) S1-INF(28)</option>
+<option value="UG4915|2|2018|__TPB|0|1|">UG184915 Teknopreneur(2)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp; 41/49 | S1-DESPRO(13) S1-GEOM(10) S1-DKV(0) S1-INF(18)</option>
+<option value="UG4915|3|2018|__TPB|0|1|">UG184915 Teknopreneur(2)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp; 45/49 | S1-DESPRO(12) S1-GEOM(13) S1-DKV(0) S1-SKAL-JD(2) S1-INF(18)</option>
+<option value="UG4915|38|2018|__TPB|0|1|">UG184915 Teknopreneur(2)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 38&nbsp; 42/48 | S1-DESPRO(8) S1-GEOM(11) S1-SKAL-JD(6) S1-INF(18)</option>
+<option value="UG4915|4|2018|__TPB|0|1|">UG184915 Teknopreneur(2)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp; 42/49 | S1-DESPRO(13) S1-GEOM(10) S1-DKV(0) S1-INF(18)</option>
+<option value="UG4915|5|2018|__TPB|0|1|">UG184915 Teknopreneur(2)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5&nbsp;&nbsp; 47/49 | S1-DESPRO(13) S1-GEOM(10) S1-SKAL-JD(6) S1-INF(18)</option>
+<option value="UG4915|6|2018|__TPB|0|1|">UG184915 Teknopreneur(2)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6&nbsp;&nbsp; 47/49 | S1-DESPRO(13) S1-GEOM(10) S1-SKAL-JD(6) S1-INF(18)</option>
+<option value="UG4915|7|2018|__TPB|0|1|" style="background-color:#FC6E6E">UG184915 Teknopreneur(2)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 7&nbsp;&nbsp; 49/49 | S1-DESPRO(13) S1-GEOM(10) S1-SKAL-JD(6) S1-INF(18)</option>
+<option value="UG4915|8|2018|__TPB|0|1|">UG184915 Teknopreneur(2)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 8&nbsp;&nbsp; 47/49 | S1-DESPRO(13) S1-GEOM(10) S1-SKAL-JD(6) S1-INF(18)</option>
+<option value="SF4202|86|2018|__TPB|0|1|">SF184202 Fisika 2(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 86&nbsp; 19/40 | SEMUA PRODI</option>
+<option value="UG4917|1|2018|__TPB|0|0|1">UG184917 Kuliah Kerja Nyata Tematik(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp; 87/1000 | SEMUA PRODI</option>
+<option value="KM4151|86|2018|__TPB|0|1|" style="background-color:#FC6E6E">KM184151 Matematika 1(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 86&nbsp; 10/10 | SEMUA PRODI</option>
+<option value="KM4201|87|2018|__TPB|0|1|" style="background-color:#FC6E6E">KM184201 Matematika 2(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 87&nbsp; 10/10 | SEMUA PRODI</option>
+<option value="KM4201|88|2018|__TPB|0|1|" style="background-color:#FC6E6E">KM184201 Matematika 2(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 88&nbsp; 0/0&nbsp;&nbsp; | SEMUA PRODI</option>
+<option value="UG4915|1|2018|__TPB|0|1|" style="background-color:#FC6E6E">UG184915 Teknopreneur(2)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp; 40/40 | SEMUA PRODI</option>
+<option value="UG4915|39|2018|__TPB|0|1|" style="background-color:#FC6E6E">UG184915 Teknopreneur(2)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 39&nbsp; 40/40 | SEMUA PRODI</option>
+<option value="UG4915|100|2018|__TPB|0|1|" style="background-color:#FC6E6E">UG184915 Teknopreneur(2)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 100 0/0&nbsp;&nbsp; | SEMUA PRODI</option>
+</select> 
+				<input type="button" class="ControlStyle" value="Ambil" onclick="goTake(&#39;tpb&#39;)"> 
+		<input type="button" class="ControlStyle" value="Peserta" onclick="goPeserta(&#39;tpb&#39;)">
+				</td>
+	</tr>
+			<tr>
+		<td><strong>Kelas Pengayaan</strong></td>
+		<td align="center"><strong>:</strong></td>
+		<td><select name="kelaspengayaan" id="kelaspengayaan" class="combo" style="width:530">
+<option value="SB4838|P|2018|15100|1|1|" style="background-color:#FC6E6E">SB184838 Akuakultur*(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; P 50/50 | Biologi - SCIENTICS</option>
+<option value="SB4839|P|2018|15100|1|1|">SB184839 Anatomi &amp; Fisiologi Manusia*(3)&nbsp;&nbsp;&nbsp;&nbsp; P 32/50 | Biologi - SCIENTICS</option>
+<option value="SK4765|A|2018|14100|1|1|">SK184765 Bisnis Kimia(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A 57/70 | Kimia - SCIENTICS</option>
+<option value="SB4733|P|2018|15100|1|1|" style="background-color:#FC6E6E">SB184733 Botani Ekonomi*(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; P 50/50 | Biologi - SCIENTICS</option>
+<option value="EE4302|P|2018|22100|1|1|">EE184302 Dasar Sistem dan Jaringan Telekomunikasi(3) P 15/20 | Teknik Elektro - ELECTICS</option>
+<option value="EE4404|P|2018|22100|1|1|">EE184404 Dasar Sistem Pengaturan(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; P 3/20&nbsp; | Teknik Elektro - ELECTICS</option>
+<option value="EE4402|P|2018|22100|1|1|" style="background-color:#FC6E6E">EE184402 Dasar Sistem Tenaga Listrik(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; P 20/20 | Teknik Elektro - ELECTICS</option>
+<option value="EC4911|A|2018|29100|1|1|">EC184911 Desain Permainan(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A 15/50 | Teknik Komputer - ELECTICS</option>
+<option value="TI4415|A|2018|25100|1|1|" style="background-color:#FC6E6E">TI184415 Ekonomi Teknik(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A 40/40 | Teknik Industri - INDSYS</option>
+<option value="MS4402|A|2018|44100|1|1|">MS184402 Ekonomi Transportasi Laut(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A 49/50 | Teknik Transportasi Laut - MARTECH</option>
+<option value="RF4629|B|2018|37100|1|1|">RF184629 Geowisata*(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; B 39/40 | Teknik Geofisika - CIVPLAN</option>
+<option value="MN4702|A|2018|41100|1|1|" style="background-color:#FC6E6E">MN184702 Hidrodinamika Kapal(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A 40/40 | Teknik Perkapalan - MARTECH</option>
+<option value="MN4702|B|2018|41100|1|1|" style="background-color:#FC6E6E">MN184702 Hidrodinamika Kapal(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; B 41/41 | Teknik Perkapalan - MARTECH</option>
+<option value="DI4735|A|2018|38100|1|1|" style="background-color:#FC6E6E">DI184735 Home Decor(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A 35/35 | Desain Interior - CREABIZ</option>
+<option value="DI4735|B|2018|38100|1|1|" style="background-color:#FC6E6E">DI184735 Home Decor(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; B 35/35 | Desain Interior - CREABIZ</option>
+<option value="RM4946|B|2018|35100|1|1|">RM184946 Informasi Geospasial Tematik*)(3)&nbsp;&nbsp; B 49/50 | Teknik Geomatika - CIVPLAN</option>
+<option value="RE4801|P|2018|33100|1|1|" style="background-color:#FC6E6E">RE184801 Keselamatan dan Kesehatan Kerja(3)&nbsp; P 40/40 | Teknik Lingkungan - CIVPLAN</option>
+<option value="TI4911|A|2018|25100|1|1|" style="background-color:#FC6E6E">TI184911 Keselamatan dan Kesehatan Kerja Industri(3) A 40/40 | Teknik Industri - INDSYS</option>
+<option value="TK4801|P|2018|23100|1|1|" style="background-color:#FC6E6E">TK184801 Keselamatan Pabrik Kimia(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; P 45/45 | Teknik Kimia - INDSYS</option>
+<option value="SK4766|A|2018|14100|1|1|" style="background-color:#FC6E6E">SK184766 Kimia Bahan Makanan(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A 70/70 | Kimia - SCIENTICS</option>
+<option value="MN4931|A|2018|41100|1|1|">MN184931 Korosi(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A 13/15 | Teknik Perkapalan - MARTECH</option>
+<option value="DK4712|_|2018|36100|1|1|" style="background-color:#FC6E6E">DK184712 Manajemen Konflik*(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; _ 20/20 | Perencanaan Wilayah Dan Kota - CIVPLAN</option>
+<option value="DK4726|_|2018|36100|1|1|" style="background-color:#FC6E6E">DK184726 Manajemen Proyek*(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; _ 20/20 | Perencanaan Wilayah Dan Kota - CIVPLAN</option>
+<option value="DK4713|_|2018|36100|1|1|" style="background-color:#FC6E6E">DK184713 Manajemen Resiko Bencana*(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; _ 20/20 | Perencanaan Wilayah Dan Kota - CIVPLAN</option>
+<option value="DK4719|_|2018|36100|1|1|" style="background-color:#FC6E6E">DK184719 Manajemen Transportasi Perkotaan*(3) _ 20/20 | Perencanaan Wilayah Dan Kota - CIVPLAN</option>
+<option value="KA4301|_|2018|16100|1|1|" style="background-color:#FC6E6E">KA184301 Matematika Finansial(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; _ 50/50 | Sains Aktuaria - SCIENTICS</option>
+<option value="TL4730|A|2018|27100|1|1|" style="background-color:#FC6E6E">TL184730 Material Komposit *(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A 45/45 | Teknik Material - INDSYS</option>
+<option value="DK4717|_|2018|36100|1|1|" style="background-color:#FC6E6E">DK184717 Pembangunan Ekonomi Lokal*(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; _ 20/20 | Perencanaan Wilayah Dan Kota - CIVPLAN</option>
+<option value="RM4957|B|2018|35100|1|1|">RM184957 Pemetaaan Batas Wilayah*)(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; B 46/50 | Teknik Geomatika - CIVPLAN</option>
+<option value="KM4731|_|2018|12100|1|1|">KM184731 Pemodelan Matematika Sistem(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; _ 17/50 | Matematika - SCIENTICS</option>
+<option value="KS4101|D|2018|13100|1|1|">KS184101 Pengantar Metode Statistika(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; D 38/50 | Statistika - SCIENTICS</option>
+<option value="KS4101|E|2018|13100|1|1|">KS184101 Pengantar Metode Statistika(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; E 0/50&nbsp; | Statistika - SCIENTICS</option>
+<option value="DK4721|_|2018|36100|1|1|" style="background-color:#FC6E6E">DK184721 Pengelolaan Kawasan Pesisir Terpadu*(3) _ 20/20 | Perencanaan Wilayah Dan Kota - CIVPLAN</option>
+<option value="MO4744|A|2018|43100|1|1|" style="background-color:#FC6E6E">MO184744 Pengelolaan Wilayah Pesisir dan Laut Terpadu(3) A 60/60 | Teknik Kelautan - MARTECH</option>
+<option value="MO4744|B|2018|43100|1|1|">MO184744 Pengelolaan Wilayah Pesisir dan Laut Terpadu(3) B 58/60 | Teknik Kelautan - MARTECH</option>
+<option value="ME4926|A|2018|42100|1|1|" style="background-color:#FC6E6E">ME184926 Pengenalan Keselamatan Kapal(3)&nbsp;&nbsp;&nbsp;&nbsp; A 50/50 | Teknik Sistem Perkapalan - MARTECH</option>
+<option value="TK4701|P|2018|23100|1|1|" style="background-color:#FC6E6E">TK184701 Pengolahan Limbah Industri(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; P 40/40 | Teknik Kimia - INDSYS</option>
+<option value="TF1810|A|2018|24100|1|1|" style="background-color:#FC6E6E">TF181810 Pengukuran dan Kalibrasi(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A 35/35 | Teknik Fisika - INDSYS</option>
+<option value="SK4767|A|2018|14100|1|1|">SK184767 Penyimpanan Energi(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A 49/50 | Kimia - SCIENTICS</option>
+<option value="DA4604|_|2018|32100|1|1|" style="background-color:#FC6E6E">DA184604 Perancangan Berkelanjutan(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; _ 50/37 | Arsitektur - CIVPLAN</option>
+<option value="SB4743|P|2018|15100|1|1|" style="background-color:#FC6E6E">SB184743 Perilaku Hewan*(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; P 50/50 | Biologi - SCIENTICS</option>
+<option value="RC4804|A|2018|31100|1|1|" style="background-color:#FC6E6E">RC184804 Prinsip Infrastruktur Sipil(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A 60/60 | Teknik Sipil - CIVPLAN</option>
+<option value="RC4804|B|2018|31100|1|1|">RC184804 Prinsip Infrastruktur Sipil(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; B 56/60 | Teknik Sipil - CIVPLAN</option>
+<option value="RC4804|C|2018|31100|1|1|">RC184804 Prinsip Infrastruktur Sipil(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; C 50/60 | Teknik Sipil - CIVPLAN</option>
+<option value="EE4306|P|2018|22100|1|1|">EE184306 Rangkaian Elektronika(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; P 2/20&nbsp; | Teknik Elektro - ELECTICS</option>
+<option value="SB4849|P|2018|15100|1|1|">SB184849 Rekayasa Genetika Mikroba*(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; P 7/50&nbsp; | Biologi - SCIENTICS</option>
+<option value="SB4757|P|2018|15100|1|1|">SB184757 Selam Ilmiah*(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; P 40/50 | Biologi - SCIENTICS</option>
+<option value="IS4947|A|2018|52100|1|1|">IS184947 Sistem Keputusan Berbasis Model(3)&nbsp; A 39/40 | Sistem Informasi - ELECTICS</option>
+<option value="DK4711|_|2018|36100|1|1|" style="background-color:#FC6E6E">DK184711 Sosiologi Perkotaan*(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; _ 20/20 | Perencanaan Wilayah Dan Kota - CIVPLAN</option>
+<option value="SB4850|P|2018|15100|1|1|">SB184850 Sumber Daya Pesisir dan Laut*(3)&nbsp;&nbsp;&nbsp; P 49/50 | Biologi - SCIENTICS</option>
+<option value="TM4832|A|2018|21100|1|1|">TM184832 Sumber Energi(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A 8/50&nbsp; | Teknik Mesin - INDSYS</option>
+<option value="SF4899|P|2018|11100|1|1|">SF184899 Tarian Alam Semesta(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; P 87/100 | Fisika - SCIENTICS</option>
+<option value="SB4750|P|2018|15100|1|1|">SB184750 Teknik Analisis Mikroba*(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; P 23/50 | Biologi - SCIENTICS</option>
+<option value="IS4941|A|2018|52100|1|1|" style="background-color:#FC6E6E">IS184941 Teknik Peramalan(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A 40/40 | Sistem Informasi - ELECTICS</option>
+<option value="IS4933|A|2018|52100|1|1|">IS184933 Teknologi Bergerak(3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A 26/40 | Sistem Informasi - ELECTICS</option>
+</select> 
+				<input type="button" class="ControlStyle" value="Ambil" onclick="goTake(&#39;pengayaan&#39;)"> <input type="button" class="ControlStyle" value="Peserta" onclick="goPeserta(&#39;pengayaan&#39;)">
+				</td>
+	</tr>
+							
+</tbody></table>
+<br>
+<table cellpadding="2" cellspacing="0" class="InfoBox">
+	<tbody><tr valign="top">
+		<td>
+		<ul class="orange">
+			<li><font color="#FF0000">Pengambilan mata kuliah TPB untuk mengulang hanya untuk yang sebelumnya mendapat nilai E, atau D yang terkena batas waktu. [Instruksi PR1 ITS]</font></li>
+			<li>Jika ada kelas yang belum dibuka (belum terdapat di combo box), hubungi <u style="cursor:pointer;color:#3300FF;" onclick="showTataUsaha(this)">[Tata Usaha]</u> jurusan masing-masing untuk mengentrikan.</li>
+			<li><font color="#FF0000">Untuk menambah kapasitas kelas, hanya oleh Tata Usaha melalui persetujuan Ketua Jurusan.</font></li>
+		</ul>		</td>
+	</tr>
+</tbody></table>
+<div id="div_tu" align="center" style="display:none;position:relative"></div>
+	<input type="hidden" name="nrp" id="nrp" value="5117100029">
+	<input type="hidden" name="act" id="act">
+	<input type="hidden" name="key" id="key">
+</form>
+</div>
+<script type="text/javascript" src="./[SIAKAD-ITS] Formulir Rencana Studi (FRS)_files/jquery-ui.min.js"></script>
+
+<script src="./[SIAKAD-ITS] Formulir Rencana Studi (FRS)_files/jquery.blockUI.js"></script>
+
+<script type="text/javascript">
+
+var filedetail = "";
+
+var mouseX = 0; 
+var mouseY = 0;
+
+var ie  = document.all; 
+var ns6 = document.getElementById&&!document.all;
+
+var isMenuOpened  = false ;
+var menuSelObj = null ;
+var overpopupmenu = false;
+var gParam;
+
+var posx = 0; 
+var posy = 0;
+
+var newWin = null;
+
+function popUp(strURL, strType, strHeight, strWidth) {
+	if (newWin != null && !newWin.closed)
+		newWin.close();
+	
+	var strOptions="";
+	
+	if (strType=="console")
+		strOptions="resizable,height="+strHeight+",width="+strWidth;
+	if (strType=="fixed")
+		strOptions="status,height="+strHeight+",width="+strWidth;
+	if (strType=="elastic")
+		strOptions="toolbar,menubar,scrollbars,"+"resizable,location,height="+strHeight+",width="+strWidth;
+	
+	newWin = window.open(strURL, 'newWin', strOptions);
+	newWin.focus();
+}
+
+function etrGanti(e) {
+	var ev = (window.event) ? window.event : e;
+	var key = (ev.keyCode) ? ev.keyCode : ev.which;
+	
+	if (key == 13)
+		goGanti();
+}
+
+function goGanti() {
+	document.getElementById("act").value = "gantinrp";
+	goSubmit();
+}
+
+function goApprove() {
+	document.getElementById("act").value = "approve";
+	goSubmit();
+}
+
+function goDisApprove() {
+	document.getElementById("act").value = "disapprove";
+	goSubmit();
+}
+
+function goDrop(key,label) {
+	var hapus = confirm('Apakah anda yakin akan drop kelas "'+label+'"?');
+	if(hapus) {
+		document.getElementById("act").value = "drop";
+		document.getElementById("key").value = key;
+		goSubmit();
+	}
+}
+
+function goTake(tipe) {
+	var elem = document.getElementById("kelas"+tipe);
+	// alert(elem);
+	if(elem) {
+		var val = elem.value;
+		
+		var xkode = val.split("|");
+		kodemk = xkode[0];
+		kelas = xkode[1];
+		
+		if (kodemk=="UG4915" && (kelas=="1" || kelas=="39")) { // technopreneur kelas khusus
+		// if (kodemk=="UG4915" && kelas=="1") { // technopreneur kelas khusus
+			$("<div>").load("inc_pengumuman_frs.php").dialog({
+				title: "Pengumuman",
+				resizable: false,
+				modal: true,
+				draggable: false,
+				width: 600,
+				height: 300,
+				position:{ my: 'center top', at: 'top+100'}
+				,
+				buttons: {
+					"Ya": function() {
+						$(this).dialog("close");
+						document.getElementById("act").value = "ambil";
+						document.getElementById("key").value = val;
+						goSubmit();
+					},
+					"Batal": function() {
+						$(this).dialog("close");
+					} 
+				}
+				
+			});
+
+		} else {
+			document.getElementById("act").value = "ambil";
+			document.getElementById("key").value = val;
+			goSubmit();
+		}
+	}
+}
+
+function goPeserta(tipe) {
+	var elem = document.getElementById("kelas"+tipe);
+	if(elem) {
+		var val = elem.value;
+		var arrval = val.split("|");
+		
+		var jur = arrval[3];
+		var mkid = arrval[0];
+		var kelas = arrval[1];
+		
+		window.open("lv_peserta.php?mkJur="+jur+"&mkID="+mkid+"&mkSem=1&mkThn=2020&mkKelas="+kelas);
+	}
+}
+
+function showTataUsaha(el) {
+	var offset = $(el).offset();
+	
+	if($("#div_tu").html() == "") {
+		$.ajax({
+			type: "POST",
+			url: "inc_functionajax.php",
+			data: "act=tu",
+			timeout: 20000,
+			
+			success: function(result) {
+				$("#div_tu").html(result);
+				$("#div_tu").show();
+			},
+			
+			error: function(obj,err) {
+				if(err == "timeout") {
+					alert("Proses pemuatan pegawai Tata Usaha timeout, coba ulangi sekali lagi.");
+				}
+			}
+		});
+	}
+	else if($("#div_tu").css("display") == "none")
+		$("#div_tu").show();
+	else
+		$("#div_tu").hide();
+}
+
+function cekPersetujuan(isubah) {
+	if(isubah == '1' && window.opener)
+		window.opener.document.getElementById("sipform").submit();
+}
+
+function goPrint() {
+		window.alert("FRS Mahasiswa ini belum disetujui Dosen Wali!");
+	}
+
+$(".ui-dialog-titlebar").hide();
+
+
+$(".cb_rpl").change(function() {
+
+	/*
+	
+	yang harus dicapai:
+	
+	1. ketika di-checked, maka lakukan update tabel kelas
+	2. ketika di-unchecked, maka lakukan update tabel kelas
+	*/		
+	
+	var id;
+	var todo;
+	var isi;
+	var r_var, r_target;
+	var i, cb;
+	var checked;
+	
+	id = this.id; // ambil id dari checkbox	
+	// isi = this.value;
+		
+	a_id = id.split('_'); // explode menjadi array
+	
+	isi = a_id[2];
+
+	// alert(isi);
+
+	jenis_cb = a_id[1];
+	nrp = a_id[2];
+
+	if (this.checked) {
+		checked = 1;
+		$.blockUI({ message: '<p><em>Memroses..</em></p>' });
+	} else {
+		checked = 0;
+		$.blockUI({ message: '<p><em>Membatalkan..</em></p>' });
+	}
+
+	$.post( "list_frs_ajax.php", { isi: isi, cek: checked})
+		.done(function( data ) {
+	});	
+	
+
+});
+
+$(document).ajaxStop($.unblockUI);
+
+</script>
+
+
+</body></html>
